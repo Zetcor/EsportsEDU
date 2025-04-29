@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genre Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../about/style.css">
+    <style>
+
+        body {
+            background-color: #f2f2f2;
+            font-family: 'Rajdhani', sans-serif;
+            text-align: center;
+        }
+
+        .authors-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin: 30px auto;
+            padding: 20px;
+            max-width: 1300px;
+        }
+        h2{
+            color: var(--primary-color);
+            font-size: 4em;
+            text-shadow: 3px 3px#7bdcc1;
+        }
+        .font-quando {
+            font-family: "Quando", serif;
+          }
+          
+          .font-rajdhani {
+            font-family: "Rajdhani", sans-serif;
+          }
+          
+          .font-bitter {
+            font-family: "Bitter", serif;
+          }
+          
+          .font-source-sans {
+            font-family: "Source Sans Pro", sans-serif;
+          }
+
+        .author-card {
+            background-color: var(--primary-color);
+            border-radius: 4px;
+            padding: 15px;
+            margin: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .author-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 4PX;
+            margin-bottom: 15px;
+        }
+
+        .author-card h3 {
+            color: var(--secondary-color);
+            margin-bottom: 10px;
+        }
+
+        .author-card p {
+            color: var(--text-color);
+            font-size: 0.9em;
+            margin-bottom: 15px;
+        }
+
+        .author-card .learn-more {
+            background-color: #9B5DE5;
+            color: #fff;
+            padding: 1px 30px;
+            border: solid 5px #9B5DE5;
+            border-style: outset;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9em;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+            margin-bottom:9px;
+        }
+
+        .author-card .learn-more:hover {
+            background-color: #a884d3;
+        }
+    </style>
+</head>
+<body id="authors">
+    <header>
+        <div class="logo">
+            <img src="../logo.png" width="50PX" alt="Logo" class="logo-image">
+            <h1>E-SPORTS HUB</h1>
+        </div>
+        <nav>
+            <div class="nav-links">
+                <a href="index.html" class="nav-item">HOME</a>
+                <a href="games.html" class="nav-item active">GAMES</a>
+                <a href="career.html" class="nav-item">CAREER</a>
+                <a href="technology.html" class="nav-item">TECHNOLOGY</a>
+                <a href="community.html" class="nav-item">COMMUNITY</a>
+                <a href="gallery.html" class="nav-item">GALLERY</a>
+                <a href="about.html" class="nav-item">ABOUT US</a>
+              </div>
+              <button class="mobile-menu-btn">
+        </nav>
+    </header>
+
+<br><br><br><br>
+    <section class="main-section">
+        <h2 style="padding-bottom: 0px;">GAMES: THE GENREVERSE</h2>
+        <hr size="2" width="50%" color="#9B5DE5" style="text-align:center; padding: 2px; margin: 0 auto;">
+        <br><br>
+        <p style="font-size: 1.2em; color: #333; padding:0 200px">Explore the vast and ever-evolving landscape of gaming, from adrenaline-pumping first-person shooters to sprawling open-world RPGs and intricate strategy titles. Discover the unique flavors that define each genre <b>here</b>. </p>
+
+        
+        <div class="authors-container">
+            <div class="author-card">
+                <img src="battleroyale.jpg" alt="battle royale">
+                <h3>Battle Royale</h3>
+                <p><cite>Battle Royale games drop players into large maps to scavenge, survive, and be the last one standing. <br><br></cite></p>
+                <a href="battle-royale.html" target="_display" class="learn-more">Learn More</a>
+            </div>
+            <div class="author-card">
+                <img src="dance.jpg" alt="dance">
+                <h3>Dance</h3>
+                <p><cite>These games test players’ timing and coordination by matching inputs to music beats. <br><br></cite></p>
+                <a href="dance.html" target="_display" class="learn-more">Learn More</a>
+            </div>
+            <div class="author-card">
+                <img src="fighting.jpg" alt="fighting">
+                <h3>Fighting</h3>
+                <p><cite>Fighting games center on one-on-one combat, requiring precision, combos, and timing to defeat opponents. <br><br></cite></p>
+                <a href="fighting.html" target="_display" class="learn-more">Learn More</a>
+            </div>
+            <div class="author-card">
+                <img src="fps.jpg" alt="fps">
+                <h3>FPS</h3>
+                <p><cite>First-Person Shooters focus on fast-paced, gun-based combat from a first-person perspective. <br><br></cite></p>
+                <a href="fps.html" target="_display" class="learn-more">Learn More</a>
+            </div>
+            <div class="author-card">
+                <img src="mmorpg.jpg" alt="mmorpg">
+                <h3>MMORPG</h3>
+                <p><cite>MMORPG Arena games offer large-scale fantasy battles where players compete in PvP using customized characters and skills.</cite></p>
+                <a href="mmorpg.html" target="_display" class="learn-more">Learn More</a>
+            </div>
+            <div class="author-card">
+                <img src="moba.jpg" alt="moba">
+                <h3>MOBA</h3>
+                <p><cite>Multiplayer Online Battle Arena games involve strategic team-based battles where players control unique heroes to destroy the enemy base.</cite></p>
+                <a href="moba.html" target="_display" class="learn-more">Learn More</a>
+            </div>
+            <div class="author-card">
+                <img src="mobileesports.jpg" alt="mobile esports">
+                <h3>Mobile Esports</h3>
+                <p><cite>Mobile esports are competitive games designed for smartphones, known for accessibility and fast-paced gameplay. <br><br></cite></p>
+                <a href="mobile-esports.html" target="_display" class="learn-more">Learn More</a>
+            </div>
+            <div class="author-card">
+                <img src="racing.jpg" alt="racing">
+                <h3>Racing</h3>
+                <p><cite>Racing games simulate high-speed competition, testing players’ driving skills and reaction time. <br><br></cite></p>
+                <a href="racing.html" target="_display" class="learn-more">Learn More</a>
+            </div>
+            <div class="author-card">
+                <img src="rts.jpg" alt="rts">
+                <h3>RTS</h3>
+                <p><cite>Real-Time Strategy games challenge players to build, manage resources, and control armies in live tactical warfare.</cite></p>
+                <a href="rts.html" target="_display" class="learn-more">Learn More</a>
+            </div>
+            <div class="author-card" >
+                <img src="sportssimulation.jpg" alt="sports simulation">
+                <h3>Sports Simulation</h3>
+                <p><cite>These games realistically emulate real-world sports, focusing on skill, tactics, and team management.</cite></p>
+                <a href="sportssimulation.html" target="_display" class="learn-more">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-logo">
+          <span style="margin-left: 100%;">EsportsEDU</span>
+        </div>
+        
+        <div class="footer-names">
+          <div class="name-column">
+            <p>***Chua, Jenilyn Denise T.</p>
+            <p>Cortez, Vince Nicholai J.</p>
+          </div>
+          
+          <div class="name-column">
+            <p>Doctor, Sean Simoun Lewis N.</p>
+            <p>Estrada, Gabriel Wayne C.</p>
+          </div>
+          
+          <div class="name-column">
+            <p>Gallardo, Prince Wesley B.</p>
+            <p>Malicsi, Rain David P.</p>
+          </div>
+          
+          <div class="name-column">
+            <p>Maranion, Jewella Marie A.</p>
+            <p>Merida, Luis Daniel T.</p>
+          </div>
+          
+          <div class="name-column">
+            <p>Prima, Lance Robert C.</p>
+            <p>Valencia, Yancy Jarell D.</p>
+          </div>
+        </div>
+      </footer>
+    <script src="script.js"></script>
+</body>
+</html>
