@@ -8,111 +8,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <style>
-
-        body {
-            background-color: #f2f2f2;
-            font-family: 'Rajdhani', sans-serif;
-            text-align: center;
-        }
-
-        .authors-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 25px;
-            margin: 30px auto;
-            padding: 20px;
-            max-width: 1300px;
-        }
-        h2{
-            color: var(--primary-color);
-            font-size: 4em;
-            text-shadow: 3px 3px#7bdcc1;
-        }
-        .font-quando {
-            font-family: "Quando", serif;
-          }
-          
-          .font-rajdhani {
-            font-family: "Rajdhani", sans-serif;
-          }
-          
-          .font-bitter {
-            font-family: "Bitter", serif;
-          }
-          
-          .font-source-sans {
-            font-family: "Source Sans Pro", sans-serif;
-          }
-
-        .author-card {
-            background-color: var(--primary-color);
-            border-radius: 4px;
-            padding: 15px;
-            margin: 10px;
-            text-align: center;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        .author-card img {
-            width: 100%;
-            height: auto;
-            border-radius: 4PX;
-            margin-bottom: 15px;
-        }
-
-        .author-card h3 {
-            color: var(--secondary-color);
-            margin-bottom: 10px;
-        }
-
-        .author-card p {
-            color: var(--text-color);
-            font-size: 0.9em;
-            margin-bottom: 15px;
-        }
-
-        .author-card .learn-more {
-            background-color: #9B5DE5;
-            color: #fff;
-            padding: 1px 30px;
-            border: solid 5px #9B5DE5;
-            border-style: outset;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 0.9em;
-            text-decoration: none;
-            display: inline-block;
-            transition: background-color 0.3s ease;
-            margin-bottom:9px;
-        }
-
-        .author-card .learn-more:hover {
-            background-color: #a884d3;
-        }
-    </style>
+  
 </head>
 <body id="authors">
     <header>
         <div class="logo">
-            <img src="../logo.png" width="50PX" alt="Logo" class="logo-image">
-            <h1>E-SPORTS HUB</h1>
+            <img src="logo.png" alt="EsportsEDU Logo" />
+            <h1>EsportsEDU</h1>
         </div>
         <nav>
-            <div class="nav-links">
-                <a href="../index.html" class="nav-item">HOME</a>
-                <a href="../Games/Genres/genrehome.html" class="nav-item active">GAMES</a>
-                <a href="career.html" class="nav-item">CAREER</a>
-                <a href="technology.html" class="nav-item">TECHNOLOGY</a>
-                <a href="community.html" class="nav-item">COMMUNITY</a>
-                <a href="gallery.html" class="nav-item">GALLERY</a>
-                <a href="about.html" class="nav-item">ABOUT US</a>
-              </div>
-              <button class="mobile-menu-btn">
+            <ul class="main-nav">
+                <li><a href="../../index.html">HOME </a></li>
+                <li><a href="genrehome.html">GAMES</a></li>
+                <li><a href="#">CAREER</a></li>
+                <li><a href="#">TECHNOLOGY</a></li>
+                <li><a href="#">COMMUNITY</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="about.html"  class="active">ABOUT US</a></li>
+            </ul>
         </nav>
-    </header>
 
-<br><br><br><br>
+        <button class="mobile-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
     <section class="main-section">
         <h2 style="padding-bottom: 0px;">About the Authors</h2>
         <hr size="2" width="50%" color="#9B5DE5" style="text-align:center; padding: 2px; margin: 0 auto;">
@@ -186,36 +107,37 @@
 
     <footer class="footer">
         <div class="footer-logo">
-          <span style="margin-left: 100%;">EsportsEDU</span>
+            <img src="../../logo.png" alt="Esports logo" />
+            <span>EsportsEDU</span>
         </div>
-        
+
         <div class="footer-names">
-          <div class="name-column">
-            <p>***Chua, Jenilyn Denise T.</p>
-            <p>Cortez, Vince Nicholai J.</p>
-          </div>
-          
-          <div class="name-column">
-            <p>Doctor, Sean Simoun Lewis N.</p>
-            <p>Estrada, Gabriel Wayne C.</p>
-          </div>
-          
-          <div class="name-column">
-            <p>Gallardo, Prince Wesley B.</p>
-            <p>Malicsi, Rain David P.</p>
-          </div>
-          
-          <div class="name-column">
-            <p>Maranion, Jewella Marie A.</p>
-            <p>Merida, Luis Daniel T.</p>
-          </div>
-          
-          <div class="name-column">
-            <p>Prima, Lance Robert C.</p>
-            <p>Valencia, Yancy Jarell D.</p>
-          </div>
+            <div class="name-column">
+                <p>**Chua, Jenilyn Denise T.</p>
+                <p>Cortez, Vince Nicholai J.</p>
+            </div>
+
+            <div class="name-column">
+                <p>Doctor, Sean Simoun Lewis N.</p>
+                <p>Estrada, Gabriel Wayne C.</p>
+            </div>
+
+            <div class="name-column">
+                <p>Gallardo, Prince Wesley B.</p>
+                <p>Malicsi, Rain David P.</p>
+            </div>
+
+            <div class="name-column">
+                <p>Maranion, Jewella Marie A.</p>
+                <p>Merida, Luis Daniel T.</p>
+            </div>
+
+            <div class="name-column">
+                <p>Prima, Lance Robert C.</p>
+                <p>Valencia, Yancy Jarell D.</p>
+            </div>
         </div>
-      </footer>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
