@@ -7,7 +7,7 @@
 	--navy: #0a1128;
 
 	--border-radius: 8px;
-	--box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	--box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	--transition: all 0.3s ease;
 }
 
@@ -40,11 +40,9 @@ p {
 }
 
 img {
-	width: 100%;
-	height: auto;
+	max-width: 100%;
 	height: auto;
 	display: block;
-	object-fit: cover;
 }
 
 a {
@@ -270,6 +268,7 @@ span {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	margin-bottom: 0.5rem;
+	text-shadow: 2px 2px var(--teal);
 }
 
 .title-underline {
