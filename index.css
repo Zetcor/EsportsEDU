@@ -6,7 +6,7 @@
 	--navy: #0a1128;
 
 	--border-radius: 8px;
-	--box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	--box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	--transition: all 0.3s ease;
 }
 
@@ -286,7 +286,7 @@ span {
 }
 
 .hero-content p {
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 	margin-bottom: 2rem;
 	font-weight: 500;
 	color: var(--light-gray);
@@ -313,22 +313,25 @@ span {
 .cta-button {
 	background-color: var(--purple);
 	color: var(--light-gray);
-	border: none;
-	padding: 0.8rem 2rem;
-	font-size: 1.2rem;
 	font-family: 'Rajdhani', sans-serif;
+	padding: 0.5rem 2rem;
+	font-size: 1.2rem;
+	border: solid 5px var(--purple);
+	border-style: outset;
 	letter-spacing: 1px;
-	cursor: pointer;
 	transition: all 0.3s ease;
-	position: relative;
-	overflow: hidden;
 	border-radius: 4px;
 	display: inline-block;
+	position: relative;
+	overflow: hidden;
 	font-weight: 600;
 }
 
 .cta-button:hover {
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+	background-color: var(--pink);
+	border: solid 5px var(--pink);
+	border-style: outset;
+	color: var(--navy);
 }
 
 .cta-button:active {
