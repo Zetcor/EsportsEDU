@@ -31,8 +31,28 @@ h4,
 h5,
 h6 {
 	font-family: 'Bitter', serif;
+	font-weight: 600;
 	color: var(--navy);
 	margin-bottom: 1rem;
+}
+
+h1 {
+	font-size: 2em;
+}
+h2 {
+	font-size: 1.5em;
+}
+h3 {
+	font-size: 1.17em;
+}
+h4 {
+	font-size: 1em;
+}
+h5 {
+	font-size: 0.83em;
+}
+h6 {
+	font-size: 0.67em;
 }
 
 p {
@@ -71,7 +91,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px 40px;
+	padding: 23px 40px;
 	position: relative;
 	width: 100%;
 	top: 0;
@@ -108,6 +128,7 @@ header {
 	color: var(--light-gray);
 	transition: color 0.3s ease;
 	font-family: 'Bitter', serif;
+	top: 8px;
 }
 
 .main-nav li a:hover::after {
@@ -153,44 +174,6 @@ header {
 	width: 100%;
 }
 
-/* Sub-Navbar Style */
-.btn-outline-pink {
-    color: var(--navy); /* Pink text */
-	border: solid 2px var(--navy);
-    border-radius: 8px; /* Remove radius by default (safety) */
-	font-family: 'Rajdhani', sans-serif;
-	font-weight: 600;
-	font-size: 1.25rem;
-  }
-  .btn-outline-pink:hover,
-  .btn-check:checked + .btn-outline-pink {
-    color: var(--light-gray);
-    background-color: var(--navy);
-    border-color: var(--navy);
-  }
-
-  .btn-general {
-	width: 50%;
-  }
-
-  .btn-popular {
-	width: 50%;
-  }
-
-  /* Center the button group */
-  .custom-btn-group {
-    display: flex;
-    width: 100%;
-    margin: 0 auto; /* Center the button group horizontally */
-    justify-content: center;
-    margin-top: 20px; /* Optional: adds spacing from the top */
-  }
-
-  .active-sub-nav {
-	background-color: var(--navy);
-	color: var(--light-gray);
-  }
-  
 /* Footer Styles */
 footer {
 	background-color: var(--navy);
@@ -295,6 +278,44 @@ span {
 	border-radius: 3px;
 }
 
+/* Sub-Navbar Style */
+.btn-outline-pink {
+	color: var(--navy);
+	border: solid 2px var(--navy);
+	border-radius: 8px;
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: 600;
+	font-size: 1.25rem;
+}
+
+.btn-outline-pink:hover,
+.btn-check:checked + .btn-outline-pink {
+	color: var(--light-gray);
+	background-color: var(--navy);
+	border-color: var(--navy);
+}
+
+.btn-general {
+	width: 50%;
+}
+
+.btn-popular {
+	width: 50%;
+}
+
+.custom-btn-group {
+	display: flex;
+	width: 100%;
+	margin: 0 auto;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.active-sub-nav {
+	background-color: var(--navy);
+	color: var(--light-gray);
+}
+
 /* Hero Section */
 .hero-section {
 	text-align: center;
@@ -316,19 +337,6 @@ span {
 	margin: 0 auto 2rem;
 }
 
-.hero-image {
-	margin-top: 2rem;
-	border-radius: var(--border-radius);
-	overflow: hidden;
-	box-shadow: var(--box-shadow);
-}
-
-.hero-image img {
-	width: 100%;
-	height: auto;
-	object-fit: cover;
-	border-radius: var(--border-radius);
-}
 /* Content Sections */
 .content-section {
 	margin-bottom: 5rem;
@@ -441,6 +449,7 @@ span {
 	padding: 2px 8px;
 	border-radius: 12px;
 	font-size: 12px;
+	font-weight: 100;
 }
 
 .game-description {
