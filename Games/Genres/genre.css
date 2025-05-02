@@ -153,6 +153,44 @@ header {
 	width: 100%;
 }
 
+/* Sub-Navbar Style */
+.btn-outline-pink {
+    color: var(--navy); /* Pink text */
+	border: solid 2px var(--navy);
+    border-radius: 8px; /* Remove radius by default (safety) */
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: 600;
+	font-size: 1.25rem;
+  }
+  .btn-outline-pink:hover,
+  .btn-check:checked + .btn-outline-pink {
+    color: var(--light-gray);
+    background-color: var(--navy);
+    border-color: var(--navy);
+  }
+
+  .btn-general {
+	width: 50%;
+  }
+
+  .btn-popular {
+	width: 50%;
+  }
+
+  /* Center the button group */
+  .custom-btn-group {
+    display: flex;
+    width: 100%;
+    margin: 0 auto; /* Center the button group horizontally */
+    justify-content: center;
+    margin-top: 20px; /* Optional: adds spacing from the top */
+  }
+
+  .active-sub-nav {
+	background-color: var(--navy);
+	color: var(--light-gray);
+  }
+
 /* Footer Styles */
 footer {
 	background-color: var(--navy);
