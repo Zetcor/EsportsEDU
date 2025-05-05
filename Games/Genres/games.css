@@ -350,7 +350,7 @@ span {
 }
 
 .content-card {
-	background-color: var(--light-gray);
+	background-color: white;
 	border-radius: var(--border-radius);
 	padding: 2rem;
 	box-shadow: var(--box-shadow);
