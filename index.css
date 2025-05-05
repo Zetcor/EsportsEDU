@@ -410,6 +410,87 @@ span {
 	margin-right: 10px;
 }
 
+/* Why Esports Matters */
+.why-esports-box {
+	background-color: hsla(267, 72%, 63%, 0.5);
+	color: var(--navy);
+	border-radius: var(--border-radius);
+	padding: 2rem;
+	box-shadow: var(--box-shadow);
+	text-align: left;
+	font-size: 1.2rem;
+	width: 100%;
+	height: 390px;
+}
+
+/* Environmental Impacts */
+.environmental-box {
+	background-color: hsla(267, 72%, 63%, 0.5);
+	color: var(--navy);
+	border-radius: var(--border-radius);
+	padding: 2rem;
+	box-shadow: var(--box-shadow);
+	text-align: left;
+	font-size: 1.2rem;
+	width: 100%;
+	height: 390px;
+}
+
+/* History Section */
+.history-section {
+	padding: 2rem;
+	gap: 2rem;
+	background-color: white;
+	border-radius: var(--border-radius);
+	box-shadow: var(--box-shadow);
+}
+
+.history-text {
+	margin-bottom: 2rem;
+}
+
+.timeline {
+	position: relative;
+	padding-left: 2rem;
+}
+
+.timeline::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 4px;
+	height: 100%;
+	background-color: var(--purple);
+	border-radius: 2px;
+}
+
+.timeline-item {
+	position: relative;
+	margin-bottom: 2rem;
+	padding-left: 7%;
+}
+
+.timeline-date {
+	position: absolute;
+	left: -2.5rem;
+	background-color: var(--purple);
+	color: white;
+	padding: 0.25rem 0.75rem;
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 0.9rem;
+}
+
+.timeline-content {
+	padding-left: 1.5rem;
+}
+
+.timeline-content h3 {
+	color: var(--navy);
+	margin-bottom: 0.5rem;
+}
+
 /* CTA Button */
 .cta-button {
 	background-color: var(--purple);

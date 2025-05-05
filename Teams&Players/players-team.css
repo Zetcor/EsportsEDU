@@ -1,0 +1,169 @@
+:root {
+    --light-gray: #f2f2f2;
+    --purple: #9b5de5;
+    --pink: #f15bb5;
+    --teal: #00f5d4;
+    --navy: #0a1128;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  main h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: var(--navy);
+  }
+  
+  /* games */
+  .game-tabs {
+    position: sticky;
+    top: 20px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto 2rem auto;
+    border: 2px solid var(--navy);
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .tab {
+    flex: 1;
+    padding: 15px 10px;
+    cursor: pointer;
+    background-color: white;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.3s;
+    border-right: 1px solid var(--navy);
+    text-decoration: none;
+
+
+  }
+  
+  .tab:last-child {
+    border-right: none;
+  }
+  
+  .tab:hover {
+    background-color: var(--navy);
+    color: white;
+  }
+  
+  .game-section:target ~ .game-tabs .tab[href="#mobile-legends"],
+  #mobile-legends:target ~ .game-tabs .tab[href="#mobile-legends"],
+  #pubg:target ~ .game-tabs .tab[href="#pubg"],
+  #hok:target ~ .game-tabs .tab[href="#hok"],
+  #valorant:target ~ .game-tabs .tab[href="#valorant"],
+  #league:target ~ .game-tabs .tab[href="#league"] {
+    background-color: var(--navy);
+    color: white;
+  }
+  
+ .game-tabs .tab[href="#mobile-legends"] {
+    background-color: var(--navy);
+    color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .game-section {
+    padding: 2rem 0;
+    margin-bottom: 3rem;
+    scroll-margin-top: 100px;
+  }
+
+
+  .game-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: var(--navy);
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--navy);
+    display: inline-block;
+  }
+  
+  
+  
+  /* team*/
+  .teams-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+  }
+  
+  .team-logo {
+    margin-bottom: 1rem;
+    overflow: hidden;
+  }
+  
+  img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .team-info {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .team-info p {
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: var(--navy);
+  }
+  
+  .team-info p:first-child {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--navy);
+  }
+  
+  /* responsive */
+  @media (max-width: 768px) {
+    .game-tabs {
+      flex-direction: column;
+      border-radius: 10px;
+    }
+    
+    .tab {
+      border-right: none;
+      border-bottom: 1px solid var(--navy);
+    }
+    
+    .tab:last-child {
+      border-bottom: none;
+    }
+    
+    .teams-container {
+      gap: 1rem;
+    }
+    
+    .team {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
