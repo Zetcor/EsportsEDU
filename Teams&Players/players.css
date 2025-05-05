@@ -1,227 +1,461 @@
+/* Base Styles and Variables */
 :root {
-    --light-gray: #f2f2f2;
-    --purple: #9b5de5;
-    --pink: #f15bb5;
-    --teal: #00f5d4;
-    --navy: #0a1128;
+	--light-gray: #f2f2f2;
+	--purple: #9b5de5;
+	--pink: #f15bb5;
+	--teal: #00f5d4;
+	--navy: #0a1128;
+
+	--border-radius: 8px;
+	--box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	--transition: all 0.3s ease;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-    background-color: var(--light-gray);
+	font-family: 'Source Sans Pro', sans-serif;
+	color: var(--navy);
+	background-color: var(--light-gray);
+	line-height: 1.6;
 }
 
-
-.team-title {
-    position: relative;
-    padding-left: 20px;
-    margin: 40px auto 15px;
-    max-width: 1200px;
-    color: var(--navy);
-    font-size: 32px;
-    text-align: left;
-}
-.team-title::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 4px;
-    background-color: var(--purple);
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Bitter', serif;
+	color: var(--navy);
+	margin-bottom: 1rem;
 }
 
-/* .team-underline {
-	width: 150px;
-	height: 4px;
-	background-color: var(--purple);
-	margin: 0 auto 2rem;
-} */
-.content-wrapper {
-    display: flex;
-    gap: 30px;
-    /* display: flex;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    max-width: 1000px;
-    width: 100%; */
+p {
+	margin-bottom: 1rem;
 }
 
-
-.sidebar {
-    width: 250px;
-    flex-shrink: 0;
-    margin-top: 50px;
+a {
+	color: var(--purple);
+	text-decoration: none;
+	transition: var(--transition);
 }
 
-.image {
-    overflow: hidden;
+a:hover {
+	color: var(--pink);
+}
 
-  }
-  
-img {
-   width: 400px;
-   height: 250px;
-   object-fit: cover;
+ul {
+	list-style: none;
 }
 
 .container {
-    background-color: white;
-    max-width: 1200px;
-    margin: 0 auto 30px;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 1rem;
 }
 
-.team-info {
-    background-color: var(--navy);
-    color: white;
-    padding: 15px;
+.fa-solid {
+	margin-right: 10px;
 }
 
-.team-info h2 {
-    font-size: 20px;
-    margin-bottom: 15px;
-    text-align: center;
-    color: white;
+/* Header Styles */
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 40px;
+	position: relative;
+	width: 100%;
+	top: 0;
+	z-index: 1000;
+	background-color: var(--navy);
+	backdrop-filter: blur(10px);
+	border-bottom: 1px solid rgba(155, 93, 229, 0.3);
+	position: sticky;
+}
+.logo {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.logo img {
+	width: 50px;
+	height: auto;
+	padding-bottom: 10px;
+}
+.logo h1 {
+	font-size: 2rem;
+	color: var(--teal);
+}
+
+.main-nav {
+	display: flex;
+	gap: 2rem;
+}
+
+.main-nav li a {
+	font-weight: 600;
+	font-size: 1rem;
+	position: relative;
+	color: var(--light-gray);
+	transition: color 0.3s ease;
+	font-family: 'Bitter', serif;
+}
+
+.main-nav li a:hover::after {
+	position: absolute;
+	bottom: -15px;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background-color: var(--pink);
+	transition: none;
+}
+
+.main-nav a::after {
+	content: '';
+	position: relative;
+	width: 0;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	transition: width 0.3s;
+}
+
+.main-nav a.active {
+	position: relative;
+	background-color: hsla(0, 0%, 95%, 0.25);
+	color: var(--light-gray);
+	border-radius: 4px;
+	padding: 5px 20px;
+	transition: 0.3s ease;
+}
+
+.main-nav a.active::after {
+	content: '';
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background-color: var(--pink);
+}
+
+.main-nav li a:hover::after {
+	width: 100%;
+}
+
+/* Footer Styles */
+footer {
+	background-color: var(--navy);
+	color: var(--light-gray);
+	padding: 30px 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.footer-logo span {
+	color: var(--teal);
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.footer-names {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 14px;
+	color: var(--light-gray);
+}
+
+.name-column {
+	margin-right: 80px;
+	min-width: 100px;
+}
+
+.name-column p {
+	margin: 5px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+	.two-column {
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 768px) {
+	.footer {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.footer-logo {
+		margin-bottom: 15px;
+	}
+
+	.name-column {
+		margin-bottom: 10px;
+	}
+}
+.scroll-top-btn {
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	background-color: var(--teal);
+	color: var(--navy);
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+.scroll-top-btn:hover {
+	transform: translateY(-5px);
+}
+
+.footer-logo {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.footer-logo img {
+	width: 50px;
+	height: auto;
+	padding-bottom: 10px;
+}
+span {
+	font-family: 'Bitter', serif;
+}
+
+.mobile-menu-btn {
+	display: none;
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+.mobile-menu-btn span {
+	display: block;
+	width: 25px;
+	height: 3px;
+	background-color: var(--text-light);
+	margin: 5px 0;
+	border-radius: 3px;
+}
+
+/* Team Section Styles */
+.team-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 2rem;
+	gap: 2rem;
+	background-color: white;
+	border-radius: var(--border-radius);
+	box-shadow: var(--box-shadow);
+}
+
+.team-header {
+	color: var(--navy);
+	font-size: 1.75rem;
+	border-left: 4px solid var(--purple);
+	padding-left: 1rem;
+	margin-bottom: 1.5rem;
+}
+
+.team-subheader h3 {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+	color: var(--purple);
+	text-align: left;
+}
+
+.team-textarea {
+	margin: 0 auto;
+	padding: 0.5rem;
+}
+
+.teams {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+}
+
+.content-wrapper {
+	display: flex;
+	gap: 30px;
+}
+
+.sidebar {
+	width: 250px;
+	flex-shrink: 0;
+	margin-top: 50px;
+}
+
+.image {
+	overflow: hidden;
+}
+
+img {
+	width: 400px;
+	height: 250px;
+	object-fit: cover;
+}
+
+.team-info-L {
+	background-color: var(--navy);
+	color: white;
+	padding: 15px;
+	margin-left: 20px;
+}
+
+.team-info-R {
+	background-color: var(--navy);
+	color: white;
+	padding: 15px;
+	margin-right: 20px;
+}
+
+.team-info-L h2,
+.team-info-R h2 {
+	font-size: 20px;
+	margin-bottom: 15px;
+	text-align: center;
+	color: white;
 }
 
 .info-item {
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 10px;
-    margin-bottom: 10px;
+	background-color: var(--teal);
+	color: var(--navy);
+	padding: 15px 5px 1px;
+	margin-bottom: 10px;
 }
 
 .info-item p {
-    font-size: 14px;
-
+	font-size: 14px;
 }
 
 .main-content {
-    flex: 2;
-    padding: 20px;
-    text-align: left;}
+	flex: 2;
+	padding: 20px;
+	text-align: left;
+}
 
-    
 .main-content h2 {
-    margin-top: 0;
+	margin-top: 0;
 }
 
 .main-content p {
-    margin-bottom: 20px;
-    line-height: 1.6;
-    color: #333;
-    font-size: 16px;
-    
+	margin-bottom: 20px;
+	line-height: 1.6;
+	color: #333;
+	font-size: 16px;
 }
-.achieve{
-    list-style-type:disc;
-    margin-left: 15px;
-    padding-left: 20px;
 
-
-}
 .container:nth-of-type(even) .content-wrapper {
-    flex-direction: row-reverse;
-}   
-.gallery-container{
-    background-color: var(--navy);
-    padding: 10px;
-    margin-top: 50px;
+	flex-direction: row-reverse;
 }
-  
-  .gallery-title {
-    color: white;
-    font-size: 2rem;
-    text-align: center;
-    font-weight: 600;
-    background-color: var(--navy);
-    margin-top: 5px;
-  }
-  
-  .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 100px;
-    padding: 5px;
-  }
-  
-  .gallery img {
-    width: 50%;
-    max-width: 250px;
-    height: auto;
-    border-radius: 15px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease;
-    object-fit: fill;
-  }
-  
-  .gallery img:hover {
-    transform: scale(1.03);
-  }
-  
-  
-  
-  
+.gallery-container {
+	background-color: var(--navy);
+	padding: 10px;
+	margin-top: 50px;
+}
+
+.gallery-title {
+	color: white;
+	font-size: 2rem;
+	text-align: center;
+	font-weight: 600;
+	background-color: var(--navy);
+	margin-top: 5px;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 100px;
+	padding: 5px;
+}
+
+.gallery img {
+	width: 50%;
+	max-width: 250px;
+	height: auto;
+	border-radius: 15px;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+	transition: transform 0.3s ease;
+	object-fit: fill;
+}
+
+.gallery img:hover {
+	transform: scale(1.03);
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        padding: 15px;
-    }
-    
-    .main-nav {
-        margin-top: 15px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    
-    .main-nav li {
-        margin: 5px 10px;
-    }
-    
-    .content-wrapper {
-        flex-direction: column;
-    }
-    
-    .sidebar {
-        width: 100%;
-    }
+	header {
+		flex-direction: column;
+		padding: 15px;
+	}
+
+	.main-nav {
+		margin-top: 15px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.main-nav li {
+		margin: 5px 10px;
+	}
+
+	.content-wrapper {
+		flex-direction: column;
+	}
+
+	.sidebar {
+		width: 100%;
+	}
 }
+
 /* Hero Section */
 .hero-section {
 	text-align: center;
-	padding: 3rem 0;
-    padding-top: 7rem;
+	padding: 2.4rem 0;
 }
 
 .page-title {
 	font-size: 2.5rem;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	margin-bottom: 0.5rem;
+	margin-bottom: 0.01rem;
 	text-shadow: 2px 2px var(--teal);
-    
 }
 
-/* .title-underline {
+.title-underline {
 	width: 150px;
 	height: 4px;
 	background-color: var(--purple);
-	margin: 0 auto 2rem;
-} */
+	margin: 0 auto 1rem;
+}
+
+.content-section {
+	margin-bottom: 5rem;
+}
 
 .hero-description {
 	font-size: 18px;
