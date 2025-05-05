@@ -31,7 +31,7 @@ h4,
 h5,
 h6 {
 	font-family: 'Bitter', serif;
-	font-weight: bold;
+	font-weight: 600;
 	color: var(--navy);
 	margin-bottom: 1rem;
 }
@@ -346,7 +346,7 @@ span {
 
 /* Content Sections */
 .content-section {
-	margin-bottom: 4rem;
+	margin-bottom: 5rem;
 }
 
 .section-title {
@@ -357,7 +357,7 @@ span {
 }
 
 .content-card {
-	background-color: white;
+	background-color: var(--light-gray);
 	border-radius: var(--border-radius);
 	padding: 2rem;
 	box-shadow: var(--box-shadow);
