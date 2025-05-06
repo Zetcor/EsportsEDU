@@ -302,8 +302,13 @@ span {
 }
 
 .sidebar {
-	width: 300px;
+	width: auto;
 	flex-shrink: 0;
+	object-fit: cover;
+}
+
+.sidebar img {
+	object-fit: cover;
 }
 
 .sidebar .image img {
