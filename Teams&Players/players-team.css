@@ -435,3 +435,27 @@ span {
 	padding-bottom: 0.5rem;
 	color: var(--navy);
 }
+
+.cta-button {
+	background-color: var(--navy);
+	color: var(--light-gray);
+	font-family: 'Rajdhani', sans-serif;
+	padding: 1px 30px;
+	border: solid 5px var(--navy);
+	border-style: outset;
+	letter-spacing: 1px;
+	transition: all 0.3s ease;
+	border-radius: 4px;
+	font-size: 0.9em;
+	text-decoration: none;
+	display: inline-block;
+	margin-bottom: 9px;
+	font-weight: 600;
+}
+
+.cta-button:hover {
+	background-color: var(--pink);
+	border: solid 5px var(--pink);
+	border-style: outset;
+	color: var(--navy);
+}
