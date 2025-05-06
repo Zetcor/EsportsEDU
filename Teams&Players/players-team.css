@@ -273,7 +273,7 @@ span {
 }
 
 /* Sub-Navbar Style */
-.btn-outline-pink {
+.btn-outline-navy {
 	color: var(--navy);
 	border: solid 2px var(--navy);
 	border-radius: 8px;
@@ -282,8 +282,8 @@ span {
 	font-size: 1.25rem;
 }
 
-.btn-outline-pink:hover,
-.btn-check:checked + .btn-outline-pink {
+.btn-outline-navy:hover,
+.btn-check:checked + .btn-outline-navy {
 	color: var(--light-gray);
 	background-color: var(--navy);
 	border-color: var(--navy);
@@ -299,11 +299,6 @@ span {
 	margin: 0 auto;
 	justify-content: center;
 	margin-top: 20px;
-}
-
-.active-sub-nav {
-	background-color: var(--navy);
-	color: var(--light-gray);
 }
 
 /* Hero Section */
