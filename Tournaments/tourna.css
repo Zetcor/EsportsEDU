@@ -295,6 +295,12 @@ footer {
 	object-fit: cover;
 }
 
+.featured-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
 #dota-img {
 	width: 130rem;
 	height: 569px;
