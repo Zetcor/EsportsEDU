@@ -506,7 +506,18 @@ span {
 	border-style: outset;
 	color: var(--navy);
 }
+.author-card {
+    text-align: center;
+    margin: 20px;
+}
 
+.author-card img {
+    width: 100%; /* Ensure the image takes up the full width */
+    height: auto; /* Adjust height based on width to keep aspect ratio */
+    object-fit: cover; /* Ensures images are not stretched and will fill the container */
+    object-position: center; /* Centers the image in case of cropping */
+    border-radius: 8px; /* Optional: adds rounded corners */
+}
 /* Responsive adjustments */
 @media (max-width: 768px) {
 	.content-wrapper {
