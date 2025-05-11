@@ -1,3 +1,4 @@
+/* Base Styles and Variables */
 :root {
 	--light-gray: #f2f2f2;
 	--purple: #9b5de5;
@@ -38,12 +39,6 @@ p {
 	margin-bottom: 1rem;
 }
 
-img {
-	max-width: 100%;
-	height: auto;
-	display: block;
-}
-
 a {
 	color: var(--purple);
 	text-decoration: none;
@@ -56,13 +51,6 @@ a:hover {
 
 ul {
 	list-style: none;
-}
-
-.container {
-	width: 100%;
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 0 1rem;
 }
 
 /* Header Styles */
@@ -185,190 +173,6 @@ footer {
 	margin: 5px 0;
 }
 
-/* Content Layout */
-.content-section {
-	margin-bottom: 5rem;
-}
-
-.intro-section {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	padding: 2rem;
-	gap: 2rem;
-	background-color: white;
-	border-radius: var(--border-radius);
-	box-shadow: var(--box-shadow);
-}
-
-.intro-textarea {
-	margin: 0 auto;
-	padding: 0.5rem;
-}
-
-.intro-header {
-	color: var(--navy);
-	font-size: 1.75rem;
-	border-left: 4px solid var(--purple);
-	padding-left: 1rem;
-	margin-bottom: 1.5rem;
-}
-
-.intro-subheader h3 {
-	font-size: 1.5rem;
-	margin-bottom: 1rem;
-	color: var(--purple);
-	text-align: left;
-}
-
-.intro-text {
-	font-size: 1.1rem;
-	margin-bottom: 1.5rem;
-	color: var(--navy);
-	line-height: 1.6;
-	text-align: left;
-}
-
-.hero-section {
-	text-align: center;
-	padding: 2.3rem 0 3rem;
-}
-
-.page-title {
-	font-size: 2.5rem;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	margin-bottom: 0.15rem;
-	text-shadow: 2px 2px var(--teal);
-}
-
-.title-underline {
-	width: 150px;
-	height: 4px;
-	background-color: var(--purple);
-	margin: 0 auto 2rem;
-}
-
-.casual-professional {
-	display: flex;
-	justify-content: center;
-	align-items: stretch;
-	gap: 2rem;
-}
-
-.casual-list li {
-	list-style-type: disc;
-	list-style-position: inside;
-	padding-left: 1.75rem;
-	text-indent: -1.7rem;
-}
-
-.casual-pro-box {
-	flex: 1;
-	background-color: hsla(267, 72%, 63%, 0.5);
-	color: var(--navy);
-	border-radius: var(--border-radius);
-	padding: 2rem;
-	box-shadow: var(--box-shadow);
-	text-align: left;
-	font-size: 1.2rem;
-	width: 100%;
-	min-height: 100%;
-}
-
-.fa-solid {
-	margin-right: 10px;
-}
-
-.featured-image {
-	width: 100%;
-	height: 300px;
-	background: var(--navy);
-	color: var(--light-gray);
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-size: 24px;
-	border-radius: 10px;
-	margin-bottom: 20px;
-	overflow: hidden;
-	object-fit: cover;
-}
-
-.featured-image img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
-#mlbb {
-	width: 130rem;
-	height: 569px;
-	background: var(--navy);
-	border-radius: 10px;
-	overflow: hidden;
-	box-shadow: var(--box-shadow);
-}
-
-#mlbb img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
-#fortnite {
-	width: 130rem;
-	height: 569px;
-	background: var(--navy);
-	border-radius: 10px;
-	overflow: hidden;
-	box-shadow: var(--box-shadow);
-}
-
-#fortnite img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
-#dota-img {
-	width: 130rem;
-	height: 569px;
-	background: var(--navy);
-	border-radius: 10px;
-	overflow: hidden;
-	box-shadow: var(--box-shadow);
-}
-
-#dota-img img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
-
-#lol-img {
-	width: 130rem;
-	height: 569px;
-	background: var(--navy);
-	border-radius: 10px;
-	overflow: hidden;
-	box-shadow: var(--box-shadow);
-}
-
-#lol-img img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
-
-.intro-box {
-	background-color: hsla(267, 72%, 63%, 0.5);
-	color: var(--navy);
-	border-radius: var(--border-radius);
-	padding: 2rem;
-	box-shadow: var(--box-shadow);
-	text-align: left;
-	font-size: 1.2rem;
-}
-
 /* Responsive Styles */
 @media (max-width: 992px) {
 	.two-column {
@@ -438,4 +242,106 @@ span {
 	background-color: var(--text-light);
 	margin: 5px 0;
 	border-radius: 3px;
+}
+
+/* Hero Section */
+.hero-section {
+	text-align: center;
+	padding: 2.3rem 0 3rem;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 0.15rem;
+	text-shadow: 2px 2px var(--teal);
+}
+
+.title-underline {
+	width: 150px;
+	height: 4px;
+	background-color: var(--purple);
+	margin: 0 auto 2rem;
+}
+
+.hero-description {
+	font-size: 18px;
+	padding: 0 200px;
+	text-align: center;
+}
+
+.content-section {
+	margin-bottom: 5rem;
+}
+
+.authors-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 25px;
+	margin: auto;
+	padding: 20px;
+	max-width: 1500px;
+}
+
+.authors-container > * {
+	flex: 1 1 300px;
+	box-sizing: border-box;
+	max-width: min(100%, 300px);
+	text-align: center;
+}
+
+.author-card {
+	background-color: var(--navy);
+	border-radius: 4px;
+	padding: 15px;
+	margin: 0 10px 10px;
+	text-align: center;
+	box-shadow: var(--box-shadow);
+}
+
+.author-card img {
+	width: 100%;
+	height: 200px;
+	border-radius: 4px;
+	margin-bottom: 15px;
+	overflow: hidden;
+	object-fit: cover;
+}
+
+.author-card h2 {
+	color: var(--light-gray);
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.author-card p {
+	color: var(--light-gray);
+	font-size: 0.9em;
+	margin-bottom: 15px;
+}
+
+.cta-button {
+	background-color: var(--purple);
+	color: var(--light-gray);
+	font-family: 'Rajdhani', sans-serif;
+	padding: 1px 30px;
+	border: solid 5px var(--purple);
+	border-style: outset;
+	letter-spacing: 1px;
+	transition: all 0.3s ease;
+	border-radius: 4px;
+	font-size: 0.9em;
+	text-decoration: none;
+	display: inline-block;
+	margin-bottom: 9px;
+	font-weight: 600;
+}
+
+.cta-button:hover {
+	background-color: var(--pink);
+	border: solid 5px var(--pink);
+	border-style: outset;
+	color: var(--navy);
 }
