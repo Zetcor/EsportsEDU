@@ -4,6 +4,10 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<link
 			href="https://db.onlinewebfonts.com/c/33623e1ab6ef77d072d24fd2880d563d?family=Bitter"
 			rel="stylesheet"
 		/>
@@ -23,25 +27,79 @@
 		<title>Players</title>
 	</head>
 	<body>
-		<header>
-			<div class="logo">
-				<img src="../logo.png" alt="EsportsEDU Logo" />
-				<h1>EsportsEDU</h1>
+<nav class="navbar navbar-expand-lg sticky-top">
+			<div class="container-fluid px-5">
+				<a class="navbar-brand d-flex align-items-center gap-2" href="#">
+					<img src="../../logo.png" alt="Logo" class="logo-img" />
+					<h1>EsportsEDU</h1>
+				</a>
+
+				<button
+					class="navbar-toggler text-white"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarContent"
+					aria-controls="navbarContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+				<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+					<ul class="navbar-nav gap-3">
+						<li class="nav-item">
+							<a class="nav-link" href="../../index.html">HOME</a>
+						</li>
+
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								GAMES
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="../Games/Genres/genre-home.html">GENRES</a></li>
+								<li><a class="dropdown-item" href="../Games/Tournaments/tourna-home.html">TOURNAMENTS</a></li>
+							</ul>
+						</li>
+
+						<li class="nav-item dropdown">
+							<a 
+								class="nav-link dropdown-toggle nav-link active"
+								aria-current="page"
+								href="#"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								CAREER
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="players-team.html">TEAMS & PLAYERS</a></li>
+								<li><a class="dropdown-item" href="../Education/educ.html">EDUCATION</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../Technology/tech.html">TECHNOLOGY</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">COMMUNITY</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">GALLERY</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../about/about.html">ABOUT US</a>
+						</li>
+					</ul>
+				</div>
 			</div>
-			<nav>
-				<ul class="main-nav">
-					<li><a href="../index.html">HOME</a></li>
-					<li><a href="../Games/Genres/genre-home.html">GAMES</a></li>
-					<li>
-						<a href="players-team.html" class="active">CAREER</a>
-					</li>
-					<li><a href="#">TECHNOLOGY</a></li>
-					<li><a href="#">COMMUNITY</a></li>
-					<li><a href="#">GALLERY</a></li>
-					<li><a href="../about/about.html">ABOUT US</a></li>
-				</ul>
-			</nav>
-		</header>
+		</nav>
 
 		<main>
 			<div class="container">
@@ -83,18 +141,18 @@
 					</div>
 				</section>
 
-				<section class="content-section" id="Zeus">
-					<h2 class="team-header">Choi Woo-je AKA Zeus</h2>
+				<section class="content-section" id="Doran">
+					<h2 class="team-header">Choi Hyeon-joon AKA Doran</h2>
 					<div class="team-section">
 						<div class="content-wrapper">
 							<div class="main-content">
 								<h2><i class="fa-solid fa-user"></i>About</h2>
 								<p>
-									Choi Woo-je is a rising top laner from South Korea who became a breakout star with T1. Known for his fearless laning and high damage output, he quickly rose to international prominence. Zeus joined T1 in 2021 and rapidly became one of the most dominant top laners in the LCK. His solo kills and lane pressure created consistent leads for the team. His MVP performance at Worlds 2023 solidified him as one of the game’s brightest young stars.
+									Choi Hyeon-joon, known as Doran, is a seasoned top laner from South Korea who joined T1 as part of their 2024 roster. Renowned for his adaptability and stable presence in the top lane, Doran has earned respect for his consistent performance across multiple teams and seasons. His ability to anchor the lane and support team dynamics makes him a vital part of T1’s strategic play.
 								</p>
 								<h2><i class="fa-solid fa-trophy"></i>Achievements</h2>
 								<p>
-									Named the 2023 Worlds MVP, Zeus was pivotal in T1’s championship run, showcasing exceptional solo lane play and impact in teamfights.
+									A multi-time LCK champion and Worlds finalist, Doran has proven himself on the international stage with strong laning fundamentals and reliable teamfighting. His experience and composure have made him a valuable asset in high-pressure matches.
 								</p>
 							</div>
 
@@ -103,7 +161,7 @@
 									<img src="/PLAYERS/der.jpg" alt="APBR" />
 								</div>
 								<div class="team-info-R">
-									<h2>Zeus</h2>
+									<h2>Doran</h2>
 									<div class="info-item">
 										<p>Role: Top Lane</p>
 									</div>
@@ -250,5 +308,7 @@
 				</div>
 			</div>
 		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
 	</body>
 </html>
