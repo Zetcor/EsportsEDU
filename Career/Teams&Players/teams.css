@@ -336,6 +336,7 @@ span {
 }
 
 .sidebar {
+	background-color: var(--navy);
 	width: auto;
 	flex-shrink: 0;
 	object-fit: cover;
@@ -489,7 +490,9 @@ span {
 	border-radius: 4px;
 	margin-bottom: 15px;
 	object-fit: contain; /* Changed from cover to contain */
-	background-color: var(--navy); /* Add background to prevent transparency issues */
+	background-color: var(
+		--navy
+	); /* Add background to prevent transparency issues */
 }
 
 .author-card h2 {
@@ -544,4 +547,40 @@ span {
 	.footer-names {
 		flex-direction: column;
 	}
+}
+
+/* References */
+.custom-accordion .accordion-item {
+	background-color: white;
+	border: none;
+	border-radius: var(--border-radius);
+	box-shadow: var(--box-shadow);
+	margin-bottom: 3rem;
+	overflow: hidden;
+	border-left: 4px solid var(--purple);
+}
+
+.custom-accordion .accordion-button {
+	background-color: white;
+	color: var(--navy);
+	font-family: 'Bitter', serif;
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+
+.custom-accordion .accordion-button:not(.collapsed) {
+	background-color: var(--teal);
+	color: var(--navy);
+}
+
+.custom-accordion .accordion-body {
+	background-color: white;
+	color: var(--navy);
+	line-height: 1.6;
+	padding: 1.5rem;
+}
+
+.custom-accordion .accordion-button:focus {
+	box-shadow: none;
+	border: none;
 }

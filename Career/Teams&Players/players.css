@@ -335,37 +335,33 @@ span {
 }
 
 .sidebar {
-	width: 250px;
+	background-color: var(--navy);
+	width: auto;
 	flex-shrink: 0;
-	margin-top: 50px;
-}
-
-.image {
-	overflow: hidden;
-}
-
-img {
-	width: 400px;
-	height: 250px;
 	object-fit: cover;
 }
 
-.team-info-L {
-	background-color: var(--navy);
-	color: var(--light-gray);
-	padding: 15px;
-	margin-left: 20px;
+.sidebar img {
+	object-fit: cover;
 }
 
-.team-info-R {
-	background-color: var(--navy);
-	color: var(--light-gray);
-	padding: 15px;
-	margin-right: 20px;
+.sidebar .image img {
+	width: 250px;
+	height: 200px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
 }
 
-.team-info-L h2,
-.team-info-R h2 {
+.team-info {
+	background-color: var(--navy);
+	color: white;
+	padding: 15px;
+	width: 250px;
+	height: 220px;
+}
+
+.team-info h2 {
 	font-size: 20px;
 	margin-bottom: 15px;
 	text-align: center;
@@ -418,22 +414,6 @@ img {
 	margin-top: 5px;
 }
 
-.sidebar .image {
-    width: 250px;
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    margin: 0 auto;
-}
-
-.sidebar .image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
 .gallery {
 	display: flex;
 	flex-wrap: wrap;
@@ -582,4 +562,40 @@ img {
 	border: solid 5px var(--pink);
 	border-style: outset;
 	color: var(--navy);
+}
+
+/* References */
+.custom-accordion .accordion-item {
+	background-color: white;
+	border: none;
+	border-radius: var(--border-radius);
+	box-shadow: var(--box-shadow);
+	margin-bottom: 3rem;
+	overflow: hidden;
+	border-left: 4px solid var(--purple);
+}
+
+.custom-accordion .accordion-button {
+	background-color: white;
+	color: var(--navy);
+	font-family: 'Bitter', serif;
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+
+.custom-accordion .accordion-button:not(.collapsed) {
+	background-color: var(--teal);
+	color: var(--navy);
+}
+
+.custom-accordion .accordion-body {
+	background-color: white;
+	color: var(--navy);
+	line-height: 1.6;
+	padding: 1.5rem;
+}
+
+.custom-accordion .accordion-button:focus {
+	box-shadow: none;
+	border: none;
 }
