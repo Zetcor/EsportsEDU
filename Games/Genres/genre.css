@@ -396,8 +396,18 @@ span {
 .definition-image,
 .history-image {
 	border-radius: var(--border-radius);
-	overflow: hidden;
 	box-shadow: var(--box-shadow);
+	width: 100%;
+	height: 100%;
+	max-width: 450px;
+}
+
+.definition-image img {
+	width: 100%;
+	height: 100%;
+	border-radius: var(--border-radius);
+	object-fit: cover;
+	overflow: hidden;
 }
 
 /* Timeline Styles */
