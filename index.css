@@ -304,18 +304,19 @@ span {
 }
 
 .hero-content {
-	max-width: 800px;
+	max-width: 1000px;
 	padding: 2rem;
 	position: relative;
 	z-index: 1;
+	padding-top: 5%;
 	padding-bottom: 10%;
 }
 
 .hero-content h1 {
-	font-size: 3.5rem;
+	font-size: 4.5rem;
 	white-space: nowrap;
 	overflow: hidden;
-	line-height: 1.1;
+	line-height: 1.3;
 	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 	color: var(--light-gray);
 }
