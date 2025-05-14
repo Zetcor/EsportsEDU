@@ -162,17 +162,22 @@
 				</div>
 			</nav>
 
-			<section class="hero">
-				<div class="hero-content">
-					<h1>THE WORLD OF <span class="highlight">ESPORTS</span></h1>
-					<p>
-						Educational platform dedicated to provoding insighthful
-						well-researched <br />
-						information about the world of esports
-					</p>
-					<a href="Games/Genres/genre-home.html" class="cta-button"
-						>Explore Now</a
-					>
+			<section class="hero d-flex align-items-center text-center">
+				<div class="container">
+					<div class="hero-content px-3 mx-auto">
+						<h1 class="display-4 display-md-3 display-lg-1 fw-bold text-light">
+							THE WORLD OF <span class="highlight">ESPORTS</span>
+						</h1>
+						<p class="lead fw-medium text-light my-4">
+							Welcome to EsportsEDU, where passion meets opportunity in the
+							world of competitive gaming. Explore top players, events, the
+							latest trends, and discover educational pathways and career
+							opportunities in esports.
+						</p>
+						<a href="Games/Genres/genre-home.html" class="cta-button">
+							Explore Now
+						</a>
+					</div>
 				</div>
 			</section>
 
@@ -181,6 +186,7 @@
 					<h2 class="intro-header">Introduction to Esports</h2>
 
 					<div class="intro-section">
+						<!-- Top: Subheader and Intro Text -->
 						<div class="row">
 							<div class="col-12">
 								<div class="intro-textarea">
@@ -201,8 +207,17 @@
 							</div>
 						</div>
 
+						<!-- Bottom: Image and Box (Order Responsive) -->
 						<div class="row gy-4 gx-4 align-items-stretch equal-height-row">
-							<div class="col-md-6">
+							<!-- Image First on Mobile, Second on Medium+ -->
+							<div class="col-md-6 order-1 order-md-2">
+								<div class="intro-image h-100">
+									<img src="intro.jpg" alt="Intro Image" />
+								</div>
+							</div>
+
+							<!-- Box Second on Mobile, First on Medium+ -->
+							<div class="col-md-6 order-2 order-md-1">
 								<div class="intro-box h-100">
 									<h3><i class="fa-solid fa-trophy"></i> What is Esports?</h3>
 									<p>
@@ -216,11 +231,6 @@
 										phenomenon with professional players, massive sponsorships,
 										and millions of fans.
 									</p>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="intro-image h-100">
-									<img src="intro.jpg" alt="Intro Image" />
 								</div>
 							</div>
 						</div>
