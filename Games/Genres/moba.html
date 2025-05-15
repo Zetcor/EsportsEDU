@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MOBA Games</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>MOBA Games</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<link
 			href="https://db.onlinewebfonts.com/c/33623e1ab6ef77d072d24fd2880d563d?family=Bitter"
 			rel="stylesheet"
 		/>
@@ -17,348 +20,511 @@
 			href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@300;400;500;600;700&display=swap"
 			rel="stylesheet"
 		/>
-  <link rel="stylesheet" href="genre.css">
-</head>
-<body>
-		<nav class="navbar navbar-expand-lg sticky-top">
-			<div class="container-fluid px-5">
-				<a
-					class="navbar-brand d-flex align-items-center gap-2"
-					href="../../index.html"
-				>
-					<img src="../../logo.png" alt="Logo" class="logo-img" />
-					<h1>EsportsEDU</h1>
-				</a>
+		<script
+			src="https://kit.fontawesome.com/203f7bcb2a.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="genre.css" />
+	</head>
+	<body>
+		<div id="top"></div>
 
-				<button
-					class="navbar-toggler text-white"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarContent"
-					aria-controls="navbarContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
-				<div
-					class="collapse navbar-collapse justify-content-end"
-					id="navbarContent"
-				>
-					<ul class="navbar-nav gap-3">
-						<li class="nav-item">
-							<a class="nav-link" href="../../index.html">HOME</a>
-						</li>
-
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle nav-link active"
-								aria-current="page"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								GAMES
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a class="dropdown-item" href="genre-home.html">GENRES</a>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Games/Tournaments/tourna-home.html"
-										>TOURNAMENTS</a
-									>
-								</li>
-							</ul>
-						</li>
-
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								CAREER
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Career/Teams&Players/players-team.html"
-										>TEAMS & PLAYERS</a
-									>
-								</li>
-								<li>
-									<a class="dropdown-item" href="../../Career/Education/edu.html"
-										>EDUCATION</a
-									>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../Technology/tech.html"
-								>TECHNOLOGY</a
-							>
-						</li>
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								COMMUNITY
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Streaming&Content/streaming-home.html"
-										>STREAMING & CONTENT</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Culture/culture-home.html"
-										>CULTURE</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Rules&Ethics/rules.html"
-										>RULES & ETHICS</a
-									>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../Gallery/gallery.html">GALLERY</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../about/about.html">ABOUT US</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-  <!-- Main Content -->
-  <main>
-    <div class="container">
-      <!-- Hero Section -->
-      <section class="hero-section">
-        <h1 class="page-title">MOBA (Multiplayer Online Battle Arena)</h1>
-        <div class="title-underline"></div>
-
-        <div class="btn-group custom-btn-group" role="group" aria-label="Basic radio toggle button group">
-          <a href="moba.html" class="btn btn-outline-pink btn-general active-sub-nav" id="btn1">General Information</a>
-          <a href="moba-games.html" class="btn btn-outline-pink btn-popular" id="btn2">Popular Games</a>
-        </div>
-
-      </section>
-
-      <!-- Definition Section -->
-      <section class="content-section">
-        <h2 class="section-title">What is MOBA Esports</h2>
-        <div class="content-card">
-          <div class="two-column">
-            <div class="column text-column">
-              <p>
-                MOBA games revolve around two teams battling to destroy each other’s base on a fixed map with three primary lanes and a jungle area. Each player controls a single hero or champion with unique abilities and roles, such as tank, support, or damage dealer. The core gameplay mixes real-time combat, leveling, and strategic team fights.
-              </p>
-              <p>
-                Success in a MOBA depends heavily on teamwork, map control, and timing. Players must coordinate attacks, control key objectives, and respond to shifting momentum in fast-paced matches. League of Legends and Dota 2 are prime examples, with deep competitive scenes and massive esports tournaments.
-              </p>
-            </div>
-            <div class="column image-column">
-              <div class="definition-image">
-                <img src="images/Genre Esport Images/mobaEsport.jpg" alt="MOBA Perspective">
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-      <!-- History Section -->
-      <section class="content-section">
-        <h2 class="section-title">The history of Multiplayer Online Battle Arena (MOBA)</h2>
-        <div class="content-card">
-          <div class="timeline">
-
-            <div class="timeline-item">
-              <div class="timeline-date">1990s</div>
-              <div class="timeline-content">
-                <h3>Origins</h3>
-                <p>
-                  The origins of MOBA trace back to StarCraft and Warcraft III custom maps. Notably, Aeon of Strife (StarCraft) and later Defense of the Ancients (DotA) (Warcraft III) introduced the core concept: teams of players controlling unique heroes battling in symmetrical arenas with AI-controlled units.
-                </p>
-              </div>
-            </div>
-            
-            <div class="timeline-item">
-              <div class="timeline-date">2000s</div>
-              <div class="timeline-content">
-                <h3>DOTA's Rise and Genre Formation</h3>
-                <p>The 2000s saw DotA explode in popularity through Warcraft III's modding community, effectively creating the MOBA genre. Despite being unofficial, DotA’s deep gameplay, hero diversity, and competitive nature attracted a global following and laid the groundwork for standalone MOBAs.
-                </p>
-              </div>
-            </div>
-
-            <div class="timeline-item">
-              <div class="timeline-date">2010s</div>
-              <div class="timeline-content">
-                <h3>MOBA Becomes Mainstream Esport</h3>
-                <p>The launch of League of Legends (2009) and Dota 2 (2013) established MOBA as one of the most dominant genres in esports. Massive tournaments like The International and Worlds offered multi-million-dollar prize pools, elevating MOBAs to the top of global competitive gaming.
-                </p>
-              </div>
-            </div>
-
-            <div class="timeline-item">
-              <div class="timeline-date">2020s</div>
-              <div class="timeline-content">
-                <h3>Diversification and Mobile Dominance</h3>
-                <p>While core MOBAs remain popular, the genre has expanded into mobile gaming with titles like Mobile Legends: Bang Bang and Wild Rift, especially in Southeast Asia and Latin America. Cross-platform accessibility and shorter match formats have brought the genre to a broader, global audience.
-                </p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      <!-- Current State Section -->
-      <section class="content-section">
-        <h2 class="section-title">Current State of the Multiplayer Online Battle Arena (MOBA)</h2>
-        <div class="content-card">
-          <div class="two-column">
-            <div class="column text-column">
-              <p>
-                Despite more than a decade on the market, the genre of MOBA, where League of Legends (LoL) and Dota 2 are still among
-                the biggest MOBA games worldwide, have consistently rank among the most-watched games on streaming platforms.
-                Additionally, both LoL and Dota 2 are inextricably linked with the growth of eSports and the two legacy titles still
-                have some of the most attractive eSports tournament prize pools across all competitive titles - in 2024, the cumulative
-                Dota 2 eSports prize pool was worth almost 24 million U.S. dollars.
-            </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Regional Popularity Section -->
-      <section class="content-section">
-        <h2 class="section-title">Regional Popularity</h2>
-        <div class="content-card">
-          <div class="region-map">
-            <img src="Images/moba-map.jpg" alt="World Map Showing MOBA Popularity">
-          </div>
-          
-          <div class="regions-grid">
-            <div class="region-card">
-              <div class="region-icon north-america"></div>
-              <h3>China</h3>
-              <p>MOBA games dominate China’s mobile gaming scene, with Honor of Kings leading as one of the most played titles in the world. Its integration with Tencent’s ecosystem and strong esports infrastructure has solidified its cultural presence, especially among younger audiences.  
-            </p>
-              <div class="popularity-meter high"></div>
-            </div>
-            
-            <div class="region-card">
-              <div class="region-icon europe"></div>
-              <h3>South Korea</h3>
-              <p>In South Korea, MOBAs are a central part of the competitive gaming landscape. League of Legends remains the most popular title, with massive viewership, institutional esports support, and deep strategic play, making it a staple in both internet cafés and professional arenas.
-            </p>   
-              <div class="popularity-meter high"></div>
-            </div>
-            
-            <div class="region-card">
-              <div class="region-icon asia"></div>
-              <h3>Europe</h3>
-              <p>Europe has a robust MOBA fanbase, particularly around League of Legends. The region features top-tier talent through the LEC (League of Legends EMEA Championship), and countries like Germany, France, and Poland boast thriving competitive and amateur ecosystems.</p>
-              <div class="popularity-meter medium"></div>
-            </div>
-
-            <div class="region-card">
-              <div class="region-icon south-america"></div>
-              <h3>North America</h3>
-              <p>In North America, MOBAs like League of Legends and Dota 2 have strong communities, especially among PC gamers. The region is home to the LCS and hosts international tournaments, but overall player engagement is more casual compared to Asia’s high-intensity competitive scene.</p>
-              <div class="popularity-meter medium"></div>
-            </div>
-
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div class="accordion custom-accordion" id="accordionExample">
-				<div class="accordion-item">
-					<h2 class="accordion-header">
-						<button
-							class="accordion-button collapsed"
-							type="button"
-							data-bs-toggle="collapse"
-							data-bs-target="#collapseTwo"
-							aria-expanded="false"
-							aria-controls="collapseTwo"
-						>
-							References
-						</button>
-					</h2>
-					<div
-						id="collapseTwo"
-						class="accordion-collapse collapse"
-						data-bs-parent="#accordionExample"
+		<div class="scroll-container position-relative">
+			<nav class="navbar navbar-expand-lg sticky-top">
+				<div class="container-fluid px-5">
+					<a
+						class="navbar-brand d-flex align-items-center gap-2"
+						href="../../index.html"
 					>
-						<div class="accordion-body">
-							This is the second item’s accordion body. It is hidden by default…
+						<img src="../../logo.png" alt="Logo" class="logo-img" />
+						<h1>EsportsEDU</h1>
+					</a>
+
+					<button
+						class="navbar-toggler text-white"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarContent"
+						aria-controls="navbarContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<i class="fa-solid fa-bars fa-lg" style="color: #00f5d4"></i>
+					</button>
+
+					<div
+						class="collapse navbar-collapse justify-content-end"
+						id="navbarContent"
+					>
+						<ul class="navbar-nav gap-3">
+							<li class="nav-item">
+								<a class="nav-link" href="../../index.html">HOME</a>
+							</li>
+
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle nav-link active"
+									aria-current="page"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									GAMES
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a class="dropdown-item" href="genre-home.html">GENRES</a>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Games/Tournaments/tourna-home.html"
+											>TOURNAMENTS</a
+										>
+									</li>
+								</ul>
+							</li>
+
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									CAREER
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Career/Teams&Players/players-team.html"
+											>TEAMS & PLAYERS</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Career/Education/edu.html"
+											>EDUCATION</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../Technology/tech.html"
+									>TECHNOLOGY</a
+								>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									COMMUNITY
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Streaming&Content/streaming-home.html"
+											>STREAMING & CONTENT</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Culture/culture-home.html"
+											>CULTURE</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Rules&Ethics/rules.html"
+											>RULES & ETHICS</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../Gallery/gallery.html"
+									>GALLERY</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../about/about.html">ABOUT US</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<!-- Main Content -->
+			<main>
+				<div class="container">
+					<!-- Hero Section -->
+					<section class="hero-section">
+						<h1 class="page-title">MOBA (Multiplayer Online Battle Arena)</h1>
+						<div class="title-underline"></div>
+
+						<div
+							class="btn-group custom-btn-group"
+							role="group"
+							aria-label="Basic radio toggle button group"
+						>
+							<a
+								href="moba.html"
+								class="btn btn-outline-pink btn-general active-sub-nav"
+								id="btn1"
+								>General Information</a
+							>
+							<a
+								href="moba-games.html"
+								class="btn btn-outline-pink btn-popular"
+								id="btn2"
+								>Popular Games</a
+							>
+						</div>
+					</section>
+
+					<!-- Definition Section -->
+					<section class="content-section">
+						<h2 class="section-title">What is MOBA Esports</h2>
+						<div class="content-card">
+							<div class="two-column">
+								<div class="column text-column">
+									<p>
+										MOBA games revolve around two teams battling to destroy each
+										other’s base on a fixed map with three primary lanes and a
+										jungle area. Each player controls a single hero or champion
+										with unique abilities and roles, such as tank, support, or
+										damage dealer. The core gameplay mixes real-time combat,
+										leveling, and strategic team fights.
+									</p>
+									<p>
+										Success in a MOBA depends heavily on teamwork, map control,
+										and timing. Players must coordinate attacks, control key
+										objectives, and respond to shifting momentum in fast-paced
+										matches. League of Legends and Dota 2 are prime examples,
+										with deep competitive scenes and massive esports
+										tournaments.
+									</p>
+								</div>
+								<div class="column image-column">
+									<div class="definition-image">
+										<img
+											src="images/Genre Esport Images/mobaEsport.jpg"
+											alt="MOBA Perspective"
+										/>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- History Section -->
+					<section class="content-section">
+						<h2 class="section-title">
+							The history of Multiplayer Online Battle Arena (MOBA)
+						</h2>
+						<div class="content-card">
+							<div class="timeline">
+								<div class="timeline-item">
+									<div class="timeline-date">1990s</div>
+									<div class="timeline-content">
+										<h3>Origins</h3>
+										<p>
+											The origins of MOBA trace back to StarCraft and Warcraft
+											III custom maps. Notably, Aeon of Strife (StarCraft) and
+											later Defense of the Ancients (DotA) (Warcraft III)
+											introduced the core concept: teams of players controlling
+											unique heroes battling in symmetrical arenas with
+											AI-controlled units.
+										</p>
+									</div>
+								</div>
+
+								<div class="timeline-item">
+									<div class="timeline-date">2000s</div>
+									<div class="timeline-content">
+										<h3>DOTA's Rise and Genre Formation</h3>
+										<p>
+											The 2000s saw DotA explode in popularity through Warcraft
+											III's modding community, effectively creating the MOBA
+											genre. Despite being unofficial, DotA’s deep gameplay,
+											hero diversity, and competitive nature attracted a global
+											following and laid the groundwork for standalone MOBAs.
+										</p>
+									</div>
+								</div>
+
+								<div class="timeline-item">
+									<div class="timeline-date">2010s</div>
+									<div class="timeline-content">
+										<h3>MOBA Becomes Mainstream Esport</h3>
+										<p>
+											The launch of League of Legends (2009) and Dota 2 (2013)
+											established MOBA as one of the most dominant genres in
+											esports. Massive tournaments like The International and
+											Worlds offered multi-million-dollar prize pools, elevating
+											MOBAs to the top of global competitive gaming.
+										</p>
+									</div>
+								</div>
+
+								<div class="timeline-item">
+									<div class="timeline-date">2020s</div>
+									<div class="timeline-content">
+										<h3>Diversification and Mobile Dominance</h3>
+										<p>
+											While core MOBAs remain popular, the genre has expanded
+											into mobile gaming with titles like Mobile Legends: Bang
+											Bang and Wild Rift, especially in Southeast Asia and Latin
+											America. Cross-platform accessibility and shorter match
+											formats have brought the genre to a broader, global
+											audience.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- Current State Section -->
+					<section class="content-section">
+						<h2 class="section-title">
+							Current State of the Multiplayer Online Battle Arena (MOBA)
+						</h2>
+						<div class="content-card">
+							<div class="two-column">
+								<div class="column text-column">
+									<p>
+										Despite more than a decade on the market, the genre of MOBA,
+										where League of Legends (LoL) and Dota 2 are still among the
+										biggest MOBA games worldwide, have consistently rank among
+										the most-watched games on streaming platforms. Additionally,
+										both LoL and Dota 2 are inextricably linked with the growth
+										of eSports and the two legacy titles still have some of the
+										most attractive eSports tournament prize pools across all
+										competitive titles - in 2024, the cumulative Dota 2 eSports
+										prize pool was worth almost 24 million U.S. dollars.
+									</p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- Regional Popularity Section -->
+					<section class="content-section">
+						<h2 class="section-title">Regional Popularity</h2>
+						<div class="content-card">
+							<div class="region-map">
+								<div
+									id="carouselExampleInterval"
+									class="carousel slide"
+									data-bs-ride="carousel"
+								>
+									<div class="carousel-inner">
+										<div class="carousel-item active" data-bs-interval="3000">
+											<img
+												src="./images/region/crowd6.jpg"
+												class="d-block w-100"
+												alt="Esports Crowd 1"
+											/>
+										</div>
+										<div class="carousel-item" data-bs-interval="3000">
+											<img
+												src="./images/region/crowd7.jpg"
+												class="d-block w-100"
+												alt="Esports Crowd 2"
+											/>
+										</div>
+										<div class="carousel-item" data-bs-interval="3000">
+											<img
+												src="./images/region/crowd8.jpg"
+												class="d-block w-100"
+												alt="Esports Crowd 3"
+											/>
+										</div>
+										<div class="carousel-item" data-bs-interval="3000">
+											<img
+												src="./images/region/crowd9.jpg"
+												class="d-block w-100"
+												alt="Esports Crowd 4"
+											/>
+										</div>
+										<div class="carousel-item" data-bs-interval="3000">
+											<img
+												src="./images/region/crowd10.jpg"
+												class="d-block w-100"
+												alt="Esports Crowd 5"
+											/>
+										</div>
+									</div>
+									<button
+										class="carousel-control-prev"
+										type="button"
+										data-bs-target="#carouselExampleInterval"
+										data-bs-slide="prev"
+									>
+										<span
+											class="carousel-control-prev-icon"
+											aria-hidden="true"
+										></span>
+										<span class="visually-hidden">Previous</span>
+									</button>
+									<button
+										class="carousel-control-next"
+										type="button"
+										data-bs-target="#carouselExampleInterval"
+										data-bs-slide="next"
+									>
+										<span
+											class="carousel-control-next-icon"
+											aria-hidden="true"
+										></span>
+										<span class="visually-hidden">Next</span>
+									</button>
+								</div>
+							</div>
+
+							<div class="regions-grid">
+								<div class="region-card">
+									<div class="region-icon north-america"></div>
+									<h3>China</h3>
+									<p>
+										MOBA games dominate China’s mobile gaming scene, with Honor
+										of Kings leading as one of the most played titles in the
+										world. Its integration with Tencent’s ecosystem and strong
+										esports infrastructure has solidified its cultural presence,
+										especially among younger audiences.
+									</p>
+									<div class="popularity-meter high"></div>
+								</div>
+
+								<div class="region-card">
+									<div class="region-icon europe"></div>
+									<h3>South Korea</h3>
+									<p>
+										In South Korea, MOBAs are a central part of the competitive
+										gaming landscape. League of Legends remains the most popular
+										title, with massive viewership, institutional esports
+										support, and deep strategic play, making it a staple in both
+										internet cafés and professional arenas.
+									</p>
+									<div class="popularity-meter high"></div>
+								</div>
+
+								<div class="region-card">
+									<div class="region-icon asia"></div>
+									<h3>Europe</h3>
+									<p>
+										Europe has a robust MOBA fanbase, particularly around League
+										of Legends. The region features top-tier talent through the
+										LEC (League of Legends EMEA Championship), and countries
+										like Germany, France, and Poland boast thriving competitive
+										and amateur ecosystems.
+									</p>
+									<div class="popularity-meter medium"></div>
+								</div>
+
+								<div class="region-card">
+									<div class="region-icon south-america"></div>
+									<h3>North America</h3>
+									<p>
+										In North America, MOBAs like League of Legends and Dota 2
+										have strong communities, especially among PC gamers. The
+										region is home to the LCS and hosts international
+										tournaments, but overall player engagement is more casual
+										compared to Asia’s high-intensity competitive scene.
+									</p>
+									<div class="popularity-meter medium"></div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<div class="accordion custom-accordion" id="accordionExample">
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button
+									class="accordion-button collapsed"
+									type="button"
+									data-bs-toggle="collapse"
+									data-bs-target="#collapseTwo"
+									aria-expanded="false"
+									aria-controls="collapseTwo"
+								>
+									References
+								</button>
+							</h2>
+							<div
+								id="collapseTwo"
+								class="accordion-collapse collapse"
+								data-bs-parent="#accordionExample"
+							>
+								<div class="accordion-body">
+									This is the second item’s accordion body. It is hidden by
+									default…
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
+			</main>
+
+			<div class="scroll-buttons">
+				<a href="../Genres/genre-home.html" title="Back"
+					><i class="fa-solid fa-arrow-left fa-lg"></i
+				></a>
+				<a href="#top" title="Go Up"
+					><i class="fa-solid fa-arrow-up fa-lg"></i
+				></a>
+				<a href="../../index.html" title="Home"
+					><i class="fa-solid fa-house fa-lg"></i
+				></a>
 			</div>
-    </div>
-  </main>
 
-  <footer class="footer">
-    <div class="footer-logo">
-        <img src="../../logo.png" alt="Esports logo" />
-        <span>EsportsEDU</span>
-    </div>
+			<footer class="footer">
+				<div class="footer-logo">
+					<img src="../../logo.png" alt="Esports logo" />
+					<span>EsportsEDU</span>
+				</div>
 
-    <div class="footer-names">
-        <div class="name-column">
-            <p>**Chua, Jenilyn Denise T.</p>
-            <p>Cortez, Vince Nicholai J.</p>
-        </div>
+				<div class="footer-names">
+					<div class="name-column">
+						<p>**Chua, Jenilyn Denise T.</p>
+						<p>Cortez, Vince Nicholai J.</p>
+					</div>
 
-        <div class="name-column">
-            <p>Doctor, Sean Simoun Lewis N.</p>
-            <p>Estrada, Gabriel Wayne C.</p>
-        </div>
+					<div class="name-column">
+						<p>Doctor, Sean Simoun Lewis N.</p>
+						<p>Estrada, Gabriel Wayne C.</p>
+					</div>
 
-        <div class="name-column">
-            <p>Gallardo, Prince Wesley B.</p>
-            <p>Malicsi, Rain David P.</p>
-        </div>
+					<div class="name-column">
+						<p>Gallardo, Prince Wesley B.</p>
+						<p>Malicsi, Rain David P.</p>
+					</div>
 
-        <div class="name-column">
-            <p>Maranion, Jewella Marie A.</p>
-            <p>Merida, Luis Daniel T.</p>
-        </div>
+					<div class="name-column">
+						<p>Maranion, Jewella Marie A.</p>
+						<p>Merida, Luis Daniel T.</p>
+					</div>
 
-        <div class="name-column">
-            <p>Prima, Lance Robert C.</p>
-            <p>Valencia, Yancy Jarell D.</p>
-        </div>
-    </div>
-</footer>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+					<div class="name-column">
+						<p>Prima, Lance Robert C.</p>
+						<p>Valencia, Yancy Jarell D.</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
 </html>

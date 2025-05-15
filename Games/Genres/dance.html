@@ -20,452 +20,539 @@
 			href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@300;400;500;600;700&display=swap"
 			rel="stylesheet"
 		/>
+		<script
+			src="https://kit.fontawesome.com/203f7bcb2a.js"
+			crossorigin="anonymous"
+		></script>
 		<link rel="stylesheet" href="genre.css" />
 	</head>
 	<body>
-		<!-- Navigation Bar -->
-		<nav class="navbar navbar-expand-lg sticky-top">
-			<div class="container-fluid px-5">
-				<a
-					class="navbar-brand d-flex align-items-center gap-2"
-					href="../../index.html"
-				>
-					<img src="../../logo.png" alt="Logo" class="logo-img" />
-					<h1>EsportsEDU</h1>
-				</a>
+		<div id="top"></div>
 
-				<button
-					class="navbar-toggler text-white"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarContent"
-					aria-controls="navbarContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
+		<div class="scroll-container position-relative">
+			<nav class="navbar navbar-expand-lg sticky-top">
+				<div class="container-fluid px-5">
+					<a
+						class="navbar-brand d-flex align-items-center gap-2"
+						href="../../index.html"
+					>
+						<img src="../../logo.png" alt="Logo" class="logo-img" />
+						<h1>EsportsEDU</h1>
+					</a>
 
-				<div
-					class="collapse navbar-collapse justify-content-end"
-					id="navbarContent"
-				>
-					<ul class="navbar-nav gap-3">
-						<li class="nav-item">
-							<a class="nav-link" href="../../index.html">HOME</a>
-						</li>
-
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle nav-link active"
-								aria-current="page"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								GAMES
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a class="dropdown-item" href="genre-home.html">GENRES</a>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Games/Tournaments/tourna-home.html"
-										>TOURNAMENTS</a
-									>
-								</li>
-							</ul>
-						</li>
-
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								CAREER
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Career/Teams&Players/players-team.html"
-										>TEAMS & PLAYERS</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Career/Education/edu.html"
-										>EDUCATION</a
-									>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../Technology/tech.html"
-								>TECHNOLOGY</a
-							>
-						</li>
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								COMMUNITY
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Streaming&Content/streaming-home.html"
-										>STREAMING & CONTENT</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Culture/culture-home.html"
-										>CULTURE</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Rules&Ethics/rules.html"
-										>RULES & ETHICS</a
-									>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../Gallery/gallery.html">GALLERY</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../about/about.html">ABOUT US</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-
-		<!-- Main Content -->
-		<main>
-			<div class="container">
-				<!-- Hero Section -->
-				<section class="hero-section">
-					<h1 class="page-title">Rhyhtm and Dance Games</h1>
-					<div class="title-underline"></div>
+					<button
+						class="navbar-toggler text-white"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarContent"
+						aria-controls="navbarContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<i class="fa-solid fa-bars fa-lg" style="color: #00f5d4"></i>
+					</button>
 
 					<div
-						class="btn-group custom-btn-group"
-						role="group"
-						aria-label="Basic radio toggle button group"
+						class="collapse navbar-collapse justify-content-end"
+						id="navbarContent"
 					>
-						<a
-							href="dance.html"
-							class="btn btn-outline-pink btn-general active-sub-nav"
-							id="btn1"
-							>General Information</a
-						>
-						<a
-							href="dance-games.html"
-							class="btn btn-outline-pink btn-popular"
-							id="btn2"
-							>Popular Games</a
-						>
+						<ul class="navbar-nav gap-3">
+							<li class="nav-item">
+								<a class="nav-link" href="../../index.html">HOME</a>
+							</li>
+
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle nav-link active"
+									aria-current="page"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									GAMES
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a class="dropdown-item" href="genre-home.html">GENRES</a>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Games/Tournaments/tourna-home.html"
+											>TOURNAMENTS</a
+										>
+									</li>
+								</ul>
+							</li>
+
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									CAREER
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Career/Teams&Players/players-team.html"
+											>TEAMS & PLAYERS</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Career/Education/edu.html"
+											>EDUCATION</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../Technology/tech.html"
+									>TECHNOLOGY</a
+								>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									COMMUNITY
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Streaming&Content/streaming-home.html"
+											>STREAMING & CONTENT</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Culture/culture-home.html"
+											>CULTURE</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Rules&Ethics/rules.html"
+											>RULES & ETHICS</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../Gallery/gallery.html"
+									>GALLERY</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../about/about.html">ABOUT US</a>
+							</li>
+						</ul>
 					</div>
-				</section>
+				</div>
+			</nav>
 
-				<!-- Definition Section -->
-				<section class="content-section">
-					<h2 class="section-title">What are Rhythm and Dance Esports</h2>
-					<div class="content-card">
-						<div class="two-column">
-							<div class="column text-column">
-								<p>
-									Music Rhythm Games form a core pillar of the rhythm and dance
-									esports scene, challenging players to become masters of timing
-									and precision. The competitive edge in these games is
-									razor-sharp, often hinging on a player's ability to maintain
-									unbroken combo streaks, flawlessly execute the most demanding
-									musical phrases, and maintain composure amidst the escalating
-									speed and complexity of the soundtrack.
-								</p>
-								<p>
-									Meanwhile, dance simulation games inject a significant element
-									of physicality into the rhythm and dance esports, bridging the
-									gap between the virtual and the real. These games immerse
-									players in the act of dancing, requiring them to physically
-									step on designated panels or utilize motion-sensing technology
-									to precisely mirror on-screen choreography.
-								</p>
-							</div>
-							<div class="column image-column">
-								<div class="definition-image">
-									<img
-										src="images/Genre Esport Images/dance.jpg"
-										alt="Rythm and Dance Esports Perspective"
-									/>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
+			<!-- Main Content -->
+			<main>
+				<div class="container">
+					<!-- Hero Section -->
+					<section class="hero-section">
+						<h1 class="page-title">Rhyhtm and Dance Games</h1>
+						<div class="title-underline"></div>
 
-				<!-- History Section -->
-				<section class="content-section">
-					<h2 class="section-title">History</h2>
-					<div class="content-card">
-						<div class="timeline">
-							<div class="timeline-item">
-								<div class="timeline-date">1980s</div>
-								<div class="timeline-content">
-									<h3>Origins</h3>
-									<p>
-										Rhythm and dance games began in the late '80s and early '90s
-										with titles like PaRappa the Rapper (1996), which introduced
-										beat-based gameplay. Early arcade games like Dance Aerobics
-										hinted at the future of combining music and movement.
-									</p>
-								</div>
-							</div>
-
-							<div class="timeline-item">
-								<div class="timeline-date">1990s</div>
-								<div class="timeline-content">
-									<h3>The Birth of Fighting Games</h3>
-									<p>
-										Dance Dance Revolution (1998) launched the dance game
-										phenomenon, bringing physical movement into arcades. Its
-										success led to similar games like Pump It Up and StepMania,
-										solidifying the genre’s popularity.
-									</p>
-								</div>
-							</div>
-
-							<div class="timeline-item">
-								<div class="timeline-date">2000s</div>
-								<div class="timeline-content">
-									<h3>The Rise of Home Console Rhythm Games</h3>
-									<p>
-										Games like Guitar Hero (2005) and Rock Band (2007) broadened
-										rhythm gameplay by simulating musical performance. Just
-										Dance (2009) brought motion-based dancing to home consoles,
-										launching a global franchise.
-									</p>
-								</div>
-							</div>
-
-							<div class="timeline-item">
-								<div class="timeline-date">2010s</div>
-								<div class="timeline-content">
-									<h3>Mobile Gaming and Virtual Reality Takeover</h3>
-									<p>
-										The genre expanded into mobile with games like Cytus and
-										into VR with Beat Saber (2018), offering immersive,
-										interactive rhythm experiences. These platforms made rhythm
-										games more accessible and engaging.
-									</p>
-								</div>
-							</div>
-
-							<div class="timeline-item">
-								<div class="timeline-date">2010s</div>
-								<div class="timeline-content">
-									<h3>The Rise of Esports and Global Competitions</h3>
-									<p>
-										The FGC gained prominence through events like EVO, with
-										games like Street Fighter IV (2009) driving the competitive
-										scene. Super Smash Bros. Ultimate (2018) and Tekken 7 (2017)
-										boosted global popularity with expanded rosters and refined
-										gameplay.
-									</p>
-								</div>
-							</div>
-
-							<div class="timeline-item">
-								<div class="timeline-date">2020s</div>
-								<div class="timeline-content">
-									<h3>Modern-Day Rhythm Games and Fitness Integration</h3>
-									<p>
-										Rhythm games remain strong with ongoing Just Dance releases
-										and the continued growth of VR titles like Synth Riders. The
-										genre now merges music, fitness, and immersive tech,
-										adapting to trends like AR and home workouts.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-
-				<!-- Current State Section -->
-				<section class="content-section">
-					<h2 class="section-title">Current State of Fighting Game</h2>
-					<div class="content-card">
-						<div class="two-column">
-							<div class="column text-column">
-								<p>
-									The rhythm and dance game genre is still active but has
-									experienced a shift in its mainstream popularity. While
-									traditional titles like Dance Dance Revolution and Guitar Hero
-									have faded from the spotlight, newer games like Just Dance
-									continue to release annually, maintaining a solid fanbase. The
-									emergence of virtual reality rhythm games such as Beat Saber
-									has breathed new life into the genre, appealing to a more
-									tech-savvy audience. Despite the overall decline in the
-									genre’s mainstream presence, rhythm and dance games are still
-									alive and active, particularly in the casual gaming, fitness,
-									and VR sectors. They remain a staple in certain regions, with
-									dedicated communities continuing to support the genre.
-								</p>
-							</div>
-						</div>
-					</div>
-				</section>
-
-				<!-- Regional Popularity Section -->
-				<section class="content-section">
-					<h2 class="section-title">Regional Popularity</h2>
-					<div class="content-card">
-						<div class="region-map">
-							<img
-								src="/IMAGE/popularity.png"
-								alt="World Map Showing Mobile Esports Popularity"
-							/>
-						</div>
-
-						<div class="regions-grid">
-							<div class="region-card">
-								<div class="region-icon north-america"></div>
-								<h3>Europe</h3>
-								<p>
-									Europe’s rhythm game scene shares similarities with North
-									America, with Guitar Hero and Just Dance achieving widespread
-									success. Just Dance in particular has remained a staple in
-									social gaming and fitness contexts. Competitive rhythm games
-									are less common but have passionate followings in select
-									regions.
-								</p>
-								<div class="popularity-meter high"></div>
-							</div>
-
-							<div class="region-card">
-								<div class="region-icon europe"></div>
-								<h3>Asia</h3>
-								<p>
-									Asia—especially Japan and South Korea—is the global epicenter
-									of rhythm and dance games. Iconic arcade titles like Dance
-									Dance Revolution, beatmania IIDX, Pump It Up, and maimai
-									continue to thrive in arcades and competitive scenes. The
-									genre is deeply embedded in gaming culture and has expanded
-									into home and mobile platforms with high skill ceilings and
-									loyal communities.
-								</p>
-								<div class="popularity-meter high"></div>
-							</div>
-
-							<div class="region-card">
-								<div class="region-icon asia"></div>
-								<h3>North America</h3>
-								<p>
-									Rhythm and dance games had a strong peak in North America
-									during the late 2000s, with titles like Dance Dance
-									Revolution, Guitar Hero, and Just Dance dominating living
-									rooms and arcades. While the mainstream has shifted, casual
-									motion-based titles like Just Dance remain popular, especially
-									among families and party gamers.
-								</p>
-								<div class="popularity-meter medium"></div>
-							</div>
-
-							<div class="region-card">
-								<div class="region-icon south-america"></div>
-								<h3>Latin America</h3>
-								<p>
-									Rhythm and dance games are popular in Latin America,
-									particularly in arcades and community events. Pump It Up leads
-									the way with a strong competitive scene in countries like
-									Mexico, Brazil, and Chile. Console and party games like Just
-									Dance also enjoy wide popularity in social settings.
-								</p>
-								<div class="popularity-meter medium"></div>
-							</div>
-						</div>
-					</div>
-				</section>
-
-				<div class="accordion custom-accordion" id="accordionExample">
-					<div class="accordion-item">
-						<h2 class="accordion-header">
-							<button
-								class="accordion-button collapsed"
-								type="button"
-								data-bs-toggle="collapse"
-								data-bs-target="#collapseTwo"
-								aria-expanded="false"
-								aria-controls="collapseTwo"
-							>
-								References
-							</button>
-						</h2>
 						<div
-							id="collapseTwo"
-							class="accordion-collapse collapse"
-							data-bs-parent="#accordionExample"
+							class="btn-group custom-btn-group"
+							role="group"
+							aria-label="Basic radio toggle button group"
 						>
-							<div class="accordion-body">
-								This is the second item’s accordion body. It is hidden by
-								default…
+							<a
+								href="dance.html"
+								class="btn btn-outline-pink btn-general active-sub-nav"
+								id="btn1"
+								>General Information</a
+							>
+							<a
+								href="dance-games.html"
+								class="btn btn-outline-pink btn-popular"
+								id="btn2"
+								>Popular Games</a
+							>
+						</div>
+					</section>
+
+					<!-- Definition Section -->
+					<section class="content-section">
+						<h2 class="section-title">What are Rhythm and Dance Esports</h2>
+						<div class="content-card">
+							<div class="two-column">
+								<div class="column text-column">
+									<p>
+										Music Rhythm Games form a core pillar of the rhythm and
+										dance esports scene, challenging players to become masters
+										of timing and precision. The competitive edge in these games
+										is razor-sharp, often hinging on a player's ability to
+										maintain unbroken combo streaks, flawlessly execute the most
+										demanding musical phrases, and maintain composure amidst the
+										escalating speed and complexity of the soundtrack.
+									</p>
+									<p>
+										Meanwhile, dance simulation games inject a significant
+										element of physicality into the rhythm and dance esports,
+										bridging the gap between the virtual and the real. These
+										games immerse players in the act of dancing, requiring them
+										to physically step on designated panels or utilize
+										motion-sensing technology to precisely mirror on-screen
+										choreography.
+									</p>
+								</div>
+								<div class="column image-column">
+									<div class="definition-image">
+										<img
+											src="images/Genre Esport Images/dance.jpg"
+											alt="Rythm and Dance Esports Perspective"
+										/>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- History Section -->
+					<section class="content-section">
+						<h2 class="section-title">History</h2>
+						<div class="content-card">
+							<div class="timeline">
+								<div class="timeline-item">
+									<div class="timeline-date">1980s</div>
+									<div class="timeline-content">
+										<h3>Origins</h3>
+										<p>
+											Rhythm and dance games began in the late '80s and early
+											'90s with titles like PaRappa the Rapper (1996), which
+											introduced beat-based gameplay. Early arcade games like
+											Dance Aerobics hinted at the future of combining music and
+											movement.
+										</p>
+									</div>
+								</div>
+
+								<div class="timeline-item">
+									<div class="timeline-date">1990s</div>
+									<div class="timeline-content">
+										<h3>The Birth of Fighting Games</h3>
+										<p>
+											Dance Dance Revolution (1998) launched the dance game
+											phenomenon, bringing physical movement into arcades. Its
+											success led to similar games like Pump It Up and
+											StepMania, solidifying the genre’s popularity.
+										</p>
+									</div>
+								</div>
+
+								<div class="timeline-item">
+									<div class="timeline-date">2000s</div>
+									<div class="timeline-content">
+										<h3>The Rise of Home Console Rhythm Games</h3>
+										<p>
+											Games like Guitar Hero (2005) and Rock Band (2007)
+											broadened rhythm gameplay by simulating musical
+											performance. Just Dance (2009) brought motion-based
+											dancing to home consoles, launching a global franchise.
+										</p>
+									</div>
+								</div>
+
+								<div class="timeline-item">
+									<div class="timeline-date">2010s</div>
+									<div class="timeline-content">
+										<h3>Mobile Gaming and Virtual Reality Takeover</h3>
+										<p>
+											The genre expanded into mobile with games like Cytus and
+											into VR with Beat Saber (2018), offering immersive,
+											interactive rhythm experiences. These platforms made
+											rhythm games more accessible and engaging.
+										</p>
+									</div>
+								</div>
+
+								<div class="timeline-item">
+									<div class="timeline-date">2010s</div>
+									<div class="timeline-content">
+										<h3>The Rise of Esports and Global Competitions</h3>
+										<p>
+											The FGC gained prominence through events like EVO, with
+											games like Street Fighter IV (2009) driving the
+											competitive scene. Super Smash Bros. Ultimate (2018) and
+											Tekken 7 (2017) boosted global popularity with expanded
+											rosters and refined gameplay.
+										</p>
+									</div>
+								</div>
+
+								<div class="timeline-item">
+									<div class="timeline-date">2020s</div>
+									<div class="timeline-content">
+										<h3>Modern-Day Rhythm Games and Fitness Integration</h3>
+										<p>
+											Rhythm games remain strong with ongoing Just Dance
+											releases and the continued growth of VR titles like Synth
+											Riders. The genre now merges music, fitness, and immersive
+											tech, adapting to trends like AR and home workouts.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- Current State Section -->
+					<section class="content-section">
+						<h2 class="section-title">Current State of Fighting Game</h2>
+						<div class="content-card">
+							<div class="two-column">
+								<div class="column text-column">
+									<p>
+										The rhythm and dance game genre is still active but has
+										experienced a shift in its mainstream popularity. While
+										traditional titles like Dance Dance Revolution and Guitar
+										Hero have faded from the spotlight, newer games like Just
+										Dance continue to release annually, maintaining a solid
+										fanbase. The emergence of virtual reality rhythm games such
+										as Beat Saber has breathed new life into the genre,
+										appealing to a more tech-savvy audience. Despite the overall
+										decline in the genre’s mainstream presence, rhythm and dance
+										games are still alive and active, particularly in the casual
+										gaming, fitness, and VR sectors. They remain a staple in
+										certain regions, with dedicated communities continuing to
+										support the genre.
+									</p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- Regional Popularity Section -->
+					<section class="content-section">
+						<h2 class="section-title">Regional Popularity</h2>
+						<div class="content-card">
+							<div class="region-map">
+								<div
+									id="carouselExampleInterval"
+									class="carousel slide"
+									data-bs-ride="carousel"
+								>
+									<div class="carousel-inner">
+										<div class="carousel-item active" data-bs-interval="3000">
+											<img
+												src="./images/region/crowd6.jpg"
+												class="d-block w-100"
+												alt="Esports Crowd 1"
+											/>
+										</div>
+										<div class="carousel-item" data-bs-interval="3000">
+											<img
+												src="./images/region/crowd7.jpg"
+												class="d-block w-100"
+												alt="Esports Crowd 2"
+											/>
+										</div>
+										<div class="carousel-item" data-bs-interval="3000">
+											<img
+												src="./images/region/crowd8.jpg"
+												class="d-block w-100"
+												alt="Esports Crowd 3"
+											/>
+										</div>
+										<div class="carousel-item" data-bs-interval="3000">
+											<img
+												src="./images/region/crowd9.jpg"
+												class="d-block w-100"
+												alt="Esports Crowd 4"
+											/>
+										</div>
+										<div class="carousel-item" data-bs-interval="3000">
+											<img
+												src="./images/region/crowd10.jpg"
+												class="d-block w-100"
+												alt="Esports Crowd 5"
+											/>
+										</div>
+									</div>
+									<button
+										class="carousel-control-prev"
+										type="button"
+										data-bs-target="#carouselExampleInterval"
+										data-bs-slide="prev"
+									>
+										<span
+											class="carousel-control-prev-icon"
+											aria-hidden="true"
+										></span>
+										<span class="visually-hidden">Previous</span>
+									</button>
+									<button
+										class="carousel-control-next"
+										type="button"
+										data-bs-target="#carouselExampleInterval"
+										data-bs-slide="next"
+									>
+										<span
+											class="carousel-control-next-icon"
+											aria-hidden="true"
+										></span>
+										<span class="visually-hidden">Next</span>
+									</button>
+								</div>
+							</div>
+
+							<div class="regions-grid">
+								<div class="region-card">
+									<div class="region-icon north-america"></div>
+									<h3>Europe</h3>
+									<p>
+										Europe’s rhythm game scene shares similarities with North
+										America, with Guitar Hero and Just Dance achieving
+										widespread success. Just Dance in particular has remained a
+										staple in social gaming and fitness contexts. Competitive
+										rhythm games are less common but have passionate followings
+										in select regions.
+									</p>
+									<div class="popularity-meter high"></div>
+								</div>
+
+								<div class="region-card">
+									<div class="region-icon europe"></div>
+									<h3>Asia</h3>
+									<p>
+										Asia—especially Japan and South Korea—is the global
+										epicenter of rhythm and dance games. Iconic arcade titles
+										like Dance Dance Revolution, beatmania IIDX, Pump It Up, and
+										maimai continue to thrive in arcades and competitive scenes.
+										The genre is deeply embedded in gaming culture and has
+										expanded into home and mobile platforms with high skill
+										ceilings and loyal communities.
+									</p>
+									<div class="popularity-meter high"></div>
+								</div>
+
+								<div class="region-card">
+									<div class="region-icon asia"></div>
+									<h3>North America</h3>
+									<p>
+										Rhythm and dance games had a strong peak in North America
+										during the late 2000s, with titles like Dance Dance
+										Revolution, Guitar Hero, and Just Dance dominating living
+										rooms and arcades. While the mainstream has shifted, casual
+										motion-based titles like Just Dance remain popular,
+										especially among families and party gamers.
+									</p>
+									<div class="popularity-meter medium"></div>
+								</div>
+
+								<div class="region-card">
+									<div class="region-icon south-america"></div>
+									<h3>Latin America</h3>
+									<p>
+										Rhythm and dance games are popular in Latin America,
+										particularly in arcades and community events. Pump It Up
+										leads the way with a strong competitive scene in countries
+										like Mexico, Brazil, and Chile. Console and party games like
+										Just Dance also enjoy wide popularity in social settings.
+									</p>
+									<div class="popularity-meter medium"></div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<div class="accordion custom-accordion" id="accordionExample">
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button
+									class="accordion-button collapsed"
+									type="button"
+									data-bs-toggle="collapse"
+									data-bs-target="#collapseTwo"
+									aria-expanded="false"
+									aria-controls="collapseTwo"
+								>
+									References
+								</button>
+							</h2>
+							<div
+								id="collapseTwo"
+								class="accordion-collapse collapse"
+								data-bs-parent="#accordionExample"
+							>
+								<div class="accordion-body">
+									This is the second item’s accordion body. It is hidden by
+									default…
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+			</main>
+
+			<div class="scroll-buttons">
+				<a href="../Genres/genre-home.html" title="Back"
+					><i class="fa-solid fa-arrow-left fa-lg"></i
+				></a>
+				<a href="#top" title="Go Up"
+					><i class="fa-solid fa-arrow-up fa-lg"></i
+				></a>
+				<a href="../../index.html" title="Home"
+					><i class="fa-solid fa-house fa-lg"></i
+				></a>
 			</div>
-		</main>
 
-		<footer class="footer">
-			<div class="footer-logo">
-				<img src="../../logo.png" alt="Esports logo" />
-				<span>EsportsEDU</span>
-			</div>
-
-			<div class="footer-names">
-				<div class="name-column">
-					<p>**Chua, Jenilyn Denise T.</p>
-					<p>Cortez, Vince Nicholai J.</p>
+			<footer class="footer">
+				<div class="footer-logo">
+					<img src="../../logo.png" alt="Esports logo" />
+					<span>EsportsEDU</span>
 				</div>
 
-				<div class="name-column">
-					<p>Doctor, Sean Simoun Lewis N.</p>
-					<p>Estrada, Gabriel Wayne C.</p>
-				</div>
+				<div class="footer-names">
+					<div class="name-column">
+						<p>**Chua, Jenilyn Denise T.</p>
+						<p>Cortez, Vince Nicholai J.</p>
+					</div>
 
-				<div class="name-column">
-					<p>Gallardo, Prince Wesley B.</p>
-					<p>Malicsi, Rain David P.</p>
-				</div>
+					<div class="name-column">
+						<p>Doctor, Sean Simoun Lewis N.</p>
+						<p>Estrada, Gabriel Wayne C.</p>
+					</div>
 
-				<div class="name-column">
-					<p>Maranion, Jewella Marie A.</p>
-					<p>Merida, Luis Daniel T.</p>
-				</div>
+					<div class="name-column">
+						<p>Gallardo, Prince Wesley B.</p>
+						<p>Malicsi, Rain David P.</p>
+					</div>
 
-				<div class="name-column">
-					<p>Prima, Lance Robert C.</p>
-					<p>Valencia, Yancy Jarell D.</p>
+					<div class="name-column">
+						<p>Maranion, Jewella Marie A.</p>
+						<p>Merida, Luis Daniel T.</p>
+					</div>
+
+					<div class="name-column">
+						<p>Prima, Lance Robert C.</p>
+						<p>Valencia, Yancy Jarell D.</p>
+					</div>
 				</div>
-			</div>
-		</footer>
+			</footer>
+		</div>
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 	</body>

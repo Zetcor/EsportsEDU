@@ -20,393 +20,417 @@
 			href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@300;400;500;600;700&display=swap"
 			rel="stylesheet"
 		/>
+		<script
+			src="https://kit.fontawesome.com/203f7bcb2a.js"
+			crossorigin="anonymous"
+		></script>
 		<link rel="stylesheet" href="games.css" />
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg sticky-top">
-			<div class="container-fluid px-5">
-				<a
-					class="navbar-brand d-flex align-items-center gap-2"
-					href="../../index.html"
-				>
-					<img src="../../logo.png" alt="Logo" class="logo-img" />
-					<h1>EsportsEDU</h1>
-				</a>
+		<div id="top"></div>
 
-				<button
-					class="navbar-toggler text-white"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarContent"
-					aria-controls="navbarContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
+		<div class="scroll-container position-relative">
+			<nav class="navbar navbar-expand-lg sticky-top">
+				<div class="container-fluid px-5">
+					<a
+						class="navbar-brand d-flex align-items-center gap-2"
+						href="../../index.html"
+					>
+						<img src="../../logo.png" alt="Logo" class="logo-img" />
+						<h1>EsportsEDU</h1>
+					</a>
 
-				<div
-					class="collapse navbar-collapse justify-content-end"
-					id="navbarContent"
-				>
-					<ul class="navbar-nav gap-3">
-						<li class="nav-item">
-							<a class="nav-link" href="../../index.html">HOME</a>
-						</li>
-
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle nav-link active"
-								aria-current="page"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								GAMES
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a class="dropdown-item" href="genre-home.html">GENRES</a>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Games/Tournaments/tourna-home.html"
-										>TOURNAMENTS</a
-									>
-								</li>
-							</ul>
-						</li>
-
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								CAREER
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Career/Teams&Players/players-team.html"
-										>TEAMS & PLAYERS</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Career/Education/edu.html"
-										>EDUCATION</a
-									>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../Technology/tech.html"
-								>TECHNOLOGY</a
-							>
-						</li>
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								COMMUNITY
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Streaming&Content/streaming-home.html"
-										>STREAMING & CONTENT</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Culture/culture-home.html"
-										>CULTURE</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Rules&Ethics/rules.html"
-										>RULES & ETHICS</a
-									>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../Gallery/gallery.html">GALLERY</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../about/about.html">ABOUT US</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-
-		<!-- Main Content -->
-		<main>
-			<div class="container">
-				<!-- Hero Section -->
-				<section class="hero-section">
-					<h1 class="page-title">Racing Simulation Games</h1>
-					<div class="title-underline"></div>
+					<button
+						class="navbar-toggler text-white"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarContent"
+						aria-controls="navbarContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<i class="fa-solid fa-bars fa-lg" style="color: #00f5d4"></i>
+					</button>
 
 					<div
-						class="btn-group custom-btn-group"
-						role="group"
-						aria-label="Basic radio toggle button group"
+						class="collapse navbar-collapse justify-content-end"
+						id="navbarContent"
 					>
-						<a
-							href="racing.html"
-							class="btn btn-outline-pink btn-general"
-							id="btn1"
-							>General Information</a
-						>
-						<a
-							href="racing-games.html"
-							class="btn btn-outline-pink btn-popular active-sub-nav"
-							id="btn2"
-							>Popular Games</a
-						>
+						<ul class="navbar-nav gap-3">
+							<li class="nav-item">
+								<a class="nav-link" href="../../index.html">HOME</a>
+							</li>
+
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle nav-link active"
+									aria-current="page"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									GAMES
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a class="dropdown-item" href="genre-home.html">GENRES</a>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Games/Tournaments/tourna-home.html"
+											>TOURNAMENTS</a
+										>
+									</li>
+								</ul>
+							</li>
+
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									CAREER
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Career/Teams&Players/players-team.html"
+											>TEAMS & PLAYERS</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Career/Education/edu.html"
+											>EDUCATION</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../Technology/tech.html"
+									>TECHNOLOGY</a
+								>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									COMMUNITY
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Streaming&Content/streaming-home.html"
+											>STREAMING & CONTENT</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Culture/culture-home.html"
+											>CULTURE</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Rules&Ethics/rules.html"
+											>RULES & ETHICS</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../Gallery/gallery.html"
+									>GALLERY</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../about/about.html">ABOUT US</a>
+							</li>
+						</ul>
 					</div>
-				</section>
+				</div>
+			</nav>
 
-				<!-- Popular Mobile Esports Games Section -->
-				<section class="content-section">
-					<h2 class="section-title">Popular Racing Simulation Games</h2>
-					<div class="content-card">
-						<div class="featured-image">
-							<img src="images/forza.avif" alt="Mobile Legends: Bang Bang" />
+			<!-- Main Content -->
+			<main>
+				<div class="container">
+					<!-- Hero Section -->
+					<section class="hero-section">
+						<h1 class="page-title">Racing Simulation Games</h1>
+						<div class="title-underline"></div>
+
+						<div
+							class="btn-group custom-btn-group"
+							role="group"
+							aria-label="Basic radio toggle button group"
+						>
+							<a
+								href="racing.html"
+								class="btn btn-outline-pink btn-general"
+								id="btn1"
+								>General Information</a
+							>
+							<a
+								href="racing-games.html"
+								class="btn btn-outline-pink btn-popular active-sub-nav"
+								id="btn2"
+								>Popular Games</a
+							>
 						</div>
-						<div class="game-title">Forza Horizon 5</div>
-						<div class="game-meta">
-							Playgorund Games | November 2021 |
-							<span class="badge">PC</span><span class="badge">Xbox</span>
-						</div>
-						<div class="game-description">
-							Forza Horizon 5 is an open-world racing game set in a fictional
-							version of Mexico, offering a vast and diverse landscape to
-							explore. With dynamic weather, seasonal changes, and hundreds of
-							cars to collect and customize, it provides a thrilling and
-							immersive experience. Players can race, explore, and complete
-							various challenges in a vibrant world, making it appealing to both
-							casual players and racing enthusiasts.
-						</div>
-						<div class="video">
-							<iframe
-								width="1319"
-								height="500"
-								src="https://www.youtube.com/embed/g6jaB-HQXUQ?si=8lrJe9tHkOu1HTMf>"
-								title="TOP 10 PLAYS FROM M5 WORLD CHAMPIONSHIP… 🔥"
-								frameborder="0"
-								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-								referrerpolicy="strict-origin-when-cross-origin"
-								allowfullscreen
-								style="border-radius: 10px"
-							></iframe>
-						</div>
-						<div class="game-mechanics">
-							<div class="game-title">Game Mechanics:</div>
-							<div class="game-description">
-								Forza Horizon 5 blends realism with an adventurous open-world
-								experience. Players drive through a wide range of landscapes
-								including jungles, deserts, and cities, all affected by dynamic
-								weather and seasonal changes. The game features hundreds of cars
-								to collect, upgrade, and paint, with each handling slightly
-								differently based on its class and build. Players earn skill
-								points by drifting, jumping, and pulling off stunts, while also
-								leveling up through events like street races and off-road
-								trails. Its forgiving handling system makes it great for
-								beginners, yet still enjoyable for experienced racers.
+					</section>
+
+					<!-- Popular Mobile Esports Games Section -->
+					<section class="content-section">
+						<h2 class="section-title">Popular Racing Simulation Games</h2>
+						<div class="content-card">
+							<div class="featured-image">
+								<img src="images/forza.avif" alt="Mobile Legends: Bang Bang" />
 							</div>
-						</div>
-
-						<div class="game-mechanics">
-							<div class="game-title">Game Tournaments:</div>
-							<div class="game-description">
-								The game supports competitive play through the Forza Racing
-								Championship—a global tournament series featuring time trials
-								and head-to-head races. In addition, players can join weekly
-								online events, ranked races, and community-organized
-								competitions that offer leaderboards, live streams, and prizes.
+							<div class="game-title">Forza Horizon 5</div>
+							<div class="game-meta">
+								Playgorund Games | November 2021 |
+								<span class="badge">PC</span><span class="badge">Xbox</span>
 							</div>
-						</div>
-					</div>
-				</section>
-
-				<section class="content-section">
-					<div class="content-card">
-						<div class="featured-image">
-							<img src="images/grant.jpg" alt="Mobile Legends: Bang Bang" />
-						</div>
-						<div class="game-title">Gran Turismo 7</div>
-						<div class="game-meta">
-							Polyphony Digital | March 2022 |
-							<span class="badge">PS4 | PS5</span>
-						</div>
-						<div class="game-description">
-							Gran Turismo 7 blends realistic racing simulation with the art of
-							car collecting and tuning. Players can enjoy a wide variety of
-							cars, each customizable for optimal performance, and take part in
-							various racing events. The game also offers a rich car history,
-							photo mode, and garage features, providing a well-rounded
-							experience for both racing and car enthusiasts.
-						</div>
-						<div class="video">
-							<iframe
-								width="1319"
-								height="500"
-								src="https://www.youtube.com/embed/71RFuqO-LLU?si=CnIKMye1dEqR2YrY"
-								title="TOP 10 PLAYS FROM M5 WORLD CHAMPIONSHIP… 🔥"
-								frameborder="0"
-								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-								referrerpolicy="strict-origin-when-cross-origin"
-								allowfullscreen
-								style="border-radius: 10px"
-							></iframe>
-						</div>
-						<div class="game-mechanics">
-							<div class="game-title">Game Mechanics:</div>
 							<div class="game-description">
-								Gran Turismo 7 blends realistic driving with a deep appreciation
-								for car culture. The physics engine simulates tire wear, fuel
-								usage, and how different surfaces or weather affect grip.
-								Players begin by earning licenses through racing challenges that
-								also teach proper driving skills. With in-depth car tuning,
-								users can adjust everything from suspension and gear ratios to
-								downforce and tire type. The game also offers a photo mode,
-								museum, and detailed garage, letting players appreciate vehicles
-								from both a technical and historical perspective. Online racing
-								is competitive, with sport mode rankings that track both speed
-								and sportsmanship.
+								Forza Horizon 5 is an open-world racing game set in a fictional
+								version of Mexico, offering a vast and diverse landscape to
+								explore. With dynamic weather, seasonal changes, and hundreds of
+								cars to collect and customize, it provides a thrilling and
+								immersive experience. Players can race, explore, and complete
+								various challenges in a vibrant world, making it appealing to
+								both casual players and racing enthusiasts.
+							</div>
+							<div class="video">
+								<iframe
+									width="1319"
+									height="500"
+									src="https://www.youtube.com/embed/g6jaB-HQXUQ?si=8lrJe9tHkOu1HTMf>"
+									title="TOP 10 PLAYS FROM M5 WORLD CHAMPIONSHIP… 🔥"
+									frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+									referrerpolicy="strict-origin-when-cross-origin"
+									allowfullscreen
+									style="border-radius: 10px"
+								></iframe>
+							</div>
+							<div class="game-mechanics">
+								<div class="game-title">Game Mechanics:</div>
+								<div class="game-description">
+									Forza Horizon 5 blends realism with an adventurous open-world
+									experience. Players drive through a wide range of landscapes
+									including jungles, deserts, and cities, all affected by
+									dynamic weather and seasonal changes. The game features
+									hundreds of cars to collect, upgrade, and paint, with each
+									handling slightly differently based on its class and build.
+									Players earn skill points by drifting, jumping, and pulling
+									off stunts, while also leveling up through events like street
+									races and off-road trails. Its forgiving handling system makes
+									it great for beginners, yet still enjoyable for experienced
+									racers.
+								</div>
 							</div>
 
 							<div class="game-mechanics">
 								<div class="game-title">Game Tournaments:</div>
 								<div class="game-description">
-									The flagship tournament is the Gran Turismo World Series,
-									which includes regional qualifiers and international finals.
-									Endorsed by the FIA (Fédération Internationale de
-									l'Automobile), this prestigious event brings together top
-									players from around the world to compete in live, broadcasted
-									races with real-world championship stakes.
+									The game supports competitive play through the Forza Racing
+									Championship—a global tournament series featuring time trials
+									and head-to-head races. In addition, players can join weekly
+									online events, ranked races, and community-organized
+									competitions that offer leaderboards, live streams, and
+									prizes.
 								</div>
 							</div>
 						</div>
-					</div>
-				</section>
+					</section>
 
-				<section class="content-section">
-					<div class="content-card">
-						<div class="featured-image">
-							<img src="images/assetto.jpg" alt="Mobile Legends: Bang Bang" />
-						</div>
-						<div class="game-title">Asseto Corsa</div>
-						<div class="game-meta">
-							Kunos Simulazioni | 2014 | <span class="badge">PC | PS4</span>
-						</div>
-						<div class="game-description">
-							Assetto Corsa is a hardcore racing simulator known for its
-							realistic physics and attention to detail. It features highly
-							accurate tire models, suspension dynamics, and laser-scanned
-							tracks, offering players an authentic driving experience. With
-							support for mods and advanced customization, it appeals to both
-							professional sim racers and those looking to fine-tune their
-							racing setups.
-						</div>
-						<div class="video">
-							<iframe
-								width="1319"
-								height="500"
-								src="https://www.youtube.com/embed/sm15G5u19-k?si=FaO-4NneE-Nmy27t"
-								title="TOP 10 PLAYS FROM M5 WORLD CHAMPIONSHIP… 🔥"
-								frameborder="0"
-								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-								referrerpolicy="strict-origin-when-cross-origin"
-								allowfullscreen
-								style="border-radius: 10px"
-							></iframe>
-						</div>
-						<div class="game-mechanics">
-							<div class="game-title">Game Mechanics:</div>
+					<section class="content-section">
+						<div class="content-card">
+							<div class="featured-image">
+								<img src="images/grant.jpg" alt="Mobile Legends: Bang Bang" />
+							</div>
+							<div class="game-title">Gran Turismo 7</div>
+							<div class="game-meta">
+								Polyphony Digital | March 2022 |
+								<span class="badge">PS4 | PS5</span>
+							</div>
 							<div class="game-description">
-								Assetto Corsa is known for its highly realistic physics and
-								track accuracy. The game simulates how real cars behave—down to
-								the details of tire grip, suspension movement, and brake
-								pressure. Its tracks are laser-scanned to match real-world
-								circuits precisely, making even small bumps and curves matter.
-								Players can modify settings like tire pressure, fuel load, and
-								gear ratios to fine-tune performance. It supports professional
-								gear setups including steering wheels, VR, and multi-screen
-								views. Assetto Corsa also has a strong modding community,
-								allowing players to add cars, tracks, and graphics updates.
+								Gran Turismo 7 blends realistic racing simulation with the art
+								of car collecting and tuning. Players can enjoy a wide variety
+								of cars, each customizable for optimal performance, and take
+								part in various racing events. The game also offers a rich car
+								history, photo mode, and garage features, providing a
+								well-rounded experience for both racing and car enthusiasts.
+							</div>
+							<div class="video">
+								<iframe
+									width="1319"
+									height="500"
+									src="https://www.youtube.com/embed/71RFuqO-LLU?si=CnIKMye1dEqR2YrY"
+									title="TOP 10 PLAYS FROM M5 WORLD CHAMPIONSHIP… 🔥"
+									frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+									referrerpolicy="strict-origin-when-cross-origin"
+									allowfullscreen
+									style="border-radius: 10px"
+								></iframe>
+							</div>
+							<div class="game-mechanics">
+								<div class="game-title">Game Mechanics:</div>
+								<div class="game-description">
+									Gran Turismo 7 blends realistic driving with a deep
+									appreciation for car culture. The physics engine simulates
+									tire wear, fuel usage, and how different surfaces or weather
+									affect grip. Players begin by earning licenses through racing
+									challenges that also teach proper driving skills. With
+									in-depth car tuning, users can adjust everything from
+									suspension and gear ratios to downforce and tire type. The
+									game also offers a photo mode, museum, and detailed garage,
+									letting players appreciate vehicles from both a technical and
+									historical perspective. Online racing is competitive, with
+									sport mode rankings that track both speed and sportsmanship.
+								</div>
+
+								<div class="game-mechanics">
+									<div class="game-title">Game Tournaments:</div>
+									<div class="game-description">
+										The flagship tournament is the Gran Turismo World Series,
+										which includes regional qualifiers and international finals.
+										Endorsed by the FIA (Fédération Internationale de
+										l'Automobile), this prestigious event brings together top
+										players from around the world to compete in live,
+										broadcasted races with real-world championship stakes.
+									</div>
+								</div>
 							</div>
 						</div>
+					</section>
 
-						<div class="game-mechanics">
-							<div class="game-title">Game Tournaments:</div>
+					<section class="content-section">
+						<div class="content-card">
+							<div class="featured-image">
+								<img src="images/assetto.jpg" alt="Mobile Legends: Bang Bang" />
+							</div>
+							<div class="game-title">Asseto Corsa</div>
+							<div class="game-meta">
+								Kunos Simulazioni | 2014 | <span class="badge">PC | PS4</span>
+							</div>
 							<div class="game-description">
-								Assetto Corsa tournaments offer a competitive platform for sim
-								racing enthusiasts. These tournaments range from casual
-								community events to professional esports competitions with
-								significant prize pools. They often feature various car classes
-								and tracks, testing drivers' skills in different scenarios.
-								Platforms like Grid Finder, The SimGrid, and World Sim Series
-								host numerous Assetto Corsa tournaments, catering to different
-								skill levels and preferences.
+								Assetto Corsa is a hardcore racing simulator known for its
+								realistic physics and attention to detail. It features highly
+								accurate tire models, suspension dynamics, and laser-scanned
+								tracks, offering players an authentic driving experience. With
+								support for mods and advanced customization, it appeals to both
+								professional sim racers and those looking to fine-tune their
+								racing setups.
+							</div>
+							<div class="video">
+								<iframe
+									width="1319"
+									height="500"
+									src="https://www.youtube.com/embed/sm15G5u19-k?si=FaO-4NneE-Nmy27t"
+									title="TOP 10 PLAYS FROM M5 WORLD CHAMPIONSHIP… 🔥"
+									frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+									referrerpolicy="strict-origin-when-cross-origin"
+									allowfullscreen
+									style="border-radius: 10px"
+								></iframe>
+							</div>
+							<div class="game-mechanics">
+								<div class="game-title">Game Mechanics:</div>
+								<div class="game-description">
+									Assetto Corsa is known for its highly realistic physics and
+									track accuracy. The game simulates how real cars behave—down
+									to the details of tire grip, suspension movement, and brake
+									pressure. Its tracks are laser-scanned to match real-world
+									circuits precisely, making even small bumps and curves matter.
+									Players can modify settings like tire pressure, fuel load, and
+									gear ratios to fine-tune performance. It supports professional
+									gear setups including steering wheels, VR, and multi-screen
+									views. Assetto Corsa also has a strong modding community,
+									allowing players to add cars, tracks, and graphics updates.
+								</div>
+							</div>
+
+							<div class="game-mechanics">
+								<div class="game-title">Game Tournaments:</div>
+								<div class="game-description">
+									Assetto Corsa tournaments offer a competitive platform for sim
+									racing enthusiasts. These tournaments range from casual
+									community events to professional esports competitions with
+									significant prize pools. They often feature various car
+									classes and tracks, testing drivers' skills in different
+									scenarios. Platforms like Grid Finder, The SimGrid, and World
+									Sim Series host numerous Assetto Corsa tournaments, catering
+									to different skill levels and preferences.
+								</div>
 							</div>
 						</div>
+					</section>
+				</div>
+			</main>
+
+			<div class="scroll-buttons">
+				<a href="../Genres/genre-home.html" title="Back"
+					><i class="fa-solid fa-arrow-left fa-lg"></i
+				></a>
+				<a href="#top" title="Go Up"
+					><i class="fa-solid fa-arrow-up fa-lg"></i
+				></a>
+				<a href="../../index.html" title="Home"
+					><i class="fa-solid fa-house fa-lg"></i
+				></a>
+			</div>
+
+			<footer class="footer">
+				<div class="footer-logo">
+					<img src="../../logo.png" alt="Esports logo" />
+					<span>EsportsEDU</span>
+				</div>
+
+				<div class="footer-names">
+					<div class="name-column">
+						<p>**Chua, Jenilyn Denise T.</p>
+						<p>Cortez, Vince Nicholai J.</p>
 					</div>
-				</section>
-			</div>
-		</main>
 
-		<footer class="footer">
-			<div class="footer-logo">
-				<img src="../../logo.png" alt="Esports logo" />
-				<span>EsportsEDU</span>
-			</div>
+					<div class="name-column">
+						<p>Doctor, Sean Simoun Lewis N.</p>
+						<p>Estrada, Gabriel Wayne C.</p>
+					</div>
 
-			<div class="footer-names">
-				<div class="name-column">
-					<p>**Chua, Jenilyn Denise T.</p>
-					<p>Cortez, Vince Nicholai J.</p>
+					<div class="name-column">
+						<p>Gallardo, Prince Wesley B.</p>
+						<p>Malicsi, Rain David P.</p>
+					</div>
+
+					<div class="name-column">
+						<p>Maranion, Jewella Marie A.</p>
+						<p>Merida, Luis Daniel T.</p>
+					</div>
+
+					<div class="name-column">
+						<p>Prima, Lance Robert C.</p>
+						<p>Valencia, Yancy Jarell D.</p>
+					</div>
 				</div>
-
-				<div class="name-column">
-					<p>Doctor, Sean Simoun Lewis N.</p>
-					<p>Estrada, Gabriel Wayne C.</p>
-				</div>
-
-				<div class="name-column">
-					<p>Gallardo, Prince Wesley B.</p>
-					<p>Malicsi, Rain David P.</p>
-				</div>
-
-				<div class="name-column">
-					<p>Maranion, Jewella Marie A.</p>
-					<p>Merida, Luis Daniel T.</p>
-				</div>
-
-				<div class="name-column">
-					<p>Prima, Lance Robert C.</p>
-					<p>Valencia, Yancy Jarell D.</p>
-				</div>
-			</div>
-		</footer>
+			</footer>
+		</div>
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 	</body>

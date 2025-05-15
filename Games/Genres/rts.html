@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RTS Games</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>RTS Games</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<link
 			href="https://db.onlinewebfonts.com/c/33623e1ab6ef77d072d24fd2880d563d?family=Bitter"
 			rel="stylesheet"
 		/>
@@ -17,341 +20,524 @@
 			href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@300;400;500;600;700&display=swap"
 			rel="stylesheet"
 		/>
-  <link rel="stylesheet" href="genre.css">
-</head>
-<body>
-		<nav class="navbar navbar-expand-lg sticky-top">
-			<div class="container-fluid px-5">
-				<a
-					class="navbar-brand d-flex align-items-center gap-2"
-					href="../../index.html"
-				>
-					<img src="../../logo.png" alt="Logo" class="logo-img" />
-					<h1>EsportsEDU</h1>
-				</a>
+		<script
+			src="https://kit.fontawesome.com/203f7bcb2a.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="genre.css" />
+	</head>
+	<body>
+		<div id="top"></div>
 
-				<button
-					class="navbar-toggler text-white"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarContent"
-					aria-controls="navbarContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
-				<div
-					class="collapse navbar-collapse justify-content-end"
-					id="navbarContent"
-				>
-					<ul class="navbar-nav gap-3">
-						<li class="nav-item">
-							<a class="nav-link" href="../../index.html">HOME</a>
-						</li>
-
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle nav-link active"
-								aria-current="page"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								GAMES
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a class="dropdown-item" href="genre-home.html">GENRES</a>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Games/Tournaments/tourna-home.html"
-										>TOURNAMENTS</a
-									>
-								</li>
-							</ul>
-						</li>
-
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								CAREER
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Career/Teams&Players/players-team.html"
-										>TEAMS & PLAYERS</a
-									>
-								</li>
-								<li>
-									<a class="dropdown-item" href="../../Career/Education/edu.html"
-										>EDUCATION</a
-									>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../Technology/tech.html"
-								>TECHNOLOGY</a
-							>
-						</li>
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								COMMUNITY
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Streaming&Content/streaming-home.html"
-										>STREAMING & CONTENT</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Culture/culture-home.html"
-										>CULTURE</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Rules&Ethics/rules.html"
-										>RULES & ETHICS</a
-									>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../Gallery/gallery.html">GALLERY</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../about/about.html">ABOUT US</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-
-  <!-- Main Content -->
-  <main>
-    <div class="container">
-      <!-- Hero Section -->
-      <section class="hero-section">
-        <h1 class="page-title">RTS (Real-Time Strategy)</h1>
-        <div class="title-underline"></div>
-
-        <div class="btn-group custom-btn-group" role="group" aria-label="Basic radio toggle button group">
-          <a href="rts.html" class="btn btn-outline-pink btn-general active-sub-nav" id="btn1">General Information</a>
-          <a href="rts-games.html" class="btn btn-outline-pink btn-popular" id="btn2">Popular Games</a>
-        </div>
-
-      </section>
-
-      <!-- Definition Section -->
-      <section class="content-section">
-        <h2 class="section-title">What is RTS Esports</h2>
-        <div class="content-card">
-          <div class="two-column">
-            <div class="column text-column">
-              <p>
-                Real-Time Strategy games focus on managing resources, constructing bases, and controlling armies in real time to defeat opponents. Players start with limited assets and must quickly gather materials, expand their territory, and research upgrades. Matches typically involve balancing offense and defense while maintaining economic growth.
-              </p>
-              <p>
-                Unlike turn-based games, RTS titles require constant attention and fast decision-making. Success depends on planning ahead, adapting quickly to enemy tactics, and executing multi-step strategies under pressure. StarCraft and Age of Empires are iconic RTS games known for their depth and competitive balance.
-              </p>
-            </div>
-            <div class="column image-column">
-              <div class="definition-image">
-                <img src="images/Genre Esport Images/rts_esport.jpg" alt="RTS Perspective">
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- History Section -->
-      <section class="content-section">
-        <h2 class="section-title">History</h2>
-        <div class="content-card">
-          <div class="timeline">
-
-            <div class="timeline-item">
-              <div class="timeline-date">1980s</div>
-              <div class="timeline-content">
-                <h3>Origins</h3>
-                <p>Early attempts at real-time gameplay laid the groundwork for the genre. Titles like Utopia (1981) and Herzog Zwei (1989) introduced basic mechanics like real-time decision-making and unit control, setting the stage for future RTS design.</p>
-                
-              </div>
-            </div>
-
-            <div class="timeline-item">
-              <div class="timeline-date">1990s</div>
-              <div class="timeline-content">
-                <h3>Establishing the RTS Formula</h3>
-                <p>The 1990s defined the core RTS gameplay loop with Dune II, Command & Conquer, and Warcraft. These games introduced base building, resource management, and faction-based combat, solidifying the genre's identity and fueling its popularity.</p>
-              </div>
-            </div>
-
-            <div class="timeline-item">
-              <div class="timeline-date">2000s</div>
-              <div class="timeline-content">
-                <h3>RTS Goes Mainstream and Competitive</h3>
-                <p>This decade saw RTS games reach widespread popularity and competitive legitimacy. StarCraft, Warcraft III, and Age of Empires became household names, with StarCraft becoming a global esport, especially in South Korea.</p>
-              </div>
-            </div>
-
-            <div class="timeline-item">
-              <div class="timeline-date">2010s</div>
-              <div class="timeline-content">
-                <h3>Decline and Cult Following</h3>
-                <p>While MOBAs and other genres began to overshadow traditional RTS, dedicated communities kept it alive. Remasters, expansions, and continued support for classics like StarCraft II and Age of Empires II maintained a loyal fanbase.</p>
-              </div>
-            </div>
-
-            <div class="timeline-item">
-              <div class="timeline-date">2020s</div>
-              <div class="timeline-content">
-                <h3>Revival and Modernization</h3>
-                <p>The genre is experiencing a cautious revival with new entries like Age of Empires IV and indie hybrids. Modern RTS games blend traditional mechanics with contemporary design, aiming to appeal to both nostalgic fans and new players.</p>
-              </div>
-            </div>
-
-      </section>
-
-      <!-- Current State Section -->
-      <section class="content-section">
-        <h2 class="section-title">Current State of the RTS E-Sports</h2>
-        <div class="content-card">
-          <div class="two-column">
-            <div class="column text-column">
-              <p>
-                While RTS games are no longer at the forefront of global esports compared to genres like MOBA (e.g., League of Legends) or FPS (e.g., Valorant), the genre remains active and relevant. The RTS market is projected to reach $856.1 million in 2025, with continued growth driven by esports, technological advancements, and mobile gaming. Classic titles like StarCraft II and Age of Empires II maintain dedicated competitive communities, and newer releases like Age of Empires IV attempt to revitalize the genre. However, RTS esports are now more niche, with fewer large-scale tournaments and a smaller, but passionate, player base.
-              </p>
-            </div>
-
-      </section>
-
-      <!-- Regional Popularity Section -->
-      <section class="content-section">
-        <h2 class="section-title">Regional Popularity</h2>
-        <div class="content-card">
-          <div class="region-map">
-            <img src="/IMAGE/popularity.png" alt="World Map Showing RTS Esports Popularity">
-          </div>
-          
-          <div class="regions-grid">
-            <div class="region-card">
-              <div class="region-icon north-america"></div>
-              <h3>China</h3>
-              <p>RTS games have historically enjoyed popularity in China, particularly with StarCraft II and Warcraft III. The latter was especially influential, spawning countless custom maps and competitive players. While MOBAs and mobile titles have taken center stage recently, the RTS legacy still holds cultural weight among older and competitive gamers.</p>
-              <div class="popularity-meter high"></div>
-            </div>
-            
-            <div class="region-card">
-              <div class="region-icon europe"></div>
-              <h3>South Korea</h3>
-              <p>South Korea is synonymous with RTS dominance, particularly StarCraft: Brood War and StarCraft II. These games shaped the country’s esports scene, with televised matches, superstar players, and a deep strategic metagame that captured both casual fans and professionals for decades.</p>
-              <div class="popularity-meter high"></div>
-            </div>
-            
-            <div class="region-card">
-              <div class="region-icon asia"></div>
-              <h3>North America</h3>
-              <p>North America has a loyal RTS fanbase, with titles like Age of Empires, StarCraft, and Company of Heroes having long-standing appeal. While the region doesn’t dominate the competitive RTS scene, it contributes significantly to online communities, modding, and the revival of classic RTS titles through remasters.</p>
-              <div class="popularity-meter medium"></div>
-            </div>
-
-            <div class="region-card">
-              <div class="region-icon south-america"></div>
-              <h3>Europe</h3>
-              <p>Europe has been a stronghold for RTS games, especially in countries like Germany and Russia. Franchises such as Age of Empires and Command & Conquer have deep roots here, with a steady player base that supports both competitive play and enthusiast communities focused on strategic depth and historical themes.</p>
-              <div class="popularity-meter medium">
-            </div>
-        </div>
-      </section>
-
-      <div class="accordion custom-accordion" id="accordionExample">
-				<div class="accordion-item">
-					<h2 class="accordion-header">
-						<button
-							class="accordion-button collapsed"
-							type="button"
-							data-bs-toggle="collapse"
-							data-bs-target="#collapseTwo"
-							aria-expanded="false"
-							aria-controls="collapseTwo"
-						>
-							References
-						</button>
-					</h2>
-					<div
-						id="collapseTwo"
-						class="accordion-collapse collapse"
-						data-bs-parent="#accordionExample"
+		<div class="scroll-container position-relative">
+			<nav class="navbar navbar-expand-lg sticky-top">
+				<div class="container-fluid px-5">
+					<a
+						class="navbar-brand d-flex align-items-center gap-2"
+						href="../../index.html"
 					>
-						<div class="accordion-body">
-							This is the second item’s accordion body. It is hidden by default…
+						<img src="../../logo.png" alt="Logo" class="logo-img" />
+						<h1>EsportsEDU</h1>
+					</a>
+
+					<button
+						class="navbar-toggler text-white"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarContent"
+						aria-controls="navbarContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<i class="fa-solid fa-bars fa-lg" style="color: #00f5d4"></i>
+					</button>
+
+					<div
+						class="collapse navbar-collapse justify-content-end"
+						id="navbarContent"
+					>
+						<ul class="navbar-nav gap-3">
+							<li class="nav-item">
+								<a class="nav-link" href="../../index.html">HOME</a>
+							</li>
+
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle nav-link active"
+									aria-current="page"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									GAMES
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a class="dropdown-item" href="genre-home.html">GENRES</a>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Games/Tournaments/tourna-home.html"
+											>TOURNAMENTS</a
+										>
+									</li>
+								</ul>
+							</li>
+
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									CAREER
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Career/Teams&Players/players-team.html"
+											>TEAMS & PLAYERS</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Career/Education/edu.html"
+											>EDUCATION</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../Technology/tech.html"
+									>TECHNOLOGY</a
+								>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									COMMUNITY
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Streaming&Content/streaming-home.html"
+											>STREAMING & CONTENT</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Culture/culture-home.html"
+											>CULTURE</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Rules&Ethics/rules.html"
+											>RULES & ETHICS</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../Gallery/gallery.html"
+									>GALLERY</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../about/about.html">ABOUT US</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+			<!-- Main Content -->
+			<main>
+				<div class="container">
+					<!-- Hero Section -->
+					<section class="hero-section">
+						<h1 class="page-title">RTS (Real-Time Strategy)</h1>
+						<div class="title-underline"></div>
+
+						<div
+							class="btn-group custom-btn-group"
+							role="group"
+							aria-label="Basic radio toggle button group"
+						>
+							<a
+								href="rts.html"
+								class="btn btn-outline-pink btn-general active-sub-nav"
+								id="btn1"
+								>General Information</a
+							>
+							<a
+								href="rts-games.html"
+								class="btn btn-outline-pink btn-popular"
+								id="btn2"
+								>Popular Games</a
+							>
+						</div>
+					</section>
+
+					<!-- Definition Section -->
+					<section class="content-section">
+						<h2 class="section-title">What is RTS Esports</h2>
+						<div class="content-card">
+							<div class="two-column">
+								<div class="column text-column">
+									<p>
+										Real-Time Strategy games focus on managing resources,
+										constructing bases, and controlling armies in real time to
+										defeat opponents. Players start with limited assets and must
+										quickly gather materials, expand their territory, and
+										research upgrades. Matches typically involve balancing
+										offense and defense while maintaining economic growth.
+									</p>
+									<p>
+										Unlike turn-based games, RTS titles require constant
+										attention and fast decision-making. Success depends on
+										planning ahead, adapting quickly to enemy tactics, and
+										executing multi-step strategies under pressure. StarCraft
+										and Age of Empires are iconic RTS games known for their
+										depth and competitive balance.
+									</p>
+								</div>
+								<div class="column image-column">
+									<div class="definition-image">
+										<img
+											src="images/Genre Esport Images/rts_esport.jpg"
+											alt="RTS Perspective"
+										/>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- History Section -->
+					<section class="content-section">
+						<h2 class="section-title">History</h2>
+						<div class="content-card">
+							<div class="timeline">
+								<div class="timeline-item">
+									<div class="timeline-date">1980s</div>
+									<div class="timeline-content">
+										<h3>Origins</h3>
+										<p>
+											Early attempts at real-time gameplay laid the groundwork
+											for the genre. Titles like Utopia (1981) and Herzog Zwei
+											(1989) introduced basic mechanics like real-time
+											decision-making and unit control, setting the stage for
+											future RTS design.
+										</p>
+									</div>
+								</div>
+
+								<div class="timeline-item">
+									<div class="timeline-date">1990s</div>
+									<div class="timeline-content">
+										<h3>Establishing the RTS Formula</h3>
+										<p>
+											The 1990s defined the core RTS gameplay loop with Dune II,
+											Command & Conquer, and Warcraft. These games introduced
+											base building, resource management, and faction-based
+											combat, solidifying the genre's identity and fueling its
+											popularity.
+										</p>
+									</div>
+								</div>
+
+								<div class="timeline-item">
+									<div class="timeline-date">2000s</div>
+									<div class="timeline-content">
+										<h3>RTS Goes Mainstream and Competitive</h3>
+										<p>
+											This decade saw RTS games reach widespread popularity and
+											competitive legitimacy. StarCraft, Warcraft III, and Age
+											of Empires became household names, with StarCraft becoming
+											a global esport, especially in South Korea.
+										</p>
+									</div>
+								</div>
+
+								<div class="timeline-item">
+									<div class="timeline-date">2010s</div>
+									<div class="timeline-content">
+										<h3>Decline and Cult Following</h3>
+										<p>
+											While MOBAs and other genres began to overshadow
+											traditional RTS, dedicated communities kept it alive.
+											Remasters, expansions, and continued support for classics
+											like StarCraft II and Age of Empires II maintained a loyal
+											fanbase.
+										</p>
+									</div>
+								</div>
+
+								<div class="timeline-item">
+									<div class="timeline-date">2020s</div>
+									<div class="timeline-content">
+										<h3>Revival and Modernization</h3>
+										<p>
+											The genre is experiencing a cautious revival with new
+											entries like Age of Empires IV and indie hybrids. Modern
+											RTS games blend traditional mechanics with contemporary
+											design, aiming to appeal to both nostalgic fans and new
+											players.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- Current State Section -->
+					<section class="content-section">
+						<h2 class="section-title">Current State of the RTS E-Sports</h2>
+						<div class="content-card">
+							<div class="two-column">
+								<div class="column text-column">
+									<p>
+										While RTS games are no longer at the forefront of global
+										esports compared to genres like MOBA (e.g., League of
+										Legends) or FPS (e.g., Valorant), the genre remains active
+										and relevant. The RTS market is projected to reach $856.1
+										million in 2025, with continued growth driven by esports,
+										technological advancements, and mobile gaming. Classic
+										titles like StarCraft II and Age of Empires II maintain
+										dedicated competitive communities, and newer releases like
+										Age of Empires IV attempt to revitalize the genre. However,
+										RTS esports are now more niche, with fewer large-scale
+										tournaments and a smaller, but passionate, player base.
+									</p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- Regional Popularity Section -->
+					<section class="content-section">
+						<h2 class="section-title">Regional Popularity</h2>
+						<div class="content-card">
+							<div class="region-map">
+								<div
+									id="carouselExampleInterval"
+									class="carousel slide"
+									data-bs-ride="carousel"
+								>
+									<div class="carousel-inner">
+										<div class="carousel-item active" data-bs-interval="3000">
+											<img
+												src="./images/region/crowd1.jpg"
+												class="d-block w-100"
+												alt="Esports Crowd 1"
+											/>
+										</div>
+										<div class="carousel-item" data-bs-interval="3000">
+											<img
+												src="./images/region/crowd2.jpg"
+												class="d-block w-100"
+												alt="Esports Crowd 2"
+											/>
+										</div>
+										<div class="carousel-item" data-bs-interval="3000">
+											<img
+												src="./images/region/crowd3.jpg"
+												class="d-block w-100"
+												alt="Esports Crowd 3"
+											/>
+										</div>
+										<div class="carousel-item" data-bs-interval="3000">
+											<img
+												src="./images/region/crowd4.jpg"
+												class="d-block w-100"
+												alt="Esports Crowd 4"
+											/>
+										</div>
+										<div class="carousel-item" data-bs-interval="3000">
+											<img
+												src="./images/region/crowd5.jpg"
+												class="d-block w-100"
+												alt="Esports Crowd 5"
+											/>
+										</div>
+									</div>
+									<button
+										class="carousel-control-prev"
+										type="button"
+										data-bs-target="#carouselExampleInterval"
+										data-bs-slide="prev"
+									>
+										<span
+											class="carousel-control-prev-icon"
+											aria-hidden="true"
+										></span>
+										<span class="visually-hidden">Previous</span>
+									</button>
+									<button
+										class="carousel-control-next"
+										type="button"
+										data-bs-target="#carouselExampleInterval"
+										data-bs-slide="next"
+									>
+										<span
+											class="carousel-control-next-icon"
+											aria-hidden="true"
+										></span>
+										<span class="visually-hidden">Next</span>
+									</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="regions-grid">
+							<div class="region-card">
+								<div class="region-icon north-america"></div>
+								<h3>China</h3>
+								<p>
+									RTS games have historically enjoyed popularity in China,
+									particularly with StarCraft II and Warcraft III. The latter
+									was especially influential, spawning countless custom maps and
+									competitive players. While MOBAs and mobile titles have taken
+									center stage recently, the RTS legacy still holds cultural
+									weight among older and competitive gamers.
+								</p>
+								<div class="popularity-meter high"></div>
+							</div>
+
+							<div class="region-card">
+								<div class="region-icon europe"></div>
+								<h3>South Korea</h3>
+								<p>
+									South Korea is synonymous with RTS dominance, particularly
+									StarCraft: Brood War and StarCraft II. These games shaped the
+									country’s esports scene, with televised matches, superstar
+									players, and a deep strategic metagame that captured both
+									casual fans and professionals for decades.
+								</p>
+								<div class="popularity-meter high"></div>
+							</div>
+
+							<div class="region-card">
+								<div class="region-icon asia"></div>
+								<h3>North America</h3>
+								<p>
+									North America has a loyal RTS fanbase, with titles like Age of
+									Empires, StarCraft, and Company of Heroes having long-standing
+									appeal. While the region doesn’t dominate the competitive RTS
+									scene, it contributes significantly to online communities,
+									modding, and the revival of classic RTS titles through
+									remasters.
+								</p>
+								<div class="popularity-meter medium"></div>
+							</div>
+
+							<div class="region-card">
+								<div class="region-icon south-america"></div>
+								<h3>Europe</h3>
+								<p>
+									Europe has been a stronghold for RTS games, especially in
+									countries like Germany and Russia. Franchises such as Age of
+									Empires and Command & Conquer have deep roots here, with a
+									steady player base that supports both competitive play and
+									enthusiast communities focused on strategic depth and
+									historical themes.
+								</p>
+								<div class="popularity-meter medium"></div>
+							</div>
+						</div>
+					</section>
+
+					<div class="accordion custom-accordion" id="accordionExample">
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button
+									class="accordion-button collapsed"
+									type="button"
+									data-bs-toggle="collapse"
+									data-bs-target="#collapseTwo"
+									aria-expanded="false"
+									aria-controls="collapseTwo"
+								>
+									References
+								</button>
+							</h2>
+							<div
+								id="collapseTwo"
+								class="accordion-collapse collapse"
+								data-bs-parent="#accordionExample"
+							>
+								<div class="accordion-body">
+									This is the second item’s accordion body. It is hidden by
+									default…
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
+			</main>
+
+			<div class="scroll-buttons">
+				<a href="../Genres/genre-home.html" title="Back"
+					><i class="fa-solid fa-arrow-left fa-lg"></i
+				></a>
+				<a href="#top" title="Go Up"
+					><i class="fa-solid fa-arrow-up fa-lg"></i
+				></a>
+				<a href="../../index.html" title="Home"
+					><i class="fa-solid fa-house fa-lg"></i
+				></a>
 			</div>
-    </div>
-  </main>
 
-  <footer class="footer">
-    <div class="footer-logo">
-        <img src="../../logo.png" alt="Esports logo" />
-        <span>EsportsEDU</span>
-    </div>
+			<footer class="footer">
+				<div class="footer-logo">
+					<img src="../../logo.png" alt="Esports logo" />
+					<span>EsportsEDU</span>
+				</div>
 
-    <div class="footer-names">
-        <div class="name-column">
-            <p>**Chua, Jenilyn Denise T.</p>
-            <p>Cortez, Vince Nicholai J.</p>
-        </div>
+				<div class="footer-names">
+					<div class="name-column">
+						<p>**Chua, Jenilyn Denise T.</p>
+						<p>Cortez, Vince Nicholai J.</p>
+					</div>
 
-        <div class="name-column">
-            <p>Doctor, Sean Simoun Lewis N.</p>
-            <p>Estrada, Gabriel Wayne C.</p>
-        </div>
+					<div class="name-column">
+						<p>Doctor, Sean Simoun Lewis N.</p>
+						<p>Estrada, Gabriel Wayne C.</p>
+					</div>
 
-        <div class="name-column">
-            <p>Gallardo, Prince Wesley B.</p>
-            <p>Malicsi, Rain David P.</p>
-        </div>
+					<div class="name-column">
+						<p>Gallardo, Prince Wesley B.</p>
+						<p>Malicsi, Rain David P.</p>
+					</div>
 
-        <div class="name-column">
-            <p>Maranion, Jewella Marie A.</p>
-            <p>Merida, Luis Daniel T.</p>
-        </div>
+					<div class="name-column">
+						<p>Maranion, Jewella Marie A.</p>
+						<p>Merida, Luis Daniel T.</p>
+					</div>
 
-        <div class="name-column">
-            <p>Prima, Lance Robert C.</p>
-            <p>Valencia, Yancy Jarell D.</p>
-        </div>
-    </div>
-</footer>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
-</body>
+					<div class="name-column">
+						<p>Prima, Lance Robert C.</p>
+						<p>Valencia, Yancy Jarell D.</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
 </html>

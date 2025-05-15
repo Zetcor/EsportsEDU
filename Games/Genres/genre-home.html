@@ -20,323 +20,343 @@
 			href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@300;400;500;600;700&display=swap"
 			rel="stylesheet"
 		/>
+		<script
+			src="https://kit.fontawesome.com/203f7bcb2a.js"
+			crossorigin="anonymous"
+		></script>
 		<link rel="stylesheet" href="../../about/style.css" />
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg sticky-top">
-			<div class="container-fluid px-5">
-				<a
-					class="navbar-brand d-flex align-items-center gap-2"
-					href="../../index.html"
-				>
-					<img src="../../logo.png" alt="Logo" class="logo-img" />
-					<h1>EsportsEDU</h1>
-				</a>
+		<div id="top"></div>
 
-				<button
-					class="navbar-toggler text-white"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarContent"
-					aria-controls="navbarContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
-				<div
-					class="collapse navbar-collapse justify-content-end"
-					id="navbarContent"
-				>
-					<ul class="navbar-nav gap-3">
-						<li class="nav-item">
-							<a class="nav-link" href="../../index.html">HOME</a>
-						</li>
-
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle nav-link active"
-								aria-current="page"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								GAMES
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a class="dropdown-item" href="genre-home.html">GENRES</a>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Games/Tournaments/tourna-home.html"
-										>TOURNAMENTS</a
-									>
-								</li>
-							</ul>
-						</li>
-
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								CAREER
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Career/Teams&Players/players-team.html"
-										>TEAMS & PLAYERS</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Career/Education/edu.html"
-										>EDUCATION</a
-									>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../Technology/tech.html"
-								>TECHNOLOGY</a
-							>
-						</li>
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								COMMUNITY
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Streaming&Content/streaming-home.html"
-										>STREAMING & CONTENT</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Culture/culture-home.html"
-										>CULTURE</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Rules&Ethics/rules.html"
-										>RULES & ETHICS</a
-									>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../Gallery/gallery.html">GALLERY</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../about/about.html">ABOUT US</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-
-		<section class="hero-section">
-			<h1 class="page-title">GAMES: THE GENREVERSE</h1>
-			<div class="title-underline"></div>
-
-			<p class="hero-description">
-				Explore the vast and ever-evolving landscape of gaming, from
-				adrenaline-pumping first-person shooters to sprawling open-world RPGs
-				and intricate strategy titles. <br />
-				Discover the unique flavors that define each genre <b>here</b>.
-			</p>
-		</section>
-
-		<section class="content-section">
-			<div class="authors-container">
-				<div class="author-card">
-					<a href="battle-royale.html"
-						><img src="images/battleroyale.jpg" alt="battle royale"
-					/></a>
-					<h2>Battle Royale</h2>
-					<p>
-						<cite
-							>Battle Royale games drop players into large maps to scavenge,
-							survive, and be the last one standing. <br /><br
-						/></cite>
-					</p>
-					<a href="battle-royale.html" class="cta-button">Learn More</a>
-				</div>
-				<div class="author-card">
-					<a href="dance.html"> <img src="images/dance.jpg" alt="dance" /></a>
-					<h2>Rhythm & Dance</h2>
-					<p>
-						<cite
-							>These games test players’ timing and coordination by matching
-							inputs to music beats. <br /><br
-						/></cite>
-					</p>
-					<a href="dance.html" class="cta-button">Learn More</a>
-				</div>
-				<div class="author-card">
-					<a href="fighting.html">
-						<img src="images/fighting.jpg" alt="fighting"
-					/></a>
-					<h2>Fighting</h2>
-					<p>
-						<cite
-							>Fighting games center on one-on-one combat, requiring precision,
-							combos, and timing to defeat opponents. <br /><br
-						/></cite>
-					</p>
-					<a href="fighting.html" class="cta-button">Learn More</a>
-				</div>
-				<div class="author-card">
-					<a href="fps.html">
-						<img src="images/fps.jpg" alt="fps" />
+		<div class="scroll-container position-relative">
+			<nav class="navbar navbar-expand-lg sticky-top">
+				<div class="container-fluid px-5">
+					<a
+						class="navbar-brand d-flex align-items-center gap-2"
+						href="../../index.html"
+					>
+						<img src="../../logo.png" alt="Logo" class="logo-img" />
+						<h1>EsportsEDU</h1>
 					</a>
-					<h2>FPS</h2>
-					<p>
-						<cite
-							>First-Person Shooters focus on fast-paced, gun-based combat from
-							a first-person perspective. <br /><br
-						/></cite>
-					</p>
-					<a href="fps.html" class="cta-button">Learn More</a>
+
+					<button
+						class="navbar-toggler text-white"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarContent"
+						aria-controls="navbarContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<i class="fa-solid fa-bars fa-lg" style="color: #00f5d4"></i>
+					</button>
+
+					<div
+						class="collapse navbar-collapse justify-content-end"
+						id="navbarContent"
+					>
+						<ul class="navbar-nav gap-3">
+							<li class="nav-item">
+								<a class="nav-link" href="../../index.html">HOME</a>
+							</li>
+
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle nav-link active"
+									aria-current="page"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									GAMES
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a class="dropdown-item" href="genre-home.html">GENRES</a>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Games/Tournaments/tourna-home.html"
+											>TOURNAMENTS</a
+										>
+									</li>
+								</ul>
+							</li>
+
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									CAREER
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Career/Teams&Players/players-team.html"
+											>TEAMS & PLAYERS</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Career/Education/edu.html"
+											>EDUCATION</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../Technology/tech.html"
+									>TECHNOLOGY</a
+								>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									COMMUNITY
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Streaming&Content/streaming-home.html"
+											>STREAMING & CONTENT</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Culture/culture-home.html"
+											>CULTURE</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Rules&Ethics/rules.html"
+											>RULES & ETHICS</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../Gallery/gallery.html"
+									>GALLERY</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../about/about.html">ABOUT US</a>
+							</li>
+						</ul>
+					</div>
 				</div>
-				<div class="author-card">
-					<a href="mmorpg.html">
-						<img src="images/mmorpg.jpg" alt="mmorpg" />
-					</a>
-					<h2>MMORPG</h2>
-					<p>
-						<cite
-							>MMORPG Arena games offer large-scale fantasy battles where
-							players compete in PvP using customized characters and skills.
-							<br />
-							<br />
-						</cite>
-					</p>
-					<a href="mmorpg.html" class="cta-button">Learn More</a>
-				</div>
-				<div class="author-card">
-					<a href="moba.html">
-						<img src="images/moba.jpg" alt="moba" />
-					</a>
-					<h2>MOBA</h2>
-					<p>
-						<cite
-							>Multiplayer Online Battle Arena games involve strategic
-							team-based battles where players control unique heroes to destroy
-							the enemy base.</cite
-						>
-					</p>
-					<a href="moba.html" class="cta-button">Learn More</a>
-				</div>
-				<div class="author-card">
-					<a href="mobile-esports.html">
-						<img src="images/GenresMobile.jpg" alt="mobile esports" />
-					</a>
-					<h2>Mobile Esports</h2>
-					<p>
-						<cite
-							>Mobile esports are competitive games designed for smartphones,
-							known for accessibility and fast-paced gameplay. <br /><br
-						/></cite>
-					</p>
-					<a href="mobile-esports.html" class="cta-button">Learn More</a>
-				</div>
-				<div class="author-card">
-					<a href="racing.html">
-						<img src="images/racing.jpg" alt="racing" />
-					</a>
-					<h2>Racing</h2>
-					<p>
-						<cite
-							>Racing games simulate high-speed competition, testing players’
-							driving skills and reaction time. <br /><br
-						/></cite>
-					</p>
-					<a href="racing.html" class="cta-button">Learn More</a>
-				</div>
-				<div class="author-card">
-					<a href="rts.html">
-						<img src="images/rts.jpg" alt="rts" />
-					</a>
-					<h2>RTS</h2>
-					<p>
-						<cite
-							>Real-Time Strategy games challenge players to build, manage
-							resources, and control armies in live tactical warfare.</cite
-						>
-					</p>
-					<a href="rts.html" class="cta-button">Learn More</a>
-				</div>
-				<div class="author-card">
-					<a href="sports-simulation.html">
-						<img src="images/sportssimulation.jpg" alt="sports simulation" />
-						<h2>Sports Simulation</h2>
+			</nav>
+
+			<section class="hero-section">
+				<h1 class="page-title">GAMES: THE GENREVERSE</h1>
+				<div class="title-underline"></div>
+
+				<p class="hero-description">
+					Explore the vast and ever-evolving landscape of gaming, from
+					adrenaline-pumping first-person shooters to sprawling open-world RPGs
+					and intricate strategy titles. <br />
+					Discover the unique flavors that define each genre <b>here</b>.
+				</p>
+			</section>
+
+			<section class="content-section">
+				<div class="authors-container">
+					<div class="author-card">
+						<a href="battle-royale.html"
+							><img src="images/battleroyale.jpg" alt="battle royale"
+						/></a>
+						<h2>Battle Royale</h2>
 						<p>
 							<cite
-								>These games realistically emulate real-world sports, focusing
-								on skill, tactics, and team management.</cite
+								>Battle Royale games drop players into large maps to scavenge,
+								survive, and be the last one standing. <br /><br
+							/></cite>
+						</p>
+						<a href="battle-royale.html" class="cta-button">Learn More</a>
+					</div>
+					<div class="author-card">
+						<a href="dance.html"> <img src="images/dance.jpg" alt="dance" /></a>
+						<h2>Rhythm & Dance</h2>
+						<p>
+							<cite
+								>These games test players’ timing and coordination by matching
+								inputs to music beats. <br /><br
+							/></cite>
+						</p>
+						<a href="dance.html" class="cta-button">Learn More</a>
+					</div>
+					<div class="author-card">
+						<a href="fighting.html">
+							<img src="images/fighting.jpg" alt="fighting"
+						/></a>
+						<h2>Fighting</h2>
+						<p>
+							<cite
+								>Fighting games center on one-on-one combat, requiring
+								precision, combos, and timing to defeat opponents. <br /><br
+							/></cite>
+						</p>
+						<a href="fighting.html" class="cta-button">Learn More</a>
+					</div>
+					<div class="author-card">
+						<a href="fps.html">
+							<img src="images/fps.jpg" alt="fps" />
+						</a>
+						<h2>FPS</h2>
+						<p>
+							<cite
+								>First-Person Shooters focus on fast-paced, gun-based combat
+								from a first-person perspective. <br /><br
+							/></cite>
+						</p>
+						<a href="fps.html" class="cta-button">Learn More</a>
+					</div>
+					<div class="author-card">
+						<a href="mmorpg.html">
+							<img src="images/mmorpg.jpg" alt="mmorpg" />
+						</a>
+						<h2>MMORPG</h2>
+						<p>
+							<cite
+								>MMORPG Arena games offer large-scale fantasy battles where
+								players compete in PvP using customized characters and skills.
+								<br />
+								<br />
+							</cite>
+						</p>
+						<a href="mmorpg.html" class="cta-button">Learn More</a>
+					</div>
+					<div class="author-card">
+						<a href="moba.html">
+							<img src="images/moba.jpg" alt="moba" />
+						</a>
+						<h2>MOBA</h2>
+						<p>
+							<cite
+								>Multiplayer Online Battle Arena games involve strategic
+								team-based battles where players control unique heroes to
+								destroy the enemy base.</cite
 							>
 						</p>
-						<a href="sports-simulation.html" class="cta-button">Learn More</a>
-					</a>
+						<a href="moba.html" class="cta-button">Learn More</a>
+					</div>
+					<div class="author-card">
+						<a href="mobile-esports.html">
+							<img src="images/GenresMobile.jpg" alt="mobile esports" />
+						</a>
+						<h2>Mobile Esports</h2>
+						<p>
+							<cite
+								>Mobile esports are competitive games designed for smartphones,
+								known for accessibility and fast-paced gameplay. <br /><br
+							/></cite>
+						</p>
+						<a href="mobile-esports.html" class="cta-button">Learn More</a>
+					</div>
+					<div class="author-card">
+						<a href="racing.html">
+							<img src="images/racing.jpg" alt="racing" />
+						</a>
+						<h2>Racing</h2>
+						<p>
+							<cite
+								>Racing games simulate high-speed competition, testing players’
+								driving skills and reaction time. <br /><br
+							/></cite>
+						</p>
+						<a href="racing.html" class="cta-button">Learn More</a>
+					</div>
+					<div class="author-card">
+						<a href="rts.html">
+							<img src="images/rts.jpg" alt="rts" />
+						</a>
+						<h2>RTS</h2>
+						<p>
+							<cite
+								>Real-Time Strategy games challenge players to build, manage
+								resources, and control armies in live tactical warfare.
+								<br /><br
+							/></cite>
+						</p>
+						<a href="rts.html" class="cta-button">Learn More</a>
+					</div>
+					<div class="author-card">
+						<a href="sports-simulation.html">
+							<img src="images/sportssimulation.jpg" alt="sports simulation" />
+							<h2>Sports Simulation</h2>
+							<p>
+								<cite
+									>These games realistically emulate real-world sports, focusing
+									on skill, tactics, and team management. <br /><br
+								/></cite>
+							</p>
+							<a href="sports-simulation.html" class="cta-button">Learn More</a>
+						</a>
+					</div>
 				</div>
+			</section>
+
+			<div class="scroll-buttons">
+				<a href="#top" title="Go Up"
+					><i class="fa-solid fa-arrow-up fa-lg"></i
+				></a>
+				<a href="../../index.html" title="Home"
+					><i class="fa-solid fa-house fa-lg"></i
+				></a>
 			</div>
-		</section>
 
-		<footer class="footer">
-			<div class="footer-logo">
-				<img src="../../logo.png" alt="Esports logo" />
-				<span>EsportsEDU</span>
-			</div>
-
-			<div class="footer-names">
-				<div class="name-column">
-					<p>**Chua, Jenilyn Denise T.</p>
-					<p>Cortez, Vince Nicholai J.</p>
+			<footer class="footer">
+				<div class="footer-logo">
+					<img src="../../logo.png" alt="Esports logo" />
+					<span>EsportsEDU</span>
 				</div>
 
-				<div class="name-column">
-					<p>Doctor, Sean Simoun Lewis N.</p>
-					<p>Estrada, Gabriel Wayne C.</p>
-				</div>
+				<div class="footer-names">
+					<div class="name-column">
+						<p>**Chua, Jenilyn Denise T.</p>
+						<p>Cortez, Vince Nicholai J.</p>
+					</div>
 
-				<div class="name-column">
-					<p>Gallardo, Prince Wesley B.</p>
-					<p>Malicsi, Rain David P.</p>
-				</div>
+					<div class="name-column">
+						<p>Doctor, Sean Simoun Lewis N.</p>
+						<p>Estrada, Gabriel Wayne C.</p>
+					</div>
 
-				<div class="name-column">
-					<p>Maranion, Jewella Marie A.</p>
-					<p>Merida, Luis Daniel T.</p>
-				</div>
+					<div class="name-column">
+						<p>Gallardo, Prince Wesley B.</p>
+						<p>Malicsi, Rain David P.</p>
+					</div>
 
-				<div class="name-column">
-					<p>Prima, Lance Robert C.</p>
-					<p>Valencia, Yancy Jarell D.</p>
+					<div class="name-column">
+						<p>Maranion, Jewella Marie A.</p>
+						<p>Merida, Luis Daniel T.</p>
+					</div>
+
+					<div class="name-column">
+						<p>Prima, Lance Robert C.</p>
+						<p>Valencia, Yancy Jarell D.</p>
+					</div>
 				</div>
-			</div>
-		</footer>
+			</footer>
+		</div>
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 	</body>

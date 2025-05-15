@@ -20,451 +20,538 @@
 			href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@300;400;500;600;700&display=swap"
 			rel="stylesheet"
 		/>
+		<script
+			src="https://kit.fontawesome.com/203f7bcb2a.js"
+			crossorigin="anonymous"
+		></script>
 		<link rel="stylesheet" href="genre.css" />
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg sticky-top">
-			<div class="container-fluid px-5">
-				<a
-					class="navbar-brand d-flex align-items-center gap-2"
-					href="../../index.html"
-				>
-					<img src="../../logo.png" alt="Logo" class="logo-img" />
-					<h1>EsportsEDU</h1>
-				</a>
+		<div id="top"></div>
 
-				<button
-					class="navbar-toggler text-white"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarContent"
-					aria-controls="navbarContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
+		<div class="scroll-container position-relative">
+			<nav class="navbar navbar-expand-lg sticky-top">
+				<div class="container-fluid px-5">
+					<a
+						class="navbar-brand d-flex align-items-center gap-2"
+						href="../../index.html"
+					>
+						<img src="../../logo.png" alt="Logo" class="logo-img" />
+						<h1>EsportsEDU</h1>
+					</a>
 
-				<div
-					class="collapse navbar-collapse justify-content-end"
-					id="navbarContent"
-				>
-					<ul class="navbar-nav gap-3">
-						<li class="nav-item">
-							<a class="nav-link" href="../../index.html">HOME</a>
-						</li>
-
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle nav-link active"
-								aria-current="page"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								GAMES
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a class="dropdown-item" href="genre-home.html">GENRES</a>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Games/Tournaments/tourna-home.html"
-										>TOURNAMENTS</a
-									>
-								</li>
-							</ul>
-						</li>
-
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								CAREER
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Career/Teams&Players/players-team.html"
-										>TEAMS & PLAYERS</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Career/Education/edu.html"
-										>EDUCATION</a
-									>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../Technology/tech.html"
-								>TECHNOLOGY</a
-							>
-						</li>
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								COMMUNITY
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Streaming&Content/streaming-home.html"
-										>STREAMING & CONTENT</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Culture/culture-home.html"
-										>CULTURE</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Rules&Ethics/rules.html"
-										>RULES & ETHICS</a
-									>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../Gallery/gallery.html">GALLERY</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../about/about.html">ABOUT US</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-
-		<!-- Main Content -->
-		<main>
-			<div class="container">
-				<!-- Hero Section -->
-				<section class="hero-section">
-					<h1 class="page-title">Fighting Games</h1>
-					<div class="title-underline"></div>
+					<button
+						class="navbar-toggler text-white"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarContent"
+						aria-controls="navbarContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<i class="fa-solid fa-bars fa-lg" style="color: #00f5d4"></i>
+					</button>
 
 					<div
-						class="btn-group custom-btn-group"
-						role="group"
-						aria-label="Basic radio toggle button group"
+						class="collapse navbar-collapse justify-content-end"
+						id="navbarContent"
 					>
-						<a
-							href="fighting.html"
-							class="btn btn-outline-pink btn-general active-sub-nav"
-							id="btn1"
-							>General Information</a
-						>
-						<a
-							href="fighting-games.html"
-							class="btn btn-outline-pink btn-popular"
-							id="btn2"
-							>Popular Games</a
-						>
+						<ul class="navbar-nav gap-3">
+							<li class="nav-item">
+								<a class="nav-link" href="../../index.html">HOME</a>
+							</li>
+
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle nav-link active"
+									aria-current="page"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									GAMES
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a class="dropdown-item" href="genre-home.html">GENRES</a>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Games/Tournaments/tourna-home.html"
+											>TOURNAMENTS</a
+										>
+									</li>
+								</ul>
+							</li>
+
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									CAREER
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Career/Teams&Players/players-team.html"
+											>TEAMS & PLAYERS</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Career/Education/edu.html"
+											>EDUCATION</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../Technology/tech.html"
+									>TECHNOLOGY</a
+								>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									COMMUNITY
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Streaming&Content/streaming-home.html"
+											>STREAMING & CONTENT</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Culture/culture-home.html"
+											>CULTURE</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Rules&Ethics/rules.html"
+											>RULES & ETHICS</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../Gallery/gallery.html"
+									>GALLERY</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../about/about.html">ABOUT US</a>
+							</li>
+						</ul>
 					</div>
-				</section>
+				</div>
+			</nav>
 
-				<!-- Definition Section -->
-				<section class="content-section">
-					<h2 class="section-title">What are Fighting Games Esports</h2>
-					<div class="content-card">
-						<div class="two-column">
-							<div class="column text-column">
-								<p>
-									Fighting games are a competitive genre where players choose
-									characters from a roster of unique fighters, each with their
-									own set of moves, strengths, and abilities. These characters
-									then engage in one-on-one battles, typically within an
-									enclosed arena, where the goal is to deplete the opponent’s
-									health bar before time runs out or the opponent depletes your
-									own.
-								</p>
-								<p>
-									The gameplay is structured in rounds, with each round offering
-									the opportunity to execute a combination of attacks, counters,
-									and special moves to gain the upper hand. Players often need
-									to master precise timing, reflexes, and specific input
-									combinations to unleash powerful moves or defend effectively
-									against their opponent’s actions. The complexity of the game
-									comes not only from learning these complex input sequences but
-									also from reading and predicting the opponent’s moves,
-									creating a dynamic blend of strategy, skill, and execution.
-								</p>
-							</div>
-							<div class="column image-column">
-								<div class="definition-image">
-									<img
-										src="images/Genre Esport Images/Fighting games.jpg"
-										alt="Fighting Esports Perspective"
-									/>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
+			<!-- Main Content -->
+			<main>
+				<div class="container">
+					<!-- Hero Section -->
+					<section class="hero-section">
+						<h1 class="page-title">Fighting Games</h1>
+						<div class="title-underline"></div>
 
-				<!-- History Section -->
-				<section class="content-section">
-					<h2 class="section-title">History</h2>
-					<div class="content-card">
-						<div class="timeline">
-							<div class="timeline-item">
-								<div class="timeline-date">1970s</div>
-								<div class="timeline-content">
-									<h3>Origins</h3>
-									<p>
-										Early interactive combat games like Heavyweight Champ (1976)
-										introduced one-on-one gameplay, setting the foundation for
-										fighting games. These basic PvP games established the
-										concept of combat mechanics in a gaming environment.
-									</p>
-								</div>
-							</div>
-
-							<div class="timeline-item">
-								<div class="timeline-date">1980s</div>
-								<div class="timeline-content">
-									<h3>The Birth of Fighting Games</h3>
-									<p>
-										Karate Champ (1984) introduced joystick-based control and
-										one-on-one fighter mechanics, helping define the fighting
-										game genre. This era marked the shift towards more refined
-										gameplay systems in combat games.
-									</p>
-								</div>
-							</div>
-
-							<div class="timeline-item">
-								<div class="timeline-date">1990s</div>
-								<div class="timeline-content">
-									<h3>The Golden Age & Competitive Explosion</h3>
-									<p>
-										Street Fighter II (1991) revolutionized fighting games with
-										combo-based combat and diverse characters, igniting
-										competitive arcade gaming. The release of Mortal Kombat
-										(1992) introduced graphic violence and fatalities, expanding
-										the genre’s appeal.
-									</p>
-								</div>
-							</div>
-
-							<div class="timeline-item">
-								<div class="timeline-date">2000s</div>
-								<div class="timeline-content">
-									<h3>The Transition to Home Consoles and Online Play</h3>
-									<p>
-										Fighting games transitioned to home consoles with titles
-										like Soulcalibur II (2002), broadening the genre’s audience.
-										Online play emerged, connecting players globally and making
-										competitive play more accessible.
-									</p>
-								</div>
-							</div>
-
-							<div class="timeline-item">
-								<div class="timeline-date">2010s</div>
-								<div class="timeline-content">
-									<h3>The Rise of Esports and Global Competitions</h3>
-									<p>
-										The FGC gained prominence through events like EVO, with
-										games like Street Fighter IV (2009) driving the competitive
-										scene. Super Smash Bros. Ultimate (2018) and Tekken 7 (2017)
-										boosted global popularity with expanded rosters and refined
-										gameplay.
-									</p>
-								</div>
-							</div>
-
-							<div class="timeline-item">
-								<div class="timeline-date">2020s</div>
-								<div class="timeline-content">
-									<h3>The Evolution of Fighting Games in the Digital Age</h3>
-									<p>
-										Dragon Ball FighterZ (2018) and Guilty Gear Strive (2021)
-										advanced visuals and integrated deeper stories, attracting
-										new players. Cross-platform play and cloud gaming expanded
-										global competition, cementing fighting games as an esports
-										staple.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-
-				<!-- Current State Section -->
-				<section class="content-section">
-					<h2 class="section-title">Current State of Fighting Game</h2>
-					<div class="content-card">
-						<div class="two-column">
-							<div class="column text-column">
-								<p>
-									The fighting game genre is still very much alive, especially
-									with recent releases like Tekken 8, Street Fighter 6, and
-									Mortal Kombat 1. These games continue to be competitive
-									esports titles, supported by strong player communities and
-									annual tournaments. While the genre is no longer as mainstream
-									as shooters or open-world RPGs, it has a loyal global fanbase
-									and is considered one of the pillars of the competitive gaming
-									scene.
-								</p>
-							</div>
-						</div>
-					</div>
-				</section>
-
-				<!-- Regional Popularity Section -->
-				<section class="content-section">
-					<h2 class="section-title">Regional Popularity</h2>
-					<div class="content-card">
-						<div class="region-map">
-							<img
-								src="/IMAGE/popularity.png"
-								alt="World Map Showing Mobile Esports Popularity"
-							/>
-						</div>
-
-						<div class="regions-grid">
-							<div class="region-card">
-								<div class="region-icon north-america"></div>
-								<h3>Japan</h3>
-								<p>
-									Fighting games are deeply rooted in Japan’s arcade culture,
-									where they have been a major part of the gaming landscape for
-									decades. Games like Tekken and Street Fighter have a
-									particularly large following, with dedicated players and
-									regular tournament scenes across the country.
-								</p>
-								<div class="popularity-meter high"></div>
-							</div>
-
-							<div class="region-card">
-								<div class="region-icon europe"></div>
-								<h3>South Korea</h3>
-								<p>
-									South Korea has a rich esports tradition, and Tekken is one of
-									the most popular fighting games due to its long-standing
-									presence in arcades and its competitive scene. The game’s
-									technical depth and strategic play style have made it a staple
-									in both casual and professional gaming circles.
-								</p>
-								<div class="popularity-meter high"></div>
-							</div>
-
-							<div class="region-card">
-								<div class="region-icon asia"></div>
-								<h3>USA</h3>
-								<p>
-									In the United States, Mortal Kombat has become a cultural
-									phenomenon, particularly known for its iconic fatalities and
-									competitive gameplay. Street Fighter also enjoys a large
-									fanbase, and the country hosts the Evolution Championship
-									Series (EVO), the world’s most famous fighting game
-									tournament, solidifying its importance in the competitive
-									scene.
-								</p>
-								<div class="popularity-meter medium"></div>
-							</div>
-
-							<div class="region-card">
-								<div class="region-icon south-america"></div>
-								<h3>Europe and Latin America</h3>
-								<p>
-									Fighting games in Europe and Latin America have moderate to
-									high popularity, with regions like Brazil and Mexico
-									developing strong communities around games like Mortal Kombat
-									and Street Fighter. These areas are known for passionate
-									fanbases and host many local tournaments, contributing to the
-									global fighting game culture.
-								</p>
-								<div class="popularity-meter medium"></div>
-							</div>
-						</div>
-					</div>
-				</section>
-
-				<div class="accordion custom-accordion" id="accordionExample">
-					<div class="accordion-item">
-						<h2 class="accordion-header">
-							<button
-								class="accordion-button collapsed"
-								type="button"
-								data-bs-toggle="collapse"
-								data-bs-target="#collapseTwo"
-								aria-expanded="false"
-								aria-controls="collapseTwo"
-							>
-								References
-							</button>
-						</h2>
 						<div
-							id="collapseTwo"
-							class="accordion-collapse collapse"
-							data-bs-parent="#accordionExample"
+							class="btn-group custom-btn-group"
+							role="group"
+							aria-label="Basic radio toggle button group"
 						>
-							<div class="accordion-body">
-								This is the second item’s accordion body. It is hidden by
-								default…
+							<a
+								href="fighting.html"
+								class="btn btn-outline-pink btn-general active-sub-nav"
+								id="btn1"
+								>General Information</a
+							>
+							<a
+								href="fighting-games.html"
+								class="btn btn-outline-pink btn-popular"
+								id="btn2"
+								>Popular Games</a
+							>
+						</div>
+					</section>
+
+					<!-- Definition Section -->
+					<section class="content-section">
+						<h2 class="section-title">What are Fighting Games Esports</h2>
+						<div class="content-card">
+							<div class="two-column">
+								<div class="column text-column">
+									<p>
+										Fighting games are a competitive genre where players choose
+										characters from a roster of unique fighters, each with their
+										own set of moves, strengths, and abilities. These characters
+										then engage in one-on-one battles, typically within an
+										enclosed arena, where the goal is to deplete the opponent’s
+										health bar before time runs out or the opponent depletes
+										your own.
+									</p>
+									<p>
+										The gameplay is structured in rounds, with each round
+										offering the opportunity to execute a combination of
+										attacks, counters, and special moves to gain the upper hand.
+										Players often need to master precise timing, reflexes, and
+										specific input combinations to unleash powerful moves or
+										defend effectively against their opponent’s actions. The
+										complexity of the game comes not only from learning these
+										complex input sequences but also from reading and predicting
+										the opponent’s moves, creating a dynamic blend of strategy,
+										skill, and execution.
+									</p>
+								</div>
+								<div class="column image-column">
+									<div class="definition-image">
+										<img
+											src="images/Genre Esport Images/Fighting games.jpg"
+											alt="Fighting Esports Perspective"
+										/>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- History Section -->
+					<section class="content-section">
+						<h2 class="section-title">History</h2>
+						<div class="content-card">
+							<div class="timeline">
+								<div class="timeline-item">
+									<div class="timeline-date">1970s</div>
+									<div class="timeline-content">
+										<h3>Origins</h3>
+										<p>
+											Early interactive combat games like Heavyweight Champ
+											(1976) introduced one-on-one gameplay, setting the
+											foundation for fighting games. These basic PvP games
+											established the concept of combat mechanics in a gaming
+											environment.
+										</p>
+									</div>
+								</div>
+
+								<div class="timeline-item">
+									<div class="timeline-date">1980s</div>
+									<div class="timeline-content">
+										<h3>The Birth of Fighting Games</h3>
+										<p>
+											Karate Champ (1984) introduced joystick-based control and
+											one-on-one fighter mechanics, helping define the fighting
+											game genre. This era marked the shift towards more refined
+											gameplay systems in combat games.
+										</p>
+									</div>
+								</div>
+
+								<div class="timeline-item">
+									<div class="timeline-date">1990s</div>
+									<div class="timeline-content">
+										<h3>The Golden Age & Competitive Explosion</h3>
+										<p>
+											Street Fighter II (1991) revolutionized fighting games
+											with combo-based combat and diverse characters, igniting
+											competitive arcade gaming. The release of Mortal Kombat
+											(1992) introduced graphic violence and fatalities,
+											expanding the genre’s appeal.
+										</p>
+									</div>
+								</div>
+
+								<div class="timeline-item">
+									<div class="timeline-date">2000s</div>
+									<div class="timeline-content">
+										<h3>The Transition to Home Consoles and Online Play</h3>
+										<p>
+											Fighting games transitioned to home consoles with titles
+											like Soulcalibur II (2002), broadening the genre’s
+											audience. Online play emerged, connecting players globally
+											and making competitive play more accessible.
+										</p>
+									</div>
+								</div>
+
+								<div class="timeline-item">
+									<div class="timeline-date">2010s</div>
+									<div class="timeline-content">
+										<h3>The Rise of Esports and Global Competitions</h3>
+										<p>
+											The FGC gained prominence through events like EVO, with
+											games like Street Fighter IV (2009) driving the
+											competitive scene. Super Smash Bros. Ultimate (2018) and
+											Tekken 7 (2017) boosted global popularity with expanded
+											rosters and refined gameplay.
+										</p>
+									</div>
+								</div>
+
+								<div class="timeline-item">
+									<div class="timeline-date">2020s</div>
+									<div class="timeline-content">
+										<h3>The Evolution of Fighting Games in the Digital Age</h3>
+										<p>
+											Dragon Ball FighterZ (2018) and Guilty Gear Strive (2021)
+											advanced visuals and integrated deeper stories, attracting
+											new players. Cross-platform play and cloud gaming expanded
+											global competition, cementing fighting games as an esports
+											staple.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- Current State Section -->
+					<section class="content-section">
+						<h2 class="section-title">Current State of Fighting Game</h2>
+						<div class="content-card">
+							<div class="two-column">
+								<div class="column text-column">
+									<p>
+										The fighting game genre is still very much alive, especially
+										with recent releases like Tekken 8, Street Fighter 6, and
+										Mortal Kombat 1. These games continue to be competitive
+										esports titles, supported by strong player communities and
+										annual tournaments. While the genre is no longer as
+										mainstream as shooters or open-world RPGs, it has a loyal
+										global fanbase and is considered one of the pillars of the
+										competitive gaming scene.
+									</p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- Regional Popularity Section -->
+					<section class="content-section">
+						<h2 class="section-title">Regional Popularity</h2>
+						<div class="content-card">
+							<div class="region-map">
+								<div
+									id="carouselExampleInterval"
+									class="carousel slide"
+									data-bs-ride="carousel"
+								>
+									<div class="carousel-inner">
+										<div class="carousel-item active" data-bs-interval="3000">
+											<img
+												src="./images/region/crowd1.jpg"
+												class="d-block w-100"
+												alt="Esports Crowd 1"
+											/>
+										</div>
+										<div class="carousel-item" data-bs-interval="3000">
+											<img
+												src="./images/region/crowd2.jpg"
+												class="d-block w-100"
+												alt="Esports Crowd 2"
+											/>
+										</div>
+										<div class="carousel-item" data-bs-interval="3000">
+											<img
+												src="./images/region/crowd3.jpg"
+												class="d-block w-100"
+												alt="Esports Crowd 3"
+											/>
+										</div>
+										<div class="carousel-item" data-bs-interval="3000">
+											<img
+												src="./images/region/crowd4.jpg"
+												class="d-block w-100"
+												alt="Esports Crowd 4"
+											/>
+										</div>
+										<div class="carousel-item" data-bs-interval="3000">
+											<img
+												src="./images/region/crowd5.jpg"
+												class="d-block w-100"
+												alt="Esports Crowd 5"
+											/>
+										</div>
+									</div>
+									<button
+										class="carousel-control-prev"
+										type="button"
+										data-bs-target="#carouselExampleInterval"
+										data-bs-slide="prev"
+									>
+										<span
+											class="carousel-control-prev-icon"
+											aria-hidden="true"
+										></span>
+										<span class="visually-hidden">Previous</span>
+									</button>
+									<button
+										class="carousel-control-next"
+										type="button"
+										data-bs-target="#carouselExampleInterval"
+										data-bs-slide="next"
+									>
+										<span
+											class="carousel-control-next-icon"
+											aria-hidden="true"
+										></span>
+										<span class="visually-hidden">Next</span>
+									</button>
+								</div>
+							</div>
+
+							<div class="regions-grid">
+								<div class="region-card">
+									<div class="region-icon north-america"></div>
+									<h3>Japan</h3>
+									<p>
+										Fighting games are deeply rooted in Japan’s arcade culture,
+										where they have been a major part of the gaming landscape
+										for decades. Games like Tekken and Street Fighter have a
+										particularly large following, with dedicated players and
+										regular tournament scenes across the country.
+									</p>
+									<div class="popularity-meter high"></div>
+								</div>
+
+								<div class="region-card">
+									<div class="region-icon europe"></div>
+									<h3>South Korea</h3>
+									<p>
+										South Korea has a rich esports tradition, and Tekken is one
+										of the most popular fighting games due to its long-standing
+										presence in arcades and its competitive scene. The game’s
+										technical depth and strategic play style have made it a
+										staple in both casual and professional gaming circles.
+									</p>
+									<div class="popularity-meter high"></div>
+								</div>
+
+								<div class="region-card">
+									<div class="region-icon asia"></div>
+									<h3>USA</h3>
+									<p>
+										In the United States, Mortal Kombat has become a cultural
+										phenomenon, particularly known for its iconic fatalities and
+										competitive gameplay. Street Fighter also enjoys a large
+										fanbase, and the country hosts the Evolution Championship
+										Series (EVO), the world’s most famous fighting game
+										tournament, solidifying its importance in the competitive
+										scene.
+									</p>
+									<div class="popularity-meter medium"></div>
+								</div>
+
+								<div class="region-card">
+									<div class="region-icon south-america"></div>
+									<h3>Europe and Latin America</h3>
+									<p>
+										Fighting games in Europe and Latin America have moderate to
+										high popularity, with regions like Brazil and Mexico
+										developing strong communities around games like Mortal
+										Kombat and Street Fighter. These areas are known for
+										passionate fanbases and host many local tournaments,
+										contributing to the global fighting game culture.
+									</p>
+									<div class="popularity-meter medium"></div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<div class="accordion custom-accordion" id="accordionExample">
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button
+									class="accordion-button collapsed"
+									type="button"
+									data-bs-toggle="collapse"
+									data-bs-target="#collapseTwo"
+									aria-expanded="false"
+									aria-controls="collapseTwo"
+								>
+									References
+								</button>
+							</h2>
+							<div
+								id="collapseTwo"
+								class="accordion-collapse collapse"
+								data-bs-parent="#accordionExample"
+							>
+								<div class="accordion-body">
+									This is the second item’s accordion body. It is hidden by
+									default…
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+			</main>
+
+			<div class="scroll-buttons">
+				<a href="../Genres/genre-home.html" title="Back"
+					><i class="fa-solid fa-arrow-left fa-lg"></i
+				></a>
+				<a href="#top" title="Go Up"
+					><i class="fa-solid fa-arrow-up fa-lg"></i
+				></a>
+				<a href="../../index.html" title="Home"
+					><i class="fa-solid fa-house fa-lg"></i
+				></a>
 			</div>
-		</main>
 
-		<footer class="footer">
-			<div class="footer-logo">
-				<img src="../../logo.png" alt="Esports logo" />
-				<span>EsportsEDU</span>
-			</div>
-
-			<div class="footer-names">
-				<div class="name-column">
-					<p>**Chua, Jenilyn Denise T.</p>
-					<p>Cortez, Vince Nicholai J.</p>
+			<footer class="footer">
+				<div class="footer-logo">
+					<img src="../../logo.png" alt="Esports logo" />
+					<span>EsportsEDU</span>
 				</div>
 
-				<div class="name-column">
-					<p>Doctor, Sean Simoun Lewis N.</p>
-					<p>Estrada, Gabriel Wayne C.</p>
-				</div>
+				<div class="footer-names">
+					<div class="name-column">
+						<p>**Chua, Jenilyn Denise T.</p>
+						<p>Cortez, Vince Nicholai J.</p>
+					</div>
 
-				<div class="name-column">
-					<p>Gallardo, Prince Wesley B.</p>
-					<p>Malicsi, Rain David P.</p>
-				</div>
+					<div class="name-column">
+						<p>Doctor, Sean Simoun Lewis N.</p>
+						<p>Estrada, Gabriel Wayne C.</p>
+					</div>
 
-				<div class="name-column">
-					<p>Maranion, Jewella Marie A.</p>
-					<p>Merida, Luis Daniel T.</p>
-				</div>
+					<div class="name-column">
+						<p>Gallardo, Prince Wesley B.</p>
+						<p>Malicsi, Rain David P.</p>
+					</div>
 
-				<div class="name-column">
-					<p>Prima, Lance Robert C.</p>
-					<p>Valencia, Yancy Jarell D.</p>
+					<div class="name-column">
+						<p>Maranion, Jewella Marie A.</p>
+						<p>Merida, Luis Daniel T.</p>
+					</div>
+
+					<div class="name-column">
+						<p>Prima, Lance Robert C.</p>
+						<p>Valencia, Yancy Jarell D.</p>
+					</div>
 				</div>
-			</div>
-		</footer>
+			</footer>
+		</div>
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 	</body>

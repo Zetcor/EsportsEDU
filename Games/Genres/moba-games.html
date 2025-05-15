@@ -20,577 +20,604 @@
 			href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@300;400;500;600;700&display=swap"
 			rel="stylesheet"
 		/>
+		<script
+			src="https://kit.fontawesome.com/203f7bcb2a.js"
+			crossorigin="anonymous"
+		></script>
 		<link rel="stylesheet" href="games.css" />
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg sticky-top">
-			<div class="container-fluid px-5">
-				<a
-					class="navbar-brand d-flex align-items-center gap-2"
-					href="../../index.html"
-				>
-					<img src="../../logo.png" alt="Logo" class="logo-img" />
-					<h1>EsportsEDU</h1>
-				</a>
+		<div id="top"></div>
 
-				<button
-					class="navbar-toggler text-white"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarContent"
-					aria-controls="navbarContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
+		<div class="scroll-container position-relative">
+			<nav class="navbar navbar-expand-lg sticky-top">
+				<div class="container-fluid px-5">
+					<a
+						class="navbar-brand d-flex align-items-center gap-2"
+						href="../../index.html"
+					>
+						<img src="../../logo.png" alt="Logo" class="logo-img" />
+						<h1>EsportsEDU</h1>
+					</a>
 
-				<div
-					class="collapse navbar-collapse justify-content-end"
-					id="navbarContent"
-				>
-					<ul class="navbar-nav gap-3">
-						<li class="nav-item">
-							<a class="nav-link" href="../../index.html">HOME</a>
-						</li>
-
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle nav-link active"
-								aria-current="page"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								GAMES
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a class="dropdown-item" href="genre-home.html">GENRES</a>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Games/Tournaments/tourna-home.html"
-										>TOURNAMENTS</a
-									>
-								</li>
-							</ul>
-						</li>
-
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								CAREER
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Career/Teams&Players/players-team.html"
-										>TEAMS & PLAYERS</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Career/Education/edu.html"
-										>EDUCATION</a
-									>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../Technology/tech.html"
-								>TECHNOLOGY</a
-							>
-						</li>
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								COMMUNITY
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Streaming&Content/streaming-home.html"
-										>STREAMING & CONTENT</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Culture/culture-home.html"
-										>CULTURE</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Rules&Ethics/rules.html"
-										>RULES & ETHICS</a
-									>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../Gallery/gallery.html">GALLERY</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../about/about.html">ABOUT US</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-
-		<!-- Main Content -->
-		<main>
-			<div class="container">
-				<!-- Hero Section -->
-				<section class="hero-section">
-					<h1 class="page-title">MOBA (Multiplayer Online Battle Arena)</h1>
-					<div class="title-underline"></div>
+					<button
+						class="navbar-toggler text-white"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarContent"
+						aria-controls="navbarContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<i class="fa-solid fa-bars fa-lg" style="color: #00f5d4"></i>
+					</button>
 
 					<div
-						class="btn-group custom-btn-group"
-						role="group"
-						aria-label="Basic radio toggle button group"
+						class="collapse navbar-collapse justify-content-end"
+						id="navbarContent"
 					>
-						<a
-							href="moba.html"
-							class="btn btn-outline-pink btn-general"
-							id="btn1"
-							>General Information</a
+						<ul class="navbar-nav gap-3">
+							<li class="nav-item">
+								<a class="nav-link" href="../../index.html">HOME</a>
+							</li>
+
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle nav-link active"
+									aria-current="page"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									GAMES
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a class="dropdown-item" href="genre-home.html">GENRES</a>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Games/Tournaments/tourna-home.html"
+											>TOURNAMENTS</a
+										>
+									</li>
+								</ul>
+							</li>
+
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									CAREER
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Career/Teams&Players/players-team.html"
+											>TEAMS & PLAYERS</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Career/Education/edu.html"
+											>EDUCATION</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../Technology/tech.html"
+									>TECHNOLOGY</a
+								>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									COMMUNITY
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Streaming&Content/streaming-home.html"
+											>STREAMING & CONTENT</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Culture/culture-home.html"
+											>CULTURE</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Rules&Ethics/rules.html"
+											>RULES & ETHICS</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../Gallery/gallery.html"
+									>GALLERY</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../about/about.html">ABOUT US</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+			<!-- Main Content -->
+			<main>
+				<div class="container">
+					<!-- Hero Section -->
+					<section class="hero-section">
+						<h1 class="page-title">MOBA (Multiplayer Online Battle Arena)</h1>
+						<div class="title-underline"></div>
+
+						<div
+							class="btn-group custom-btn-group"
+							role="group"
+							aria-label="Basic radio toggle button group"
 						>
-						<a
-							href="moba-games.html"
-							class="btn btn-outline-pink btn-popular active-sub-nav"
-							id="btn2"
-							>Popular Games</a
-						>
-					</div>
-				</section>
+							<a
+								href="moba.html"
+								class="btn btn-outline-pink btn-general"
+								id="btn1"
+								>General Information</a
+							>
+							<a
+								href="moba-games.html"
+								class="btn btn-outline-pink btn-popular active-sub-nav"
+								id="btn2"
+								>Popular Games</a
+							>
+						</div>
+					</section>
 
-				<!-- Popular Mobile Esports Games Section -->
-				<section class="content-section">
-					<h2 class="section-title">Popular MOBA Esports Games</h2>
-					<div class="content-card">
-						<div class="featured-image">
-							<img src="images/league.jpg" alt="Mobile Legends: Bang Bang" />
-						</div>
-						<div class="game-title">League of Legends</div>
-						<div class="game-meta">
-							Riot Games | July 14, 2016 | <span class="badge">PC</span>
-						</div>
-						<div class="game-description">
-							League of Legends is a team-based strategy game where two teams of
-							five powerful champions face off to destroy the other’s base. In
-							the game, two teams of five players battle in player-versus-player
-							combat, each team occupying and defending their half of the map.
-							Each of the ten players controls a character, known as a
-							"champion", with unique abilities and differing styles of play.
-							During a match, champions become more powerful by collecting
-							experience points, earning gold, and purchasing items to defeat
-							the opposing team. In League's main mode, Summoner's Rift, a team
-							wins by pushing through to the enemy base and destroying their
-							"Nexus", a large structure located within.
-						</div>
-						<div class="video">
-							<iframe
-								width="1319"
-								height="500"
-								src="https://www.youtube.com/embed/CLkkwgfWV1A?si=sZDVFn2752h2Ax7W"
-								title="TOP 10 PLAYS FROM M5 WORLD CHAMPIONSHIP… 🔥"
-								frameborder="0"
-								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-								referrerpolicy="strict-origin-when-cross-origin"
-								allowfullscreen
-								style="border-radius: 10px"
-							></iframe>
-						</div>
-						<div class="game-mechanics">
-							<div class="game-title">Game Mechanics:</div>
+					<!-- Popular Mobile Esports Games Section -->
+					<section class="content-section">
+						<h2 class="section-title">Popular MOBA Esports Games</h2>
+						<div class="content-card">
+							<div class="featured-image">
+								<img src="images/league.jpg" alt="Mobile Legends: Bang Bang" />
+							</div>
+							<div class="game-title">League of Legends</div>
+							<div class="game-meta">
+								Riot Games | July 14, 2016 | <span class="badge">PC</span>
+							</div>
 							<div class="game-description">
-								Summoner's Rift is the flagship game mode of League of Legends
-								and the most prominent in professional-level play. Two teams of
-								five champions battle to destroy the enemy's Nexus. Players
-								choose unique champions with specific roles and abilities,
-								navigating the Summoner's Rift map with its lanes and jungle.
-								They gain strength by earning experience and gold through
-								defeating minions, monsters, and enemy champions, using these
-								resources to level up and buy items. Securing objectives like
-								turrets, inhibitors, elemental dragons, and Baron Nashor
-								provides strategic advantages. Ultimately, teamwork, map
-								awareness, and skillful play are essential to outmaneuver the
-								enemy and achieve victory by destroying their Nexus.
+								League of Legends is a team-based strategy game where two teams
+								of five powerful champions face off to destroy the other’s base.
+								In the game, two teams of five players battle in
+								player-versus-player combat, each team occupying and defending
+								their half of the map. Each of the ten players controls a
+								character, known as a "champion", with unique abilities and
+								differing styles of play. During a match, champions become more
+								powerful by collecting experience points, earning gold, and
+								purchasing items to defeat the opposing team. In League's main
+								mode, Summoner's Rift, a team wins by pushing through to the
+								enemy base and destroying their "Nexus", a large structure
+								located within.
 							</div>
-						</div>
-
-						<div class="game-title">Featured Heroes:</div>
-						<div class="char-cards">
-							<div class="char-card">
-								<div class="char-image">
-									<img src="images/ahri.jpg" alt="ahri" />
-								</div>
-								<div class="char-info">
-									<h3>Ahri</h3>
-									<p class="role">Assassin</p>
-									<p class="description">
-										A captivating Vastayan with nine tails, Ahri possesses an
-										innate connection to the spirit realm. She is a cunning mage
-										who can charm opponents with her alluring magic, draining
-										their life force while darting around the battlefield with
-										fox-like agility.
-										<br />
-									</p>
-								</div>
+							<div class="video">
+								<iframe
+									width="1319"
+									height="500"
+									src="https://www.youtube.com/embed/CLkkwgfWV1A?si=sZDVFn2752h2Ax7W"
+									title="TOP 10 PLAYS FROM M5 WORLD CHAMPIONSHIP… 🔥"
+									frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+									referrerpolicy="strict-origin-when-cross-origin"
+									allowfullscreen
+									style="border-radius: 10px"
+								></iframe>
 							</div>
-
-							<div class="char-card">
-								<div class="char-image">
-									<img src="images/gragas.jpg" alt="gragas" />
-								</div>
-								<div class="char-info">
-									<h3>Gragas</h3>
-									<p class="role">Fighter</p>
-									<p class="description">
-										This large and jovial man is never far from his beloved
-										brew. Gragas is a powerful melee champion who barrels
-										through enemies, quite literally, with his explosive casks.
-										He's a disruptive force in team fights, capable of knocking
-										enemies out of position and dealing significant damage with
-										his potent concoctions.
-										<br />
-									</p>
-								</div>
-							</div>
-
-							<div class="char-card">
-								<div class="char-image">
-									<img src="images/ashe.jpg" alt="ahri" />
-								</div>
-								<div class="char-info">
-									<h3>Ashe</h3>
-									<p class="role">Marksman</p>
-									<p class="description">
-										As the Frost Archer and a leader among her people, Ashe is a
-										marksman of exceptional skill. Her arrows are often imbued
-										with frost, allowing her to slow and eventually stun her
-										targets.
-										<br />
-									</p>
-								</div>
-							</div>
-
 							<div class="game-mechanics">
-								<div class="game-title">Game Tournaments:</div>
+								<div class="game-title">Game Mechanics:</div>
 								<div class="game-description">
-									League of Legends boasts a well-established global esports
-									ecosystem, structured around regional professional leagues
-									such as the LCK, LPL, LEC, and LCS, which serve as pathways
-									for teams to qualify for prestigious international
-									competitions. The pinnacle of LoL esports is the annual League
-									of Legends World Championship (Worlds), where the top teams
-									from all regions clash for the world title.circuit.
+									Summoner's Rift is the flagship game mode of League of Legends
+									and the most prominent in professional-level play. Two teams
+									of five champions battle to destroy the enemy's Nexus. Players
+									choose unique champions with specific roles and abilities,
+									navigating the Summoner's Rift map with its lanes and jungle.
+									They gain strength by earning experience and gold through
+									defeating minions, monsters, and enemy champions, using these
+									resources to level up and buy items. Securing objectives like
+									turrets, inhibitors, elemental dragons, and Baron Nashor
+									provides strategic advantages. Ultimately, teamwork, map
+									awareness, and skillful play are essential to outmaneuver the
+									enemy and achieve victory by destroying their Nexus.
+								</div>
+							</div>
+
+							<div class="game-title">Featured Heroes:</div>
+							<div class="char-cards">
+								<div class="char-card">
+									<div class="char-image">
+										<img src="images/ahri.jpg" alt="ahri" />
+									</div>
+									<div class="char-info">
+										<h3>Ahri</h3>
+										<p class="role">Assassin</p>
+										<p class="description">
+											A captivating Vastayan with nine tails, Ahri possesses an
+											innate connection to the spirit realm. She is a cunning
+											mage who can charm opponents with her alluring magic,
+											draining their life force while darting around the
+											battlefield with fox-like agility.
+											<br />
+										</p>
+									</div>
+								</div>
+
+								<div class="char-card">
+									<div class="char-image">
+										<img src="images/gragas.jpg" alt="gragas" />
+									</div>
+									<div class="char-info">
+										<h3>Gragas</h3>
+										<p class="role">Fighter</p>
+										<p class="description">
+											This large and jovial man is never far from his beloved
+											brew. Gragas is a powerful melee champion who barrels
+											through enemies, quite literally, with his explosive
+											casks. He's a disruptive force in team fights, capable of
+											knocking enemies out of position and dealing significant
+											damage with his potent concoctions.
+											<br />
+										</p>
+									</div>
+								</div>
+
+								<div class="char-card">
+									<div class="char-image">
+										<img src="images/ashe.jpg" alt="ahri" />
+									</div>
+									<div class="char-info">
+										<h3>Ashe</h3>
+										<p class="role">Marksman</p>
+										<p class="description">
+											As the Frost Archer and a leader among her people, Ashe is
+											a marksman of exceptional skill. Her arrows are often
+											imbued with frost, allowing her to slow and eventually
+											stun her targets.
+											<br />
+										</p>
+									</div>
+								</div>
+
+								<div class="game-mechanics">
+									<div class="game-title">Game Tournaments:</div>
+									<div class="game-description">
+										League of Legends boasts a well-established global esports
+										ecosystem, structured around regional professional leagues
+										such as the LCK, LPL, LEC, and LCS, which serve as pathways
+										for teams to qualify for prestigious international
+										competitions. The pinnacle of LoL esports is the annual
+										League of Legends World Championship (Worlds), where the top
+										teams from all regions clash for the world title.circuit.
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-				</section>
+					</section>
 
-				<section class="content-section">
-					<div class="content-card">
-						<div class="featured-image">
-							<img src="images/dota.jpg" alt="Mobile Legends: Bang Bang" />
-						</div>
-						<div class="game-title">Dota 2</div>
-						<div class="game-meta">
-							Valve | July 14, 2016 | <span class="badge">PC</span>
-						</div>
-						<div class="game-description">
-							Dota 2 is an RTS-styled MOBA-type competitive team game with RPG
-							elements. Two competing teams (Radiant and Dire) consist of five
-							players each. The main objective in Dota 2 is to destroy the enemy
-							Ancient inside their stronghold. These strongholds are protected
-							by multiple towers down 3 lanes. Instead of building armies of
-							units like in classical RTS games, each player controls a single
-							Hero, a strategically-powerful unit with unique abilities and
-							characteristics which can be improved over the course of the game.
-						</div>
-						<div class="video">
-							<iframe
-								width="1319"
-								height="500"
-								src="https://www.youtube.com/embed/GQL8YDs6uNA"
-								title="TOP-25 Best Plays of TI13 The International 2024 - Dota 2"
-								frameborder="0"
-								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-								referrerpolicy="strict-origin-when-cross-origin"
-								allowfullscreen
-								style="border-radius: 10px"
-							></iframe>
-						</div>
-						<div class="game-mechanics">
-							<div class="game-title">Game Mechanics:</div>
+					<section class="content-section">
+						<div class="content-card">
+							<div class="featured-image">
+								<img src="images/dota.jpg" alt="Mobile Legends: Bang Bang" />
+							</div>
+							<div class="game-title">Dota 2</div>
+							<div class="game-meta">
+								Valve | July 14, 2016 | <span class="badge">PC</span>
+							</div>
 							<div class="game-description">
-								Two competing teams (Radiant and Dire) consist of five players
-								each. The main objective in Dota 2 is to destroy the enemy
-								Ancient inside their stronghold. These strongholds are protected
-								by multiple towers down 3 lanes. Instead of building armies of
-								units like in classical RTS games, each player controls a single
-								Hero, a strategically-powerful unit with unique abilities and
-								characteristics which can be improved over the course of the
-								game. Experience is earned when nearby creeps and heroes die,
-								and once collecting enough experience, the hero gains a level,
-								which increases the hero's stats, and at most levels the hero
-								gains a skill point which can be spent to unlock or upgrade one
-								of the hero's abilities. Alongside a hero's fixed abilities,
-								each hero has 6 inventory slots which can be filled with Items
-								which provide various benefits and abilities. To purchase these
-								items, Gold is gained passively over time, by killing creeps, by
-								killing enemy heroes and by destroying buildings.
+								Dota 2 is an RTS-styled MOBA-type competitive team game with RPG
+								elements. Two competing teams (Radiant and Dire) consist of five
+								players each. The main objective in Dota 2 is to destroy the
+								enemy Ancient inside their stronghold. These strongholds are
+								protected by multiple towers down 3 lanes. Instead of building
+								armies of units like in classical RTS games, each player
+								controls a single Hero, a strategically-powerful unit with
+								unique abilities and characteristics which can be improved over
+								the course of the game.
 							</div>
-						</div>
-
-						<div class="game-title">Featured Heroes:</div>
-						<div class="char-cards">
-							<div class="char-card">
-								<div class="char-image">
-									<img src="images/mars.jpg" alt="ahri" />
-								</div>
-								<div class="char-info">
-									<h3>Mars</h3>
-									<p class="role">Assassin</p>
-									<p class="description">
-										The warrior deity Mars thrives in the heart of strife,
-										guarded by the bulk of a deadly shield, an impenetrable
-										Bulwark that guards against all assault.
-										<br />
-									</p>
-								</div>
+							<div class="video">
+								<iframe
+									width="1319"
+									height="500"
+									src="https://www.youtube.com/embed/GQL8YDs6uNA"
+									title="TOP-25 Best Plays of TI13 The International 2024 - Dota 2"
+									frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+									referrerpolicy="strict-origin-when-cross-origin"
+									allowfullscreen
+									style="border-radius: 10px"
+								></iframe>
 							</div>
-
-							<div class="char-card">
-								<div class="char-image">
-									<img src="images/TemplarAsass.jpg" alt="gragas" />
-								</div>
-								<div class="char-info">
-									<h3>Templar Assasin</h3>
-									<p class="role">Fighter</p>
-									<p class="description">
-										Slows down enemies with traps. Bending the laws of nature
-										itself, Lanaya forms a Refraction field that absorbs
-										incoming blows, yet amplifies outgoing attacks.
-										<br />
-									</p>
-								</div>
-							</div>
-
-							<div class="char-card">
-								<div class="char-image">
-									<img src="images/puck.jpg" alt="ahri" />
-								</div>
-								<div class="char-info">
-									<h3>Puck</h3>
-									<p class="role">Mage</p>
-									<p class="description">
-										Puck is a highly mobile and elusive faerie dragon known for
-										its unpredictable movements and potent magical abilities.  
-
-										<br />
-									</p>
-								</div>
-							</div>
-
 							<div class="game-mechanics">
-								<div class="game-title">Game Tournaments:</div>
+								<div class="game-title">Game Mechanics:</div>
 								<div class="game-description">
-									Dota 2's tournament scene blends Valve-sponsored and
-									third-party events, with The International standing out as the
-									annual world championship renowned for its immense,
-									community-funded prize pools. The Dota Pro Circuit (DPC) is a
-									year-long series of regional leagues and major tournaments
-									orchestrated by Valve, where top-performing teams accumulate
-									points to secure direct invitations to The International.
+									Two competing teams (Radiant and Dire) consist of five players
+									each. The main objective in Dota 2 is to destroy the enemy
+									Ancient inside their stronghold. These strongholds are
+									protected by multiple towers down 3 lanes. Instead of building
+									armies of units like in classical RTS games, each player
+									controls a single Hero, a strategically-powerful unit with
+									unique abilities and characteristics which can be improved
+									over the course of the game. Experience is earned when nearby
+									creeps and heroes die, and once collecting enough experience,
+									the hero gains a level, which increases the hero's stats, and
+									at most levels the hero gains a skill point which can be spent
+									to unlock or upgrade one of the hero's abilities. Alongside a
+									hero's fixed abilities, each hero has 6 inventory slots which
+									can be filled with Items which provide various benefits and
+									abilities. To purchase these items, Gold is gained passively
+									over time, by killing creeps, by killing enemy heroes and by
+									destroying buildings.
+								</div>
+							</div>
+
+							<div class="game-title">Featured Heroes:</div>
+							<div class="char-cards">
+								<div class="char-card">
+									<div class="char-image">
+										<img src="images/mars.jpg" alt="ahri" />
+									</div>
+									<div class="char-info">
+										<h3>Mars</h3>
+										<p class="role">Assassin</p>
+										<p class="description">
+											The warrior deity Mars thrives in the heart of strife,
+											guarded by the bulk of a deadly shield, an impenetrable
+											Bulwark that guards against all assault.
+											<br />
+										</p>
+									</div>
+								</div>
+
+								<div class="char-card">
+									<div class="char-image">
+										<img src="images/TemplarAsass.jpg" alt="gragas" />
+									</div>
+									<div class="char-info">
+										<h3>Templar Assasin</h3>
+										<p class="role">Fighter</p>
+										<p class="description">
+											Slows down enemies with traps. Bending the laws of nature
+											itself, Lanaya forms a Refraction field that absorbs
+											incoming blows, yet amplifies outgoing attacks.
+											<br />
+										</p>
+									</div>
+								</div>
+
+								<div class="char-card">
+									<div class="char-image">
+										<img src="images/puck.jpg" alt="ahri" />
+									</div>
+									<div class="char-info">
+										<h3>Puck</h3>
+										<p class="role">Mage</p>
+										<p class="description">
+											Puck is a highly mobile and elusive faerie dragon known
+											for its unpredictable movements and potent magical
+											abilities.  
+
+											<br />
+										</p>
+									</div>
+								</div>
+
+								<div class="game-mechanics">
+									<div class="game-title">Game Tournaments:</div>
+									<div class="game-description">
+										Dota 2's tournament scene blends Valve-sponsored and
+										third-party events, with The International standing out as
+										the annual world championship renowned for its immense,
+										community-funded prize pools. The Dota Pro Circuit (DPC) is
+										a year-long series of regional leagues and major tournaments
+										orchestrated by Valve, where top-performing teams accumulate
+										points to secure direct invitations to The International.
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-				</section>
+					</section>
 
-				<section class="content-section">
-					<div class="content-card">
-						<div class="featured-image">
-							<img src="images/league.jpg" alt="Mobile Legends: Bang Bang" />
-						</div>
-						<div class="game-title">Smite</div>
-						<div class="game-meta">
-							Titan Forge Games | March 25, 2014 | <span class="badge">PC</span>
-						</div>
-						<div class="game-description">
-							Unlike other MOBAs, SMITE puts you directly onto the battlefield
-							with a third-person action viewpoint. From blind-side ambushes to
-							aimed shots, a new pantheon of strategic possibilities awaits.
-							Unleash each deity’s unique strategies, legendary weapons, and
-							earth-shattering powers. Rain lightning down upon your foes as
-							Zeus, assassinate from the shadows as Loki, or transform and trick
-							your foes as the Monkey King, Sun Wukong. Which God will you
-							choose?
-						</div>
-						<div class="video">
-							<iframe
-								width="1319"
-								height="500"
-								src="https://www.youtube.com/embed/0jL-zF5wf1I?si=wdSFzJScAB7pRgV8"
-								title="TOP 10 PLAYS FROM M5 WORLD CHAMPIONSHIP… 🔥"
-								frameborder="0"
-								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-								referrerpolicy="strict-origin-when-cross-origin"
-								allowfullscreen
-								style="border-radius: 10px"
-							></iframe>
-						</div>
-						<div class="game-mechanics">
-							<div class="game-title">Game Mechanics:</div>
+					<section class="content-section">
+						<div class="content-card">
+							<div class="featured-image">
+								<img src="images/league.jpg" alt="Mobile Legends: Bang Bang" />
+							</div>
+							<div class="game-title">Smite</div>
+							<div class="game-meta">
+								Titan Forge Games | March 25, 2014 |
+								<span class="badge">PC</span>
+							</div>
 							<div class="game-description">
-								Each game mode has a specific map it is played on, which is
-								separated into "lanes", where waves of computer-controlled
-								minions march toward the enemy base, and the "jungle", where
-								computer-controlled monsters periodically spawn at specific
-								locations distributed symmetrically across the map. Killing
-								monsters in said jungle grants experience points and gold;
-								killing certain monsters causes a "buff" to drop on the ground
-								which, when picked up by a player, grants temporary bonuses to
-								stats such as damage dealt, movement speed, and attack speed.
-								There are three special monsters who appear less frequently that
-								grant the team which lands the killing blow a set amount of
-								gold, as well as a temporary damage buff and speed boost when
-								coming out of the base.
+								Unlike other MOBAs, SMITE puts you directly onto the battlefield
+								with a third-person action viewpoint. From blind-side ambushes
+								to aimed shots, a new pantheon of strategic possibilities
+								awaits. Unleash each deity’s unique strategies, legendary
+								weapons, and earth-shattering powers. Rain lightning down upon
+								your foes as Zeus, assassinate from the shadows as Loki, or
+								transform and trick your foes as the Monkey King, Sun Wukong.
+								Which God will you choose?
 							</div>
-						</div>
-
-						<div class="game-title">Featured Heroes:</div>
-						<div class="char-cards">
-							<div class="char-card">
-								<div class="char-image">
-									<img src="images/merlin.jpg" alt="ahri" />
-								</div>
-								<div class="char-info">
-									<h3>Merlin</h3>
-									<p class="role">Assassin</p>
-									<p class="description">
-										A powerful mage from the Arthurian pantheon, Merlin is a
-										master of elemental magic, switching between Arcane, Fire,
-										and Ice stances to unleash a variety of damaging spells and
-										control the battlefield. His ultimate allows him to tap into
-										his inner potential, dealing damage and shifting to a new
-										stance.
-										<br />
-									</p>
-								</div>
+							<div class="video">
+								<iframe
+									width="1319"
+									height="500"
+									src="https://www.youtube.com/embed/0jL-zF5wf1I?si=wdSFzJScAB7pRgV8"
+									title="TOP 10 PLAYS FROM M5 WORLD CHAMPIONSHIP… 🔥"
+									frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+									referrerpolicy="strict-origin-when-cross-origin"
+									allowfullscreen
+									style="border-radius: 10px"
+								></iframe>
 							</div>
-
-							<div class="char-card">
-								<div class="char-image">
-									<img src="images/atlas.jpg" alt="gragas" />
-								</div>
-								<div class="char-info">
-									<h3>Atlas</h3>
-									<p class="role">Fighter</p>
-									<p class="description">
-										The Titan of the Cosmos from the Greek pantheon, Atlas is a
-										Guardian who wields the universe within his Astrolabe. He
-										excels at controlling space, pulling enemies, and cleansing
-										slows from his allies while hindering his foes with slows
-										and displacement. His ultimate unleashes a powerful cosmic
-										beam that shreds enemy protections.
-										<br />
-									</p>
-								</div>
-							</div>
-
-							<div class="char-card">
-								<div class="char-image">
-									<img src="images/neith.jpg" alt="ahri" />
-								</div>
-								<div class="char-info">
-									<h3>Neith</h3>
-									<p class="role">Marksman</p>
-									<p class="description">
-										A Hunter from the Egyptian pantheon, Neith is the Weaver of
-										Fate. She is a versatile ranged attacker known for her
-										strategic use of World Weavers (deployable weaves that can
-										heal allies, damage enemies, and be used for mobility) and
-										her global ultimate, which fires a piercing arrow that can
-										snipe enemies across the map.
-										<br />
-									</p>
-								</div>
-							</div>
-
 							<div class="game-mechanics">
-								<div class="game-title">Game Tournaments:</div>
+								<div class="game-title">Game Mechanics:</div>
 								<div class="game-description">
-									Smite's esports scene is largely driven by its developer,
-									Hi-Rez Studios, with the Smite World Championship (SWC)
-									serving as its premier annual event. The Smite Pro League
-									(SPL) represents the primary professional league, historically
-									featuring teams from North America and Europe, and its season
-									culminates in the SWC.
+									Each game mode has a specific map it is played on, which is
+									separated into "lanes", where waves of computer-controlled
+									minions march toward the enemy base, and the "jungle", where
+									computer-controlled monsters periodically spawn at specific
+									locations distributed symmetrically across the map. Killing
+									monsters in said jungle grants experience points and gold;
+									killing certain monsters causes a "buff" to drop on the ground
+									which, when picked up by a player, grants temporary bonuses to
+									stats such as damage dealt, movement speed, and attack speed.
+									There are three special monsters who appear less frequently
+									that grant the team which lands the killing blow a set amount
+									of gold, as well as a temporary damage buff and speed boost
+									when coming out of the base.
+								</div>
+							</div>
+
+							<div class="game-title">Featured Heroes:</div>
+							<div class="char-cards">
+								<div class="char-card">
+									<div class="char-image">
+										<img src="images/merlin.jpg" alt="ahri" />
+									</div>
+									<div class="char-info">
+										<h3>Merlin</h3>
+										<p class="role">Assassin</p>
+										<p class="description">
+											A powerful mage from the Arthurian pantheon, Merlin is a
+											master of elemental magic, switching between Arcane, Fire,
+											and Ice stances to unleash a variety of damaging spells
+											and control the battlefield. His ultimate allows him to
+											tap into his inner potential, dealing damage and shifting
+											to a new stance.
+											<br />
+										</p>
+									</div>
+								</div>
+
+								<div class="char-card">
+									<div class="char-image">
+										<img src="images/atlas.jpg" alt="gragas" />
+									</div>
+									<div class="char-info">
+										<h3>Atlas</h3>
+										<p class="role">Fighter</p>
+										<p class="description">
+											The Titan of the Cosmos from the Greek pantheon, Atlas is
+											a Guardian who wields the universe within his Astrolabe.
+											He excels at controlling space, pulling enemies, and
+											cleansing slows from his allies while hindering his foes
+											with slows and displacement. His ultimate unleashes a
+											powerful cosmic beam that shreds enemy protections.
+											<br />
+										</p>
+									</div>
+								</div>
+
+								<div class="char-card">
+									<div class="char-image">
+										<img src="images/neith.jpg" alt="ahri" />
+									</div>
+									<div class="char-info">
+										<h3>Neith</h3>
+										<p class="role">Marksman</p>
+										<p class="description">
+											A Hunter from the Egyptian pantheon, Neith is the Weaver
+											of Fate. She is a versatile ranged attacker known for her
+											strategic use of World Weavers (deployable weaves that can
+											heal allies, damage enemies, and be used for mobility) and
+											her global ultimate, which fires a piercing arrow that can
+											snipe enemies across the map.
+											<br />
+										</p>
+									</div>
+								</div>
+
+								<div class="game-mechanics">
+									<div class="game-title">Game Tournaments:</div>
+									<div class="game-description">
+										Smite's esports scene is largely driven by its developer,
+										Hi-Rez Studios, with the Smite World Championship (SWC)
+										serving as its premier annual event. The Smite Pro League
+										(SPL) represents the primary professional league,
+										historically featuring teams from North America and Europe,
+										and its season culminates in the SWC.
+									</div>
 								</div>
 							</div>
 						</div>
+					</section>
+				</div>
+			</main>
+
+			<div class="scroll-buttons">
+				<a href="../Genres/genre-home.html" title="Back"
+					><i class="fa-solid fa-arrow-left fa-lg"></i
+				></a>
+				<a href="#top" title="Go Up"
+					><i class="fa-solid fa-arrow-up fa-lg"></i
+				></a>
+				<a href="../../index.html" title="Home"
+					><i class="fa-solid fa-house fa-lg"></i
+				></a>
+			</div>
+
+			<footer class="footer">
+				<div class="footer-logo">
+					<img src="../../logo.png" alt="Esports logo" />
+					<span>EsportsEDU</span>
+				</div>
+
+				<div class="footer-names">
+					<div class="name-column">
+						<p>**Chua, Jenilyn Denise T.</p>
+						<p>Cortez, Vince Nicholai J.</p>
 					</div>
-				</section>
-			</div>
-		</main>
 
-		<footer class="footer">
-			<div class="footer-logo">
-				<img src="../../logo.png" alt="Esports logo" />
-				<span>EsportsEDU</span>
-			</div>
+					<div class="name-column">
+						<p>Doctor, Sean Simoun Lewis N.</p>
+						<p>Estrada, Gabriel Wayne C.</p>
+					</div>
 
-			<div class="footer-names">
-				<div class="name-column">
-					<p>**Chua, Jenilyn Denise T.</p>
-					<p>Cortez, Vince Nicholai J.</p>
+					<div class="name-column">
+						<p>Gallardo, Prince Wesley B.</p>
+						<p>Malicsi, Rain David P.</p>
+					</div>
+
+					<div class="name-column">
+						<p>Maranion, Jewella Marie A.</p>
+						<p>Merida, Luis Daniel T.</p>
+					</div>
+
+					<div class="name-column">
+						<p>Prima, Lance Robert C.</p>
+						<p>Valencia, Yancy Jarell D.</p>
+					</div>
 				</div>
-
-				<div class="name-column">
-					<p>Doctor, Sean Simoun Lewis N.</p>
-					<p>Estrada, Gabriel Wayne C.</p>
-				</div>
-
-				<div class="name-column">
-					<p>Gallardo, Prince Wesley B.</p>
-					<p>Malicsi, Rain David P.</p>
-				</div>
-
-				<div class="name-column">
-					<p>Maranion, Jewella Marie A.</p>
-					<p>Merida, Luis Daniel T.</p>
-				</div>
-
-				<div class="name-column">
-					<p>Prima, Lance Robert C.</p>
-					<p>Valencia, Yancy Jarell D.</p>
-				</div>
-			</div>
-		</footer>
+			</footer>
+		</div>
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 	</body>
