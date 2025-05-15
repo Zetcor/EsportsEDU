@@ -56,7 +56,7 @@ h6 {
 
 p {
 	margin-bottom: 1rem;
-	font-size: 1.1rem;
+	font-size: 1.25rem;
 }
 
 img {
@@ -296,15 +296,14 @@ span {
 }
 
 .intro-section {
-	display: flex;
-	justify-content: center;
-	align-items: stretch;
-	text-align: center;
-	padding: 2rem;
-	gap: 1.5rem;
 	background-color: white;
 	border-radius: var(--border-radius);
 	box-shadow: var(--box-shadow);
+	padding: 2rem;
+}
+
+.equal-height-row {
+	min-height: 100%;
 }
 
 .intro-textarea {
@@ -337,6 +336,38 @@ span {
 	text-align: left;
 }
 
+.intro-section .row {
+	align-items: stretch;
+}
+
+.intro-image {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: var(--navy);
+	border-radius: var(--border-radius);
+	overflow: hidden;
+	box-shadow: var(--box-shadow);
+}
+
+.intro-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: inherit;
+}
+
+.intro-box {
+	background-color: hsla(267, 72%, 63%, 0.5);
+	color: var(--navy);
+	border-radius: var(--border-radius);
+	padding: 2rem;
+	box-shadow: var(--box-shadow);
+	font-size: 1.2rem;
+	height: 100%;
+}
+
 .hero-section {
 	text-align: center;
 	padding: 3rem 0;
@@ -357,13 +388,6 @@ span {
 	margin: 0 auto 2rem;
 }
 
-.casual-professional {
-	display: flex;
-	justify-content: center;
-	align-items: stretch;
-	gap: 2rem;
-}
-
 .casual-list li {
 	list-style-type: disc;
 	list-style-position: inside;
@@ -372,7 +396,6 @@ span {
 }
 
 .casual-pro-box {
-	flex: 1;
 	background-color: hsla(267, 72%, 63%, 0.5);
 	color: var(--navy);
 	border-radius: var(--border-radius);
@@ -384,7 +407,8 @@ span {
 	min-height: 100%;
 }
 
-.fa-solid {
+.casual-pro-box .fa-solid,
+.intro-box .fa-solid {
 	margin-right: 10px;
 }
 
@@ -407,25 +431,6 @@ span {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-}
-
-.venue-img img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	overflow: hidden;
-	border-radius: var(--border-radius);
-	max-width: 400px;
-}
-
-.intro-box {
-	background-color: hsla(267, 72%, 63%, 0.5);
-	color: var(--navy);
-	border-radius: var(--border-radius);
-	padding: 2rem;
-	box-shadow: var(--box-shadow);
-	text-align: left;
-	font-size: 1.2rem;
 }
 
 /* Responsive Styles */
@@ -533,4 +538,35 @@ span {
 .custom-accordion .accordion-button:focus {
 	box-shadow: none;
 	border: none;
+}
+
+/* Home and Go Up */
+.scroll-buttons {
+	position: sticky;
+	bottom: 20px;
+	right: 0;
+	display: flex;
+	justify-content: flex-end;
+	gap: 10px;
+	z-index: 1030;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: -20px;
+}
+
+.scroll-buttons a {
+	background-color: var(--navy);
+	color: var(--light-gray);
+	padding: 20px;
+	border-radius: 8px;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: background-color 0.2s;
+}
+
+.scroll-buttons a:hover {
+	background-color: var(--pink);
+	color: var(--navy);
 }
