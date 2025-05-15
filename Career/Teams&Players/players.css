@@ -525,9 +525,9 @@ span {
 	height: 200px;
 	border-radius: 4px;
 	margin-bottom: 15px;
-	overflow: hidden;
-	object-position: top;
 	object-fit: cover;
+	object-position: top;
+	background-color: var(--navy);
 }
 
 .author-card h2 {
