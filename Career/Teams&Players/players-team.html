@@ -20,731 +20,776 @@
 			href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@300;400;500;600;700&display=swap"
 			rel="stylesheet"
 		/>
+		<script
+			src="https://kit.fontawesome.com/203f7bcb2a.js"
+			crossorigin="anonymous"
+		></script>
 		<link rel="stylesheet" href="players-team.css" />
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg sticky-top">
-			<div class="container-fluid px-5">
-				<a
-					class="navbar-brand d-flex align-items-center gap-2"
-					href="../../index.html"
-				>
-					<img src="../../logo.png" alt="Logo" class="logo-img" />
-					<h1>EsportsEDU</h1>
-				</a>
+		<div id="top"></div>
 
-				<button
-					class="navbar-toggler text-white"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarContent"
-					aria-controls="navbarContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
-				<div
-					class="collapse navbar-collapse justify-content-end"
-					id="navbarContent"
-				>
-					<ul class="navbar-nav gap-3">
-						<li class="nav-item">
-							<a class="nav-link" href="../../index.html">HOME</a>
-						</li>
-
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								GAMES
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Games/Genres/genre-home.html"
-										>GENRES</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Games/Tournaments/tourna-home.html"
-										>TOURNAMENTS</a
-									>
-								</li>
-							</ul>
-						</li>
-
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle nav-link active"
-								aria-current="page"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								CAREER
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a class="dropdown-item" href="players-team.html"
-										>TEAMS & PLAYERS</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Career/Education/edu.html"
-										>EDUCATION</a
-									>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../Technology/tech.html"
-								>TECHNOLOGY</a
-							>
-						</li>
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								COMMUNITY
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Streaming&Content/streaming-home.html"
-										>STREAMING & CONTENT</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Culture/culture-home.html"
-										>CULTURE</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Rules&Ethics/rules.html"
-										>RULES & ETHICS</a
-									>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../Gallery/gallery.html">GALLERY</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../about/about.html">ABOUT US</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-
-		<main>
-			<div class="container">
-				<section class="hero-section">
-					<h1 class="page-title">Teams and Players</h1>
-					<div class="title-underline"></div>
-					<div
-						class="btn-group custom-btn-group"
-						role="group"
-						aria-label="Basic radio toggle button group"
+		<div class="scroll-container position-relative">
+			<nav class="navbar navbar-expand-lg sticky-top">
+				<div class="container-fluid px-5">
+					<a
+						class="navbar-brand d-flex align-items-center gap-2"
+						href="../../index.html"
 					>
-						<a href="#ML" class="btn btn-outline-navy btn-size" id="btn1"
-							>Mobile Legends</a
-						>
-						<a href="#LOL" class="btn btn-outline-navy btn-size" id="btn2"
-							>League of Legends</a
-						>
-						<a href="#Valo" class="btn btn-outline-navy btn-size" id="btn3"
-							>Valorant</a
-						>
-						<a href="#CS" class="btn btn-outline-navy btn-size" id="btn4"
-							>Counter-Strike 2</a
-						>
-						<a href="#Dota" class="btn btn-outline-navy btn-size" id="btn5"
-							>DOTA 2</a
-						>
+						<img src="../../logo.png" alt="Logo" class="logo-img" />
+						<h1>EsportsEDU</h1>
+					</a>
+
+					<button
+						class="navbar-toggler text-white"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarContent"
+						aria-controls="navbarContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<i class="fa-solid fa-bars fa-lg" style="color: #00f5d4"></i>
+					</button>
+
+					<div
+						class="collapse navbar-collapse justify-content-end"
+						id="navbarContent"
+					>
+						<ul class="navbar-nav gap-3">
+							<li class="nav-item">
+								<a class="nav-link" href="../../index.html">HOME</a>
+							</li>
+
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									GAMES
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Games/Genres/genre-home.html"
+											>GENRES</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Games/Tournaments/tourna-home.html"
+											>TOURNAMENTS</a
+										>
+									</li>
+								</ul>
+							</li>
+
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle nav-link active"
+									aria-current="page"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									CAREER
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a class="dropdown-item" href="players-team.html"
+											>TEAMS & PLAYERS</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Career/Education/edu.html"
+											>EDUCATION</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../Technology/tech.html"
+									>TECHNOLOGY</a
+								>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									COMMUNITY
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Streaming&Content/streaming-home.html"
+											>STREAMING & CONTENT</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Culture/culture-home.html"
+											>CULTURE</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Rules&Ethics/rules.html"
+											>RULES & ETHICS</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../Gallery/gallery.html"
+									>GALLERY</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../about/about.html">ABOUT US</a>
+							</li>
+						</ul>
 					</div>
-				</section>
+				</div>
+			</nav>
 
-				<!-- Mobile Legends Teams -->
-				<section class="content-section" id="ML">
-					<h2 class="team-header">Mobile Legends</h2>
-					<div class="team-section">
-						<div class="team-textarea">
-							<div class="team-subheader">
-								<h3>Top 5 Mobile Legends Esports Teams</h3>
-							</div>
-							<div class="team-text">
-								<p>
-									Meet the teams bringing relentless energy and tactical
-									brilliance to the Land of Dawn. The Mobile Legends squads are
-									here to take the fight to the top.
-								</p>
-							</div>
-							<div class="teams">
-								<div class="team-box">
-									<div class="team-logo">
-										<a href="apbren.html"
-											><img
-												src="images/logo-imgs/apbr.png"
-												alt="Black List International Logo"
-										/></a>
+			<main>
+				<div class="container">
+					<section class="hero-section">
+						<h1 class="page-title">Teams and Players</h1>
+						<div class="title-underline"></div>
+						<div
+							class="btn-group custom-btn-group"
+							role="group"
+							aria-label="Basic radio toggle button group"
+						>
+							<a href="#ML" class="btn btn-outline-navy btn-size" id="btn1"
+								>Mobile Legends</a
+							>
+							<a href="#LOL" class="btn btn-outline-navy btn-size" id="btn2"
+								>League of Legends</a
+							>
+							<a href="#Valo" class="btn btn-outline-navy btn-size" id="btn3"
+								>Valorant</a
+							>
+							<a href="#CS" class="btn btn-outline-navy btn-size" id="btn4"
+								>Counter-Strike 2</a
+							>
+							<a href="#Dota" class="btn btn-outline-navy btn-size" id="btn5"
+								>DOTA 2</a
+							>
+						</div>
+					</section>
+
+					<!-- Mobile Legends Teams -->
+					<section class="content-section" id="ML">
+						<h2 class="team-header">Mobile Legends</h2>
+						<div class="team-section">
+							<div class="team-textarea">
+								<div class="team-subheader">
+									<h3>Top 5 Mobile Legends Esports Teams</h3>
+								</div>
+								<div class="team-text">
+									<p>
+										Meet the teams bringing relentless energy and tactical
+										brilliance to the Land of Dawn. The Mobile Legends squads
+										are here to take the fight to the top.
+									</p>
+								</div>
+								<div class="teams">
+									<div class="team-box">
+										<div class="team-logo">
+											<a href="apbren.html"
+												><img
+													src="images/logo-imgs/apbr.png"
+													alt="Black List International Logo"
+											/></a>
+										</div>
+										<div class="team-info">
+											<h3>APBR</h3>
+											<p>
+												The pride of the Philippines, AP.Bren brings explosive
+												energy and surgical precision to every match!
+											</p>
+											<a href="apbren.html" class="cta-button">Learn More</a>
+										</div>
 									</div>
-									<div class="team-info">
-										<h3>APBR</h3>
-										<p>
-											The pride of the Philippines, AP.Bren brings explosive
-											energy and surgical precision to every match!
-										</p>
-										<a href="apbren.html" class="cta-button">Learn More</a>
+
+									<div class="team-box">
+										<div class="team-logo">
+											<a href="onic.html"
+												><img
+													src="images/logo-imgs/onic.JPG"
+													alt="Onic PH Logo"
+											/></a>
+										</div>
+										<div class="team-info">
+											<h3>Onic PH</h3>
+											<p>
+												Fast, fearless, and fiercely disciplined — ONIC PH is a
+												mobile legends juggernaut in motion.
+											</p>
+											<a href="onic.html" class="cta-button">Learn More</a>
+										</div>
+									</div>
+
+									<div class="team-box">
+										<div class="team-logo">
+											<a href="echo.html"
+												><img
+													src="images/logo-imgs/tlph.jpg"
+													alt="Echo PH Logo"
+											/></a>
+										</div>
+										<div class="team-info">
+											<h3>Echo PH</h3>
+											<p>
+												With unstoppable momentum and a tidal wave of talent,
+												ECHO PH crashes through opponents like a storm!
+											</p>
+											<a href="echo.html" class="cta-button">Learn More</a>
+										</div>
 									</div>
 								</div>
 
-								<div class="team-box">
-									<div class="team-logo">
-										<a href="onic.html"
-											><img src="images/logo-imgs/onic.JPG" alt="Onic PH Logo"
-										/></a>
-									</div>
-									<div class="team-info">
-										<h3>Onic PH</h3>
-										<p>
-											Fast, fearless, and fiercely disciplined — ONIC PH is a
-											mobile legends juggernaut in motion.
-										</p>
-										<a href="onic.html" class="cta-button">Learn More</a>
-									</div>
-								</div>
+								<br />
 
-								<div class="team-box">
-									<div class="team-logo">
-										<a href="echo.html"
-											><img src="images/logo-imgs/tlph.jpg" alt="Echo PH Logo"
-										/></a>
+								<div class="teams">
+									<div class="team-box">
+										<div class="team-logo">
+											<a href="blacklist.html"
+												><img
+													src="images/logo-imgs/blacklist.jpg"
+													alt="Black List International Logo"
+											/></a>
+										</div>
+										<div class="team-info">
+											<h3>BLACKLIST INTERNATIONAL</h3>
+											<p>
+												Strategic, dominant, and internationally acclaimed,
+												Blacklist International is a force that redefined Mobile
+												Legends esports.
+											</p>
+											<a href="blacklist.html" class="cta-button">Learn More</a>
+										</div>
 									</div>
-									<div class="team-info">
-										<h3>Echo PH</h3>
-										<p>
-											With unstoppable momentum and a tidal wave of talent, ECHO
-											PH crashes through opponents like a storm!
-										</p>
-										<a href="echo.html" class="cta-button">Learn More</a>
-									</div>
-								</div>
-							</div>
 
-							<br />
-
-							<div class="teams">
-								<div class="team-box">
-									<div class="team-logo">
-										<a href="blacklist.html"
-											><img
-												src="images/logo-imgs/blacklist.jpg"
-												alt="Black List International Logo"
-										/></a>
-									</div>
-									<div class="team-info">
-										<h3>BLACKLIST</h3>
-										<p>
-											Strategic, dominant, and internationally acclaimed – Blacklist International: a force that redefined Mobile Legends esports.
-										</p>
-										<a href="blacklist.html" class="cta-button">Learn More</a>
-									</div>
-								</div>
-
-								<div class="team-box">
-									<div class="team-logo">
-										<a href="btk.html"
-											><img src="images/logo-imgs/btk.jpg" alt="BTK Logo"
-										/></a>
-									</div>
-									<div class="team-info">
-										<h3>BloodThirstyKings</h3>
-										<p>
-											From North American underdogs to global contenders – BTK: defying expectations in the Mobile Legends arena
-										</p>
-										<a href="btk.html" class="cta-button">Learn More</a>
+									<div class="team-box">
+										<div class="team-logo">
+											<a href="btk.html"
+												><img src="images/logo-imgs/btk.jpg" alt="BTK Logo"
+											/></a>
+										</div>
+										<div class="team-info">
+											<h3>BloodThirstyKings</h3>
+											<p>
+												From North American underdogs to global contenders, BTK
+												is defying expectations in the Mobile Legends arena.
+												<br /><br />
+											</p>
+											<a href="btk.html" class="cta-button">Learn More</a>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-				</section>
+					</section>
 
-				<!-- League of Legends Teams -->
-				<section class="content-section" id="LOL">
-					<h2 class="team-header">League of Legends</h2>
-					<div class="team-section">
-						<div class="team-textarea">
-							<div class="team-subheader">
-								<h3>Top 5 League of Legends Esports Teams</h3>
-							</div>
-							<div class="team-text">
-								<p>
-									Meet the teams ready to rule the Rift. The League of Legends
-									lineup combines raw talent with strategic mastery. Watch them
-									turn every match into a statement.
-								</p>
-							</div>
-							<div class="teams">
-								<div class="team-box">
-									<div class="team-logo">
-										<a href="t1.html"
-											><img src="images/logo-imgs/t1.jpg" alt=""
-										/></a>
+					<!-- League of Legends Teams -->
+					<section class="content-section" id="LOL">
+						<h2 class="team-header">League of Legends</h2>
+						<div class="team-section">
+							<div class="team-textarea">
+								<div class="team-subheader">
+									<h3>Top 5 League of Legends Esports Teams</h3>
+								</div>
+								<div class="team-text">
+									<p>
+										Meet the teams ready to rule the Rift. The League of Legends
+										lineup combines raw talent with strategic mastery. Watch
+										them turn every match into a statement.
+									</p>
+								</div>
+								<div class="teams">
+									<div class="team-box">
+										<div class="team-logo">
+											<a href="t1.html"
+												><img src="images/logo-imgs/t1.jpg" alt=""
+											/></a>
+										</div>
+										<div class="team-info">
+											<h3>T1</h3>
+											<p>
+												Led by the legendary Faker, T1 is the dynasty that
+												defines greatness in League of Legends history.
+											</p>
+											<a href="t1.html" class="cta-button">Learn More</a>
+										</div>
 									</div>
-									<div class="team-info">
-										<h3>T1</h3>
-										<p>
-											Led by the legendary Faker, T1 is the dynasty that defines
-											greatness in League of Legends history.
-										</p>
-										<a href="t1.html" class="cta-button">Learn More</a>
+
+									<div class="team-box">
+										<div class="team-logo">
+											<a href="geng.html"
+												><img src="images/logo-imgs/geng.png" alt=""
+											/></a>
+										</div>
+										<div class="team-info">
+											<h3>Gen.G</h3>
+											<p>
+												With ice-cold precision and a champion’s mindset, Gen.G
+												dominates every lane and every late game.
+											</p>
+											<a href="geng.html" class="cta-button">Learn More</a>
+										</div>
+									</div>
+
+									<div class="team-box">
+										<div class="team-logo">
+											<a href="jdg.html"
+												><img src="images/logo-imgs/jdg.png" alt=""
+											/></a>
+										</div>
+										<div class="team-info">
+											<h3>JD Gaming</h3>
+											<p>
+												A powerhouse from China, JD Gaming delivers raw
+												aggression and unrivaled synergy on the Rift.
+											</p>
+											<a href="jdg.html" class="cta-button">Learn More</a>
+										</div>
 									</div>
 								</div>
 
-								<div class="team-box">
-									<div class="team-logo">
-										<a href="geng.html"
-											><img src="images/logo-imgs/geng.png" alt=""
-										/></a>
-									</div>
-									<div class="team-info">
-										<h3>Gen.G</h3>
-										<p>
-											With ice-cold precision and a champion’s mindset, Gen.G
-											dominates every lane and every late game.
-										</p>
-										<a href="geng.html" class="cta-button">Learn More</a>
-									</div>
-								</div>
+								<br />
 
-								<div class="team-box">
-									<div class="team-logo">
-										<a href="jdg.html"
-											><img src="images/logo-imgs/jdg.png" alt=""
-										/></a>
+								<div class="teams">
+									<div class="team-box">
+										<div class="team-logo">
+											<a href="cloud9.html"
+												><img src="images/logo-imgs/c9.jpg" alt="Cloud 9 Logo"
+											/></a>
+										</div>
+										<div class="team-info">
+											<h3>CLOUD 9</h3>
+											<p>
+												A legacy forged in dominance, a banner raised in North
+												America, Cloud9 is a titan of League of Legends, forever
+												chasing the Summoner's Cup
+											</p>
+											<a href="cloud9.html" class="cta-button">Learn More</a>
+										</div>
 									</div>
-									<div class="team-info">
-										<h3>JD Gaming</h3>
-										<p>
-											A powerhouse from China, JD Gaming delivers raw aggression
-											and unrivaled synergy on the Rift.
-										</p>
-										<a href="jdg.html" class="cta-button">Learn More</a>
-									</div>
-								</div>
-							</div>
 
-							<br />
-
-							<div class="teams">
-								<div class="team-box">
-									<div class="team-logo">
-										<a href="cloud9.html"
-											><img
-												src="images/logo-imgs/c9.jpg"
-												alt="Cloud 9 Logo"
-										/></a>
-									</div>
-									<div class="team-info">
-										<h3>CLOUD 9</h3>
-										<p>
-											A legacy forged in dominance, a banner raised in North America – Cloud9: a titan of League of Legends, forever chasing the Summoner's Cup
-										</p>
-										<a href="cloud9.html" class="cta-button">Learn More</a>
-									</div>
-								</div>
-
-								<div class="team-box">
-									<div class="team-logo">
-										<a href="g2.html"
-											><img src="images/logo-imgs/g2.jpg" alt="G2 Logo"
-										/></a>
-									</div>
-									<div class="team-info">
-										<h3>G2</h3>
-										<p>
-											Bold, brash, and boasting a trophy cabinet overflowing with European titles – G2 Esports: a League of Legends powerhouse with a hunger for international glory.
-										</p>
-										<a href="g2.html" class="cta-button">Learn More</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-
-				<!-- Valorant Teams -->
-				<section class="content-section" id="Valo">
-					<h2 class="team-header">Valorant</h2>
-					<div class="team-section">
-						<div class="team-textarea">
-							<div class="team-subheader">
-								<h3>Top 5 Valorant Esports Teams</h3>
-							</div>
-							<div class="team-text">
-								<p>
-									Meet the teams that turns split-second decisions into
-									game-winning moments. The VALORANT roster is built for
-									precision, power, and pure clutch. Every round is theirs to
-									take.
-								</p>
-							</div>
-							<div class="teams">
-								<div class="team-box">
-									<div class="team-logo">
-										<a href="sentinels.html"
-											><img src="images/logo-imgs/sens.png" alt=""
-										/></a>
-									</div>
-									<div class="team-info">
-										<h3>Sentinels</h3>
-										<p>
-											The kings of clutch, Sentinels are known for turning
-											pressure into pure brilliance and domination.
-										</p>
-										<a href="sentinels.html" class="cta-button">Learn More</a>
-									</div>
-								</div>
-
-								<div class="team-box">
-									<div class="team-logo">
-										<a href="loud.html"
-											><img src="images/logo-imgs/loud.png" alt=""
-										/></a>
-									</div>
-									<div class="team-info">
-										<h3>LOUD</h3>
-										<p>
-											With passionate fans and fearless plays, LOUD brings Latin
-											firepower to the global Valorant stage.
-										</p>
-										<a href="loud.html" class="cta-button">Learn More</a>
-									</div>
-								</div>
-
-								<div class="team-box">
-									<div class="team-logo">
-										<a href="fnatic.html"
-											><img src="images/logo-imgs/fnatic.jpg" alt=""
-										/></a>
-									</div>
-									<div class="team-info">
-										<h3>Fnatic</h3>
-										<p>
-											One of Europe’s most iconic orgs, Fnatic mixes legacy and
-											lethal aim to stay at the top of the game.
-										</p>
-										<a href="fnatic.html" class="cta-button">Learn More</a>
-									</div>
-								</div>
-							</div>
-
-							<br />
-
-							<div class="teams">
-								<div class="team-box">
-									<div class="team-logo">
-										<a href="paperrex.html"
-											><img
-												src="images/logo-imgs/prx.jpg"
-												alt="PRX Logo"
-										/></a>
-									</div>
-									<div class="team-info">
-										<h3>PRX</h3>
-										<p>
-											Unleashing chaos with calculated aggression, a Pacific powerhouse – Paper Rex: rewriting the rules of engagement in Valorant.
-										</p>
-										<a href="paperrex.html" class="cta-button">Learn More</a>
-									</div>
-								</div>
-
-								<div class="team-box">
-									<div class="team-logo">
-										<a href="evilgeniuses.html"
-											><img src="images/logo-imgs/eg.jpg" alt="EG Logo"
-										/></a>
-									</div>
-									<div class="team-info">
-										<h3>Evil Geniuses</h3>
-										<p>
-											A storied organization with a legacy of innovation and championship grit – Evil Geniuses: a name synonymous with North American esports excellence across multiple titles.
-										</p>
-										<a href="evilgeniuses.html" class="cta-button">Learn More</a>
+									<div class="team-box">
+										<div class="team-logo">
+											<a href="g2.html"
+												><img src="images/logo-imgs/g2.jpg" alt="G2 Logo"
+											/></a>
+										</div>
+										<div class="team-info">
+											<h3>G2</h3>
+											<p>
+												Bold, brash, and boasting a trophy cabinet overflowing
+												with European titles, G2 Esports is a powerhouse with a
+												hunger for international glory.
+											</p>
+											<a href="g2.html" class="cta-button">Learn More</a>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-				</section>
+					</section>
 
-				<!-- CS2 -->
-				<section class="content-section" id="CS">
-					<h2 class="team-header">Counter-Strike 2</h2>
-					<div class="team-section">
-						<div class="team-textarea">
-							<div class="team-subheader">
-								<h3>Top 5 Counter-Strike 2 Esports Teams</h3>
-							</div>
-							<div class="team-text">
-								<p>
-									Meet the teams with nerves of steel and aim to match. The CS2
-									squads brings tactical brilliance and explosive firepower to
-									every map. They don’t just play the game, they own it.
-								</p>
-							</div>
-							<div class="teams">
-								<div class="team-box">
-									<div class="team-logo">
-										<a href="navi.html"
-											><img src="images/logo-imgs/navi.png" alt=""
-										/></a>
+					<!-- Valorant Teams -->
+					<section class="content-section" id="Valo">
+						<h2 class="team-header">Valorant</h2>
+						<div class="team-section">
+							<div class="team-textarea">
+								<div class="team-subheader">
+									<h3>Top 5 Valorant Esports Teams</h3>
+								</div>
+								<div class="team-text">
+									<p>
+										Meet the teams that turns split-second decisions into
+										game-winning moments. The VALORANT roster is built for
+										precision, power, and pure clutch. Every round is theirs to
+										take.
+									</p>
+								</div>
+								<div class="teams">
+									<div class="team-box">
+										<div class="team-logo">
+											<a href="sentinels.html"
+												><img src="images/logo-imgs/sens.png" alt=""
+											/></a>
+										</div>
+										<div class="team-info">
+											<h3>Sentinels</h3>
+											<p>
+												The kings of clutch, Sentinels are known for turning
+												pressure into pure brilliance and domination.
+											</p>
+											<a href="sentinels.html" class="cta-button">Learn More</a>
+										</div>
 									</div>
-									<div class="team-info">
-										<h3>NAVI</h3>
-										<p>
-											Born to aim and built to win, NAVI is a relentless force
-											with sharpshooting legends in its ranks.
-										</p>
-										<a href="navi.html" class="cta-button">Learn More</a>
+
+									<div class="team-box">
+										<div class="team-logo">
+											<a href="loud.html"
+												><img src="images/logo-imgs/loud.png" alt=""
+											/></a>
+										</div>
+										<div class="team-info">
+											<h3>LOUD</h3>
+											<p>
+												With passionate fans and fearless plays, LOUD brings
+												Latin firepower to the global Valorant stage.
+											</p>
+											<a href="loud.html" class="cta-button">Learn More</a>
+										</div>
+									</div>
+
+									<div class="team-box">
+										<div class="team-logo">
+											<a href="fnatic.html"
+												><img src="images/logo-imgs/fnatic.jpg" alt=""
+											/></a>
+										</div>
+										<div class="team-info">
+											<h3>Fnatic</h3>
+											<p>
+												One of Europe’s most iconic orgs, Fnatic mixes legacy
+												and lethal aim to stay at the top of the game.
+											</p>
+											<a href="fnatic.html" class="cta-button">Learn More</a>
+										</div>
 									</div>
 								</div>
 
-								<div class="team-box">
-									<div class="team-logo">
-										<a href="faze.html"
-											><img src="images/logo-imgs/faze.png" alt=""
-										/></a>
-									</div>
-									<div class="team-info">
-										<h3>FaZe Clan</h3>
-										<p>
-											Fueled by superstar firepower and ice-cold clutches, FaZe
-											Clan defines highlight-reel CS.
-										</p>
-										<a href="faze.html" class="cta-button">Learn More</a>
-									</div>
-								</div>
+								<br />
 
-								<div class="team-box">
-									<div class="team-logo">
-										<a href="spiritcs.html"
-											><img src="images/logo-imgs/spirit.png" alt=""
-										/></a>
+								<div class="teams">
+									<div class="team-box">
+										<div class="team-logo">
+											<a href="paperrex.html"
+												><img src="images/logo-imgs/prx.jpg" alt="PRX Logo"
+											/></a>
+										</div>
+										<div class="team-info">
+											<h3>PRX</h3>
+											<p>
+												Unleashing chaos with calculated aggression, Paper Rex
+												is rewriting the rules of engagement in Valorant.
+											</p>
+											<a href="paperrex.html" class="cta-button">Learn More</a>
+										</div>
 									</div>
-									<div class="team-info">
-										<h3>Team Spirit</h3>
-										<p>
-											They’ve conquered Dota, and now they’re turning heads in
-											CS2 with tactical brilliance and bold aggression.
-										</p>
-										<a href="spiritcs.html" class="cta-button">Learn More</a>
-									</div>
-								</div>
-							</div>
 
-							<br />
-
-							<div class="teams">
-								<div class="team-box">
-									<div class="team-logo">
-										<a href="teammouz.html"
-											><img
-												src="images/logo-imgs/mouz.jpg"
-												alt="MOUZ Logo"
-										/></a>
-									</div>
-									<div class="team-info">
-										<h3>MOUZ</h3>
-										<p>
-											From seasoned strategists to rising stars, a legacy built on precision and teamwork – MOUZ: a Counter-Strike force with a history of cultivating champions.
-										</p>
-										<a href="teammouz.html" class="cta-button">Learn More</a>
-									</div>
-								</div>
-
-								<div class="team-box">
-									<div class="team-logo">
-										<a href="teamvitality.html"
-											><img src="images/logo-imgs/vitality.jpg" alt="Vitality Logo"
-										/></a>
-									</div>
-									<div class="team-info">
-										<h3>Vitality</h3>
-										<p>
-											FForged in France, fueled by fierce competition across multiple esports – Team Vitality: a global contender with a hunger for victory in every arena
-										</p>
-										<a href="teamvitality.html" class="cta-button">Learn More</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-
-				<!-- Dota2 -->
-				<section class="content-section" id="Dota">
-					<h2 class="team-header">DOTA 2</h2>
-					<div class="team-section">
-						<div class="team-textarea">
-							<div class="team-subheader">
-								<h3>Top 5 DOTA 2 Esports Teams</h3>
-							</div>
-							<div class="team-text">
-								<p>
-									Meet the teams that thrives in chaos and controls the
-									battlefield. The Dota 2 legends are masters of momentum and
-									mind games. When they draft, they dominate.
-								</p>
-							</div>
-							<div class="teams">
-								<div class="team-box">
-									<div class="team-logo">
-										<a href="liquid.html"
-											><img src="images/logo-imgs/liquid.jpg" alt=""
-										/></a>
-									</div>
-									<div class="team-info">
-										<h3>Team Liquid</h3>
-										<p>
-											Team Liquid storms the scene with unmatched synergy,
-											fearless drafts, and relentless pursuit of championship
-											glory.
-										</p>
-										<a href="liquid.html" class="cta-button">Learn More</a>
-									</div>
-								</div>
-
-								<div class="team-box">
-									<div class="team-logo">
-										<a href="lgd.html"
-											><img src="images/logo-imgs/lgd.jpg" alt=""
-										/></a>
-									</div>
-									<div class="team-info">
-										<h3>LGD Gaming</h3>
-										<p>
-											A Chinese titan, LGD Gaming blends flawless execution with
-											deep strategy to strike fear into any roster.
-										</p>
-										<a href="lgd.html" class="cta-button">Learn More</a>
-									</div>
-								</div>
-
-								<div class="team-box">
-									<div class="team-logo">
-										<a href="spiritdota.html"
-											><img src="images/logo-imgs/spirit.png" alt=""
-										/></a>
-									</div>
-									<div class="team-info">
-										<h3>Team Spirit</h3>
-										<p>
-											From underdogs to legends, Team Spirit rewrote Dota
-											history with heart and hustle.
-										</p>
-										<a href="spiritdota.html" class="cta-button">Learn More</a>
-									</div>
-								</div>
-							</div>
-
-							<br />
-
-							<div class="teams">
-								<div class="team-box">
-									<div class="team-logo">
-										<a href="9pandas.html"
-											><img
-												src="images/logo-imgs/9pandas.jpg"
-												alt="9Pandas Logo"
-										/></a>
-									</div>
-									<div class="team-info">
-										<h3>9PANDAS</h3>
-										<p>
-											Emerging from the East with a blend of raw talent and strategic depth – 9Pandas: a rising force in the competitive Dota 2 landscape.
-										</p>
-										<a href="9pandas.html" class="cta-button">Learn More</a>
-									</div>
-								</div>
-
-								<div class="team-box">
-									<div class="team-logo">
-										<a href="gaimingladiators.html"
-											><img src="images/logo-imgs/gaimin.jpg" alt="GG Logo"
-										/></a>
-									</div>
-									<div class="team-info">
-										<h3>GAIMIN GLADIATORS</h3>
-										<p>
-											A global esports powerhouse, conquering titles across Dota 2, Counter-Strike, and beyond – Gaimin Gladiators: a symbol of relentless ambition and multi-game dominance.
-										</p>
-										<a href="gaimingladiators" class="cta-button">Learn More</a>
+									<div class="team-box">
+										<div class="team-logo">
+											<a href="evilgeniuses.html"
+												><img src="images/logo-imgs/eg.jpg" alt="EG Logo"
+											/></a>
+										</div>
+										<div class="team-info">
+											<h3>Evil Geniuses</h3>
+											<p>
+												A legacy of innovation and championship grit, Evil
+												Geniuses is a name synonymous with excellence across
+												multiple titles.
+											</p>
+											<a href="evilgeniuses.html" class="cta-button"
+												>Learn More</a
+											>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-				</section>
+					</section>
+
+					<!-- CS2 -->
+					<section class="content-section" id="CS">
+						<h2 class="team-header">Counter-Strike 2</h2>
+						<div class="team-section">
+							<div class="team-textarea">
+								<div class="team-subheader">
+									<h3>Top 5 Counter-Strike 2 Esports Teams</h3>
+								</div>
+								<div class="team-text">
+									<p>
+										Meet the teams with nerves of steel and aim to match. The
+										CS2 squads brings tactical brilliance and explosive
+										firepower to every map. They don’t just play the game, they
+										own it.
+									</p>
+								</div>
+								<div class="teams">
+									<div class="team-box">
+										<div class="team-logo">
+											<a href="navi.html"
+												><img src="images/logo-imgs/navi.png" alt=""
+											/></a>
+										</div>
+										<div class="team-info">
+											<h3>NAVI</h3>
+											<p>
+												Born to aim and built to win, NAVI is a relentless force
+												with sharpshooting legends in its ranks.
+											</p>
+											<a href="navi.html" class="cta-button">Learn More</a>
+										</div>
+									</div>
+
+									<div class="team-box">
+										<div class="team-logo">
+											<a href="faze.html"
+												><img src="images/logo-imgs/faze.png" alt=""
+											/></a>
+										</div>
+										<div class="team-info">
+											<h3>FaZe Clan</h3>
+											<p>
+												Fueled by superstar firepower and ice-cold clutches,
+												FaZe Clan defines highlight-reel CS.
+											</p>
+											<a href="faze.html" class="cta-button">Learn More</a>
+										</div>
+									</div>
+
+									<div class="team-box">
+										<div class="team-logo">
+											<a href="spiritcs.html"
+												><img src="images/logo-imgs/spirit.png" alt=""
+											/></a>
+										</div>
+										<div class="team-info">
+											<h3>Team Spirit</h3>
+											<p>
+												They’ve conquered Dota, and now they’re turning heads in
+												CS2 with tactical brilliance and bold aggression.
+											</p>
+											<a href="spiritcs.html" class="cta-button">Learn More</a>
+										</div>
+									</div>
+								</div>
+
+								<br />
+
+								<div class="teams">
+									<div class="team-box">
+										<div class="team-logo">
+											<a href="teammouz.html"
+												><img src="images/logo-imgs/mouz.jpg" alt="MOUZ Logo"
+											/></a>
+										</div>
+										<div class="team-info">
+											<h3>MOUZ</h3>
+											<p>
+												From seasoned strategists to rising stars, MOUZ is a
+												legacy built on precision and teamwork.
+											</p>
+											<a href="teammouz.html" class="cta-button">Learn More</a>
+										</div>
+									</div>
+
+									<div class="team-box">
+										<div class="team-logo">
+											<a href="teamvitality.html"
+												><img
+													src="images/logo-imgs/vitality.jpg"
+													alt="Vitality Logo"
+											/></a>
+										</div>
+										<div class="team-info">
+											<h3>Vitality</h3>
+											<p>
+												Fueled by fierce competition across multiple esports,
+												Team Vitality is a global contender with a hunger for
+												victory.
+											</p>
+											<a href="teamvitality.html" class="cta-button"
+												>Learn More</a
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- Dota2 -->
+					<section class="content-section" id="Dota">
+						<h2 class="team-header">DOTA 2</h2>
+						<div class="team-section">
+							<div class="team-textarea">
+								<div class="team-subheader">
+									<h3>Top 5 DOTA 2 Esports Teams</h3>
+								</div>
+								<div class="team-text">
+									<p>
+										Meet the teams that thrives in chaos and controls the
+										battlefield. The Dota 2 legends are masters of momentum and
+										mind games. When they draft, they dominate.
+									</p>
+								</div>
+								<div class="teams">
+									<div class="team-box">
+										<div class="team-logo">
+											<a href="liquid.html"
+												><img src="images/logo-imgs/liquid.jpg" alt=""
+											/></a>
+										</div>
+										<div class="team-info">
+											<h3>Team Liquid</h3>
+											<p>
+												Team Liquid storms the scene with unmatched synergy,
+												fearless drafts, and relentless pursuit of championship
+												glory.
+											</p>
+											<a href="liquid.html" class="cta-button">Learn More</a>
+										</div>
+									</div>
+
+									<div class="team-box">
+										<div class="team-logo">
+											<a href="lgd.html"
+												><img src="images/logo-imgs/lgd.jpg" alt=""
+											/></a>
+										</div>
+										<div class="team-info">
+											<h3>LGD Gaming</h3>
+											<p>
+												A Chinese titan, LGD Gaming blends flawless execution
+												with deep strategy to strike fear into any roster.
+											</p>
+											<a href="lgd.html" class="cta-button">Learn More</a>
+										</div>
+									</div>
+
+									<div class="team-box">
+										<div class="team-logo">
+											<a href="spiritdota.html"
+												><img src="images/logo-imgs/spirit.png" alt=""
+											/></a>
+										</div>
+										<div class="team-info">
+											<h3>Team Spirit</h3>
+											<p>
+												From underdogs to legends, Team Spirit rewrote Dota
+												history with heart and hustle.
+											</p>
+											<a href="spiritdota.html" class="cta-button"
+												>Learn More</a
+											>
+										</div>
+									</div>
+								</div>
+
+								<br />
+
+								<div class="teams">
+									<div class="team-box">
+										<div class="team-logo">
+											<a href="9pandas.html"
+												><img
+													src="images/logo-imgs/9pandas.jpg"
+													alt="9Pandas Logo"
+											/></a>
+										</div>
+										<div class="team-info">
+											<h3>9PANDAS</h3>
+											<p>
+												Emerging from the East with a blend of raw talent and
+												strategic depth, 9Pandas is a rising force in the
+												competitive Dota 2. <br /><br />
+											</p>
+											<a href="9pandas.html" class="cta-button">Learn More</a>
+										</div>
+									</div>
+
+									<div class="team-box">
+										<div class="team-logo">
+											<a href="gaimingladiators.html"
+												><img src="images/logo-imgs/gaimin.jpg" alt="GG Logo"
+											/></a>
+										</div>
+										<div class="team-info">
+											<h3>GAIMIN GLADIATORS</h3>
+											<p>
+												A global esports powerhouse, Gaimin Gladiators is a
+												symbol of relentless ambition and multi-game dominance.
+											</p>
+											<a href="gaimingladiators" class="cta-button"
+												>Learn More</a
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</main>
+
+			<div class="scroll-buttons">
+				<a href="#top" title="Go Up"
+					><i class="fa-solid fa-arrow-up fa-lg"></i
+				></a>
+				<a href="../../index.html" title="Home"
+					><i class="fa-solid fa-house fa-lg"></i
+				></a>
 			</div>
-		</main>
 
-		<footer class="footer">
-			<div class="footer-logo">
-				<img src="../../logo.png" alt="Esports logo" />
-				<span>EsportsEDU</span>
-			</div>
-
-			<div class="footer-names">
-				<div class="name-column">
-					<p>**Chua, Jenilyn Denise T.</p>
-					<p>Cortez, Vince Nicholai J.</p>
+			<footer class="footer">
+				<div class="footer-logo">
+					<img src="../../logo.png" alt="Esports logo" />
+					<span>EsportsEDU</span>
 				</div>
 
-				<div class="name-column">
-					<p>Doctor, Sean Simoun Lewis N.</p>
-					<p>Estrada, Gabriel Wayne C.</p>
-				</div>
+				<div class="footer-names">
+					<div class="name-column">
+						<p>**Chua, Jenilyn Denise T.</p>
+						<p>Cortez, Vince Nicholai J.</p>
+					</div>
 
-				<div class="name-column">
-					<p>Gallardo, Prince Wesley B.</p>
-					<p>Malicsi, Rain David P.</p>
-				</div>
+					<div class="name-column">
+						<p>Doctor, Sean Simoun Lewis N.</p>
+						<p>Estrada, Gabriel Wayne C.</p>
+					</div>
 
-				<div class="name-column">
-					<p>Maranion, Jewella Marie A.</p>
-					<p>Merida, Luis Daniel T.</p>
-				</div>
+					<div class="name-column">
+						<p>Gallardo, Prince Wesley B.</p>
+						<p>Malicsi, Rain David P.</p>
+					</div>
 
-				<div class="name-column">
-					<p>Prima, Lance Robert C.</p>
-					<p>Valencia, Yancy Jarell D.</p>
+					<div class="name-column">
+						<p>Maranion, Jewella Marie A.</p>
+						<p>Merida, Luis Daniel T.</p>
+					</div>
+
+					<div class="name-column">
+						<p>Prima, Lance Robert C.</p>
+						<p>Valencia, Yancy Jarell D.</p>
+					</div>
 				</div>
-			</div>
-		</footer>
+			</footer>
+		</div>
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
 	</body>
