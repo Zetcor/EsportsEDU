@@ -16,6 +16,10 @@
 	padding: 0;
 }
 
+html {
+  scroll-padding-top: 110px; /* or whatever height your navbar is */
+}
+
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	color: var(--navy);
@@ -56,7 +60,7 @@ h6 {
 
 p {
 	margin-bottom: 1rem;
-	font-size: 1.1rem;
+	font-size: 1.25rem;
 }
 
 img {
@@ -86,12 +90,54 @@ ul {
 	padding: 0 1rem;
 }
 
+/* Home and Go Up */
+.scroll-buttons {
+	position: sticky;
+	bottom: 20px;
+	right: 0;
+	display: flex;
+	justify-content: flex-end;
+	gap: 10px;
+	z-index: 1030;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: -20px;
+}
+
+.scroll-buttons a {
+	background-color: var(--navy);
+	color: var(--light-gray);
+	padding: 20px;
+	border-radius: 8px;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: background-color 0.2s;
+}
+
+.scroll-buttons a:hover {
+	background-color: var(--pink);
+	color: var(--navy);
+}
+
 /* Intro Section */
 .content-section {
 	margin-bottom: 5rem;
 }
 
 .intro-section {
+	background-color: white;
+	border-radius: var(--border-radius);
+	box-shadow: var(--box-shadow);
+	padding: 2rem;
+}
+
+.equal-height-row {
+	min-height: 100%;
+}
+
+.cosplay-section {
 	display: flex;
 	justify-content: center;
 	align-items: stretch;
@@ -133,10 +179,40 @@ ul {
 	text-align: left;
 }
 
-.intro-image {
-	width: 25rem;
+.cosplay-imgs-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.cosplay-imgs{
+    width: 300px;
+    height: 300px;
 	background: var(--navy);
 	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: var(--box-shadow);
+    margin-bottom: 2rem;
+}
+
+.cosplay-imgs img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.intro-section .row {
+	align-items: stretch;
+}
+
+.intro-image {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: var(--navy);
+	border-radius: var(--border-radius);
 	overflow: hidden;
 	box-shadow: var(--box-shadow);
 }
@@ -145,6 +221,7 @@ ul {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+	border-radius: inherit;
 }
 
 .intro-box {
@@ -153,8 +230,8 @@ ul {
 	border-radius: var(--border-radius);
 	padding: 2rem;
 	box-shadow: var(--box-shadow);
-	text-align: left;
 	font-size: 1.2rem;
+	height: 100%;
 }
 
 .bullet-list {
@@ -162,90 +239,6 @@ ul {
 	margin-left: 15px;
 	padding-left: 20px;
 	text-align: justify;
-}
-
-/* Casual vs Pro Section */
-.casual-professional {
-	display: flex;
-	justify-content: center;
-	align-items: stretch;
-	gap: 1.5rem;
-}
-
-.casual-list li {
-	list-style-type: disc;
-	list-style-position: inside;
-	padding-left: 1.75rem;
-	text-indent: -1.7rem;
-}
-
-.casual-pro-box {
-	flex: 1;
-	background-color: hsla(267, 72%, 63%, 0.5);
-	color: var(--navy);
-	border-radius: var(--border-radius);
-	padding: 2rem;
-	box-shadow: var(--box-shadow);
-	text-align: left;
-	font-size: 1.2rem;
-	width: 100%;
-	min-height: 100%;
-}
-
-.fa-solid {
-	margin-right: 10px;
-}
-
-/* Sub-Navbar Style */
-.btn-outline-pink {
-	color: var(--navy);
-	border: solid 2px var(--navy);
-	border-radius: 8px;
-	font-family: 'Rajdhani', sans-serif;
-	font-weight: 600;
-	font-size: 1.25rem;
-}
-
-.btn-outline-pink:hover,
-.btn-check:checked + .btn-outline-pink {
-	color: var(--light-gray);
-	background-color: var(--navy);
-	border-color: var(--navy);
-}
-
-.btn-general {
-	width: 50%;
-}
-
-.btn-popular {
-	width: 50%;
-}
-
-.custom-btn-group {
-	display: flex;
-	width: 100%;
-	margin: 0 auto;
-	justify-content: center;
-	margin-top: 20px;
-}
-
-.active-sub-nav {
-	background-color: var(--navy);
-	color: var(--light-gray);
-}
-
-.intro-image {
-	width: 25rem;
-	background: var(--navy);
-	border-radius: 10px;
-	overflow: hidden;
-	box-shadow: var(--box-shadow);
-}
-
-.intro-image img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
 }
 
 .featured-image {
@@ -267,6 +260,30 @@ ul {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+}
+
+/* Casual vs Pro Section */
+.casual-list li {
+	list-style-type: disc;
+	list-style-position: inside;
+	padding-left: 1.75rem;
+	text-indent: -1.7rem;
+}
+
+.casual-pro-box {
+	background-color: hsla(267, 72%, 63%, 0.5);
+	color: var(--navy);
+	border-radius: var(--border-radius);
+	padding: 2rem;
+	box-shadow: var(--box-shadow);
+	text-align: left;
+	font-size: 1.2rem;
+	width: 100%;
+	min-height: 100%;
+}
+
+.casual-pro-box .fa-solid, .intro-box .fa-solid {
+	margin-right: 10px;
 }
 
 /* Navbar Styles */
@@ -388,6 +405,75 @@ ul {
 	height: 4px;
 	background-color: var(--purple);
 	margin: 0 auto 2rem;
+}
+
+/* Sub-Navbar Style */
+.btn-outline-pink {
+	color: var(--navy);
+	border: solid 2px var(--navy);
+	border-radius: 8px;
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: 600;
+	font-size: 1.25rem;
+}
+
+.btn-outline-pink:hover,
+.btn-check:checked + .btn-outline-pink {
+	color: var(--light-gray);
+	background-color: var(--navy);
+	border-color: var(--navy);
+}
+
+.btn-general {
+	width: 50%;
+}
+
+.btn-popular {
+	width: 50%;
+}
+
+.custom-btn-group {
+	display: flex;
+	width: 100%;
+	margin: 0 auto;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.active-sub-nav {
+	background-color: var(--navy);
+	color: var(--light-gray);
+}
+
+/* Home and Go Up */
+.scroll-buttons {
+	position: sticky;
+	bottom: 20px;
+	right: 0;
+	display: flex;
+	justify-content: flex-end;
+	gap: 10px;
+	z-index: 1030;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: -20px;
+}
+
+.scroll-buttons a {
+	background-color: var(--navy);
+	color: var(--light-gray);
+	padding: 20px;
+	border-radius: 8px;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: background-color 0.2s;
+}
+
+.scroll-buttons a:hover {
+	background-color: var(--pink);
+	color: var(--navy);
 }
 
 /* Footer Styles */
