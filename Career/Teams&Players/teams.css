@@ -489,7 +489,7 @@ span {
 	height: 200px;
 	border-radius: 4px;
 	margin-bottom: 15px;
-	object-fit: cover;
+	object-fit: contain;
 	background-color: var(--navy);
 }
 
