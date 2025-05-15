@@ -16,6 +16,10 @@
 	padding: 0;
 }
 
+html {
+  scroll-padding-top: 110px; /* or whatever height your navbar is */
+}
+
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	color: var(--navy);
@@ -56,7 +60,7 @@ h6 {
 
 p {
 	margin-bottom: 1rem;
-	font-size: 1.1rem;
+	font-size: 1.25rem;
 }
 
 img {
@@ -92,15 +96,14 @@ ul {
 }
 
 .intro-section {
-	display: flex;
-	justify-content: center;
-	align-items: stretch;
-	text-align: center;
-	padding: 2rem;
-	gap: 1.5rem;
 	background-color: white;
 	border-radius: var(--border-radius);
 	box-shadow: var(--box-shadow);
+	padding: 2rem;
+}
+
+.equal-height-row {
+	min-height: 100%;
 }
 
 .cosplay-section {
@@ -168,10 +171,17 @@ ul {
     object-fit: cover;
 }
 
+.intro-section .row {
+	align-items: stretch;
+}
+
 .intro-image {
-	width: 25rem;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	background: var(--navy);
-	border-radius: 10px;
+	border-radius: var(--border-radius);
 	overflow: hidden;
 	box-shadow: var(--box-shadow);
 }
@@ -180,6 +190,7 @@ ul {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+	border-radius: inherit;
 }
 
 .intro-box {
@@ -188,8 +199,8 @@ ul {
 	border-radius: var(--border-radius);
 	padding: 2rem;
 	box-shadow: var(--box-shadow);
-	text-align: left;
 	font-size: 1.2rem;
+	height: 100%;
 }
 
 .bullet-list {
@@ -197,6 +208,12 @@ ul {
 	margin-left: 15px;
 	padding-left: 20px;
 	text-align: justify;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;  /* Align right */
+    margin-top: 20px;
 }
 
 .cta-button {
@@ -214,6 +231,7 @@ ul {
 	display: inline-block;
 	margin-bottom: 9px;
 	font-weight: 600;
+	font-size: 1.2rem;
 }
 
 .cta-button:hover {
@@ -224,13 +242,6 @@ ul {
 }
 
 /* Casual vs Pro Section */
-.casual-professional {
-	display: flex;
-	justify-content: center;
-	align-items: stretch;
-	gap: 1.5rem;
-}
-
 .casual-list li {
 	list-style-type: disc;
 	list-style-position: inside;
@@ -239,7 +250,6 @@ ul {
 }
 
 .casual-pro-box {
-	flex: 1;
 	background-color: hsla(267, 72%, 63%, 0.5);
 	color: var(--navy);
 	border-radius: var(--border-radius);
@@ -251,7 +261,7 @@ ul {
 	min-height: 100%;
 }
 
-.fa-solid {
+.casual-pro-box .fa-solid, .intro-box .fa-solid {
 	margin-right: 10px;
 }
 
@@ -412,6 +422,37 @@ ul {
 .active-sub-nav {
 	background-color: var(--navy);
 	color: var(--light-gray);
+}
+
+/* Home and Go Up */
+.scroll-buttons {
+	position: sticky;
+	bottom: 20px;
+	right: 0;
+	display: flex;
+	justify-content: flex-end;
+	gap: 10px;
+	z-index: 1030;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: -20px;
+}
+
+.scroll-buttons a {
+	background-color: var(--navy);
+	color: var(--light-gray);
+	padding: 20px;
+	border-radius: 8px;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: background-color 0.2s;
+}
+
+.scroll-buttons a:hover {
+	background-color: var(--pink);
+	color: var(--navy);
 }
 
 /* Footer Styles */
