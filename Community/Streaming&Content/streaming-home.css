@@ -137,18 +137,6 @@ ul {
 	min-height: 100%;
 }
 
-.cosplay-section {
-	display: flex;
-	justify-content: center;
-	align-items: stretch;
-	text-align: center;
-	padding: 2rem;
-	gap: 1.5rem;
-	background-color: white;
-	border-radius: var(--border-radius);
-	box-shadow: var(--box-shadow);
-}
-
 .intro-textarea {
 	flex: 1;
 	display: flex;
