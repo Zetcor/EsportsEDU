@@ -420,8 +420,8 @@ span {
 	border-radius: var(--border-radius);
 	padding: 2rem;
 	box-shadow: var(--box-shadow);
+	text-align: left;
 	font-size: 1.2rem;
-	height: 100%;
 }
 
 /* Casual vs Pro Section */
@@ -594,6 +594,23 @@ span {
 .custom-accordion .accordion-button:focus {
 	box-shadow: none;
 	border: none;
+}
+
+.accordion-body p {
+	font-size: 1rem;
+}
+
+.accordion-body a {
+	color: var(--purple);
+	font-style: italic;
+}
+
+.accordion-body a:hover {
+	text-decoration: underline;
+}
+
+.accordion-body a:visited {
+	color: var(--pink);
 }
 
 /* Home and Go Up */
