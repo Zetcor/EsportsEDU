@@ -329,37 +329,11 @@ span {
 	gap: 2rem;
 }
 
-/* Content layout */
-.content-wrapper {
-	display: flex;
-	gap: 0.5rem;
-}
-
-.sidebar {
-	background-color: var(--navy);
-	width: auto;
-	flex-shrink: 0;
-	object-fit: cover;
-}
-
-.sidebar img {
-	object-fit: cover;
-}
-
-.sidebar .image img {
-	width: 250px;
-	height: 200px;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-	border-top-right-radius: 5px;
-	border-top-left-radius: 5px;
-}
-
 .team-info {
 	background-color: var(--navy);
 	color: white;
 	padding: 15px;
-	width: 250px;
-	height: 220px;
+	height: auto;
 }
 
 .team-info h2 {
@@ -390,7 +364,29 @@ span {
 	margin-bottom: 20px;
 	line-height: 1.6;
 	color: var(--navy);
-	font-size: 16px;
+	font-size: 1.1rem;
+}
+
+/* Content layout */
+.content-wrapper {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.sidebar {
+	background-color: var(--navy);
+	border-radius: var(--border-radius);
+	overflow: hidden;
+	box-shadow: var(--box-shadow);
+}
+
+.sidebar .image img {
+	width: 250px;
+	height: 200px;
+	object-fit: cover;
+	overflow: hidden;
+	border-top-left-radius: var(--border-radius);
+	border-top-right-radius: var(--border-radius);
 }
 
 /* Gallery section */
@@ -582,6 +578,23 @@ span {
 .custom-accordion .accordion-button:focus {
 	box-shadow: none;
 	border: none;
+}
+
+.accordion-body p {
+	font-size: 1rem;
+}
+
+.accordion-body a {
+	color: var(--purple);
+	font-style: italic;
+}
+
+.accordion-body a:hover {
+	text-decoration: underline;
+}
+
+.accordion-body a:visited {
+	color: var(--pink);
 }
 
 /* Home and Go Up */
