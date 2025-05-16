@@ -340,7 +340,7 @@ span {
 	align-items: stretch;
 }
 
-.intro-image {
+.intro-image a img {
 	height: 100%;
 	display: flex;
 	align-items: center;
