@@ -403,11 +403,14 @@ span {
 }
 
 .team-text {
-	font-size: 1.1rem;
 	margin-bottom: 1.5rem;
 	color: var(--navy);
 	line-height: 1.6;
 	text-align: left;
+}
+
+.team-text p {
+	font-size: 1.15rem;
 }
 
 .team-box {
