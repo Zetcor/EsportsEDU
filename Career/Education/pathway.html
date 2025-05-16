@@ -29,6 +29,10 @@
 
     <body>
 
+		<div id="top"></div>
+
+		<div class="scroll-container position-relative">
+
         <nav class="navbar navbar-expand-lg sticky-top">
 			<div class="container-fluid px-5">
 				<a
@@ -48,7 +52,7 @@
 					aria-expanded="false"
 					aria-label="Toggle navigation"
 				>
-					<span class="navbar-toggler-icon"></span>
+					<i class="fa-solid fa-bars fa-lg" style="color: #00f5d4"></i>
 				</button>
 
 				<div
@@ -175,8 +179,14 @@
 
 					<div class="intro-textarea">
 
-						<div class="featured-image">
-							<img src="images/header-imgs/cs.jpg" alt="Education Image" />
+						<div class="featured-image mb-4">
+							<a href="images/header-imgs/cs.jpg" target="display">
+								<img
+									src="images/header-imgs/cs.jpg"
+									alt="Education Image"
+									class="img-fluid"
+								/>
+							</a>
 						</div>
 
 						<div class="intro-text">
@@ -184,248 +194,361 @@
 								Esports has evolved into a broad industry with professional structures that support many different roles beyond competitive gameplay. While professional players often receive the most attention, a wide array of careers exist behind the scenes in team organizations, game development studios, media production, marketing, and event coordination. Large gaming companies such as Riot Games, Valve, Epic Games, Activision Blizzard, and Tencent all rely on skilled professionals to keep the esports ecosystem functional and profitable. Many of these jobs draw from fields like media, business, sports management, psychology, and software development, making esports a diverse employment sector.
 							</p>
 						</div>
+
 					</div>
 				</div>
 			</section>
 
-			<section class="content-section">
-				<h2 class="intro-header">Professional Player</h2>
-					<div class="intro-section">
+				<section class="content-section">
+					<h2 class="intro-header">Professional Player</h2>
 
-						<div class="intro-image">
-							<img src="images/pc.jpg" alt="Intro Image" />
+					<div class="intro-section">
+						<!-- Top: Subheader and Intro Text -->
+						<div class="row">
+							<div class="col-12">
+								<div class="intro-textarea">
+									<div class="intro-text mb-3">
+										<p>
+											Professional esports players compete at the highest levels in games like League of Legends, Valorant, and CS2. They are signed to contracts by teams and earn salaries, tournament prizes, and sometimes sponsorship income. Their daily routine often includes hours of practice, team meetings, and strategic planning. Most players specialize in one game and continuously train to stay competitive.
+										</p>
+									</div>
+								</div>
+							</div>
 						</div>
 
-						<div class="intro-textarea">
-							<div class="intro-text">
-								<p>
-									Professional esports players compete at the highest levels in games like League of Legends, Valorant, and CS2. They are signed to contracts by teams and earn salaries, tournament prizes, and sometimes sponsorship income. Their daily routine often includes hours of practice, team meetings, and strategic planning. Most players specialize in one game and continuously train to stay competitive.
-									<div class="intro-box">
-										<ul class="bullet-list">
-											<li>
-												Compete in tournaments for top esports titles
-											</li>
-											<li>
-												Earn income from salaries, prize pools, and sponsorships
-											</li>
-											<li>
-												Train extensively to maintain skill level
-											</li>
-											<li>
-												Work closely with teammates and coaches
-											</li>
-										</ul>
-									</div>
-								</p>
+						<!-- Bottom: Image and Box (Order Responsive) -->
+						<div class="row gy-4 gx-4 align-items-stretch equal-height-row">
+							<!-- Image First on Mobile, Second on Medium+ -->
+							<div class="col-md-6 order-1 order-md-2">
+								<div class="intro-image h-100">
+									<a href="images/pc.jpg" target="display">
+										<img src="images/pc.jpg" alt="Intro Image" class="img-fluid" />
+									</a>
+								</div>
+							</div>
+
+							<!-- Box Second on Mobile, First on Medium+ -->
+							<div class="col-md-6 order-2 order-md-1">
+								<div class="intro-box h-100">
+									<ul class="bullet-list">
+										<li>
+											Compete in tournaments for top esports titles
+										</li>
+										<li>
+											Earn income from salaries, prize pools, and sponsorships
+										</li>
+										<li>
+											Train extensively to maintain skill level
+										</li>
+										<li>
+											Work closely with teammates and coaches
+										</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
 				</section>
+
 
 				<section class="content-section">
 					<h2 class="intro-header">Coach or Analyst</h2>
+
 					<div class="intro-section">
-						<div class="intro-textarea">
-							<div class="intro-text">
-								<p>
-									Coaches and analysts help esports teams improve performance and strategy. Coaches lead practice, guide decision-making during games, and support team morale. Analysts focus on reviewing match footage, studying opponents, and offering data-driven insights. These roles are essential for helping teams stay sharp and adjust to evolving game dynamics.
-									<div class="intro-box">
-										<ul class="bullet-list">
-											<li>
-												Lead practices and prepare teams for matches
-											</li>
-											<li>
-												Review gameplay footage to find areas for improvement
-											</li>
-											<li>
-												Study opponents and deliver scouting reports
-											</li>
-											<li>
-												Help teams adapt to new game updates or trends
-											</li>
-										</ul>
+						<!-- Top: Subheader and Intro Text -->
+						<div class="row">
+							<div class="col-12">
+								<div class="intro-textarea">
+									<div class="intro-text mb-3">
+										<p>
+											Coaches and analysts help esports teams improve performance and strategy. Coaches lead practice, guide decision-making during games, and support team morale. Analysts focus on reviewing match footage, studying opponents, and offering data-driven insights. These roles are essential for helping teams stay sharp and adjust to evolving game dynamics.
+										</p>
 									</div>
-								</p>
+								</div>
 							</div>
 						</div>
 
-						<div class="intro-image">
-							<img src="images/pc.jpg" alt="Intro Image" />
+						<!-- Bottom: Image and Box (Order Responsive) -->
+						<div class="row gy-4 gx-4 align-items-stretch equal-height-row">
+							<!-- Image First on Mobile, Second on Medium+ -->
+							<div class="col-md-6 order-1 order-md-2">
+								<div class="intro-image h-100">
+									<a href="images/pc.jpg" target="display">
+										<img src="images/pc.jpg" alt="Intro Image" class="img-fluid" />
+									</a>
+								</div>
+							</div>
+
+							<!-- Box Second on Mobile, First on Medium+ -->
+							<div class="col-md-6 order-2 order-md-1">
+								<div class="intro-box h-100">
+									<ul class="bullet-list">
+										<li>
+											Lead practices and prepare teams for matches
+										</li>
+										<li>
+											Review gameplay footage to find areas for improvement
+										</li>
+										<li>
+											Study opponents and deliver scouting reports
+										</li>
+										<li>
+											Help teams adapt to new game updates or trends
+										</li>
+									</ul>
+								</div>
+							</div>
 						</div>
 					</div>
 				</section>
+
 
 				<section class="content-section">
 					<h2 class="intro-header">Team Management and Support</h2>
-					<div class="intro-section">
 
-						<div class="intro-image">
-							<img src="images/pc.jpg" alt="Intro Image" />
+					<div class="intro-section">
+						<!-- Top: Subheader and Intro Text -->
+						<div class="row">
+							<div class="col-12">
+								<div class="intro-textarea">
+									<div class="intro-text mb-3">
+										<p>
+											Team staff manage the logistics and health of players throughout the season. Managers handle travel, housing, scheduling, and media duties, while specialists like nutritionists and psychologists support physical and mental well-being. These jobs are important for creating a stable and high-performing team environment. Many of these roles combine skills from logistics, wellness, and management.
+										</p>
+									</div>
+								</div>
+							</div>
 						</div>
 
-						<div class="intro-textarea">
-							<div class="intro-text">
-								<p>
-									Team staff manage the logistics and health of players throughout the season. Managers handle travel, housing, scheduling, and media duties, while specialists like nutritionists and psychologists support physical and mental well-being. These jobs are important for creating a stable and high-performing team environment. Many of these roles combine skills from logistics, wellness, and management.
-									<div class="intro-box">
-										<ul class="bullet-list">
-											<li>
-												Plan team travel, housing, and media events
-											</li>
-											<li>
-												Support players with mental health and nutrition
-											</li>
-											<li>
-												Manage day-to-day team operations
-											</li>
-											<li>
-												Help teams stay organized and stress-free during competition
-											</li>
-										</ul>
-									</div>
-								</p>
+						<!-- Bottom: Image and Box (Order Responsive) -->
+						<div class="row gy-4 gx-4 align-items-stretch equal-height-row">
+							<!-- Image First on Mobile, Second on Medium+ -->
+							<div class="col-md-6 order-1 order-md-2">
+								<div class="intro-image h-100">
+									<a href="images/pc.jpg" target="display">
+										<img src="images/pc.jpg" alt="Intro Image" class="img-fluid" />
+									</a>
+								</div>
+							</div>
+
+							<!-- Box Second on Mobile, First on Medium+ -->
+							<div class="col-md-6 order-2 order-md-1">
+								<div class="intro-box h-100">
+									<ul class="bullet-list">
+										<li>
+											Plan team travel, housing, and media events
+										</li>
+										<li>
+											Support players with mental health and nutrition
+										</li>
+										<li>
+											Manage day-to-day team operations
+										</li>
+										<li>
+											Help teams stay organized and stress-free during competition
+										</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
 				</section>
+
 
 				<section class="content-section">
 					<h2 class="intro-header">Game Developer</h2>
+
 					<div class="intro-section">
-						<div class="intro-textarea">
-							<div class="intro-text">
-								<p>
-									Game developers design and maintain titles that are played in professional esports. They balance gameplay, add esports-specific features, and ensure stability during tournaments. Developers often work with pro players and community members to make improvements. These jobs are usually based at large game studios and involve ongoing updates.
-									<div class="intro-box">
-										<ul class="bullet-list">
-											<li>
-												Design and adjust game mechanics for fair competition
-											</li>
-											<li>
-												Add features like spectator modes and replays
-											</li>
-											<li>
-												Ensure games run smoothly during major tournaments
-											</li>
-											<li>
-												Collect feedback from players to refine gameplay
-											</li>
-										</ul>
+						<!-- Top: Subheader and Intro Text -->
+						<div class="row">
+							<div class="col-12">
+								<div class="intro-textarea">
+									<div class="intro-text mb-3">
+										<p>
+											Game developers design and maintain titles that are played in professional esports. They balance gameplay, add esports-specific features, and ensure stability during tournaments. Developers often work with pro players and community members to make improvements. These jobs are usually based at large game studios and involve ongoing updates.
+										</p>
 									</div>
-								</p>
+								</div>
 							</div>
 						</div>
 
-						<div class="intro-image">
-							<img src="images/pc.jpg" alt="Intro Image" />
+						<!-- Bottom: Image and Box (Order Responsive) -->
+						<div class="row gy-4 gx-4 align-items-stretch equal-height-row">
+							<!-- Image First on Mobile, Second on Medium+ -->
+							<div class="col-md-6 order-1 order-md-2">
+								<div class="intro-image h-100">
+									<a href="images/pc.jpg" target="display">
+										<img src="images/pc.jpg" alt="Intro Image" class="img-fluid" />
+									</a>
+								</div>
+							</div>
+
+							<!-- Box Second on Mobile, First on Medium+ -->
+							<div class="col-md-6 order-2 order-md-1">
+								<div class="intro-box h-100">
+									<ul class="bullet-list">
+										<li>
+											Design and adjust game mechanics for fair competition
+										</li>
+										<li>
+											Add features like spectator modes and replays
+										</li>
+										<li>
+											Ensure games run smoothly during major tournaments
+										</li>
+										<li>
+											Collect feedback from players to refine gameplay
+										</li>
+									</ul>
+								</div>
+							</div>
 						</div>
 					</div>
 				</section>
+
 
 				<section class="content-section">
 					<h2 class="intro-header">Social Media Manager or Digital Marketer</h2>
-					<div class="intro-section">
 
-						<div class="intro-image">
-							<img src="images/pc.jpg" alt="Intro Image" />
+					<div class="intro-section">
+						<!-- Top: Subheader and Intro Text -->
+						<div class="row">
+							<div class="col-12">
+								<div class="intro-textarea">
+									<div class="intro-text mb-3">
+										<p>
+											Social media managers promote esports teams, tournaments, or game brands online. They create posts, engage with fans, and run digital campaigns across platforms like Instagram, YouTube, and TikTok. The role also involves working with influencers and sponsors to grow online reach. Success depends on strong writing, creativity, and knowledge of gaming culture.
+										</p>
+									</div>
+								</div>
+							</div>
 						</div>
 
-						<div class="intro-textarea">
-							<div class="intro-text">
-								<p>
-									Social media managers promote esports teams, tournaments, or game brands online. They create posts, engage with fans, and run digital campaigns across platforms like Instagram, YouTube, and TikTok. The role also involves working with influencers and sponsors to grow online reach. Success depends on strong writing, creativity, and knowledge of gaming culture.
-									<div class="intro-box">
-										<ul class="bullet-list">
-											<li>
-												Manage content and updates across social platforms
-											</li>
-											<li>
-												Interact with fans and promote engagement
-											</li>
-											<li>
-												Coordinate with brands and influencers
-											</li>
-											<li>
-												Create campaigns to grow an audience
-											</li>
-										</ul>
-									</div>
-								</p>
+						<!-- Bottom: Image and Box (Order Responsive) -->
+						<div class="row gy-4 gx-4 align-items-stretch equal-height-row">
+							<!-- Image First on Mobile, Second on Medium+ -->
+							<div class="col-md-6 order-1 order-md-2">
+								<div class="intro-image h-100">
+									<a href="images/pc.jpg" target="display">
+										<img src="images/pc.jpg" alt="Intro Image" class="img-fluid" />
+									</a>
+								</div>
+							</div>
+
+							<!-- Box Second on Mobile, First on Medium+ -->
+							<div class="col-md-6 order-2 order-md-1">
+								<div class="intro-box h-100">
+									<ul class="bullet-list">
+										<li>Manage content and updates across social platforms</li>
+										<li>Interact with fans and promote engagement</li>
+										<li>Coordinate with brands and influencers</li>
+										<li>Create campaigns to grow an audience</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
 				</section>
 
+
 				<section class="content-section">
 					<h2 class="intro-header">Content Creator</h2>
-					<div class="intro-section">
 
-						<div class="intro-textarea">
-							<div class="intro-text">
+					<div class="intro-section">
+						<!-- Top: Subheader and Intro Text -->
+						<div class="row">
+						<div class="col-12">
+							<div class="intro-textarea">
+							<div class="intro-text mb-3">
 								<p>
-									Content creators make gaming-related videos and livestreams for entertainment or education. They may stream gameplay, post tutorials, or share behind-the-scenes stories. Many creators develop personal brands and earn money from ads, donations, or sponsorships. While often independent, they sometimes collaborate with esports organizations.
-									<div class="intro-box">
-										<ul class="bullet-list">
-											<li>
-												Stream or upload videos on platforms like Twitch and YouTube
-											</li>
-											<li>
-												Share tutorials, highlights, or entertainment content
-											</li>
-											<li>
-												Build a personal brand and attract a fanbase
-											</li>
-											<li>
-												Partner with esports teams or sponsors for content
-											</li>
-										</ul>
-									</div>
+								Content creators make gaming-related videos and livestreams for entertainment or education. They may stream gameplay, post tutorials, or share behind-the-scenes stories. Many creators develop personal brands and earn money from ads, donations, or sponsorships. While often independent, they sometimes collaborate with esports organizations.
 								</p>
+							</div>
+							</div>
+						</div>
+						</div>
+
+						<!-- Bottom: Image and Box (Order Responsive) -->
+						<div class="row gy-4 gx-4 align-items-stretch equal-height-row">
+						<div class="col-md-6 order-1 order-md-2">
+							<div class="intro-image h-100">
+							<a href="edu-header.jpg" target="display">
+								<img src="edu-header.jpg" alt="Intro Image" class="img-fluid" />
+							</a>
 							</div>
 						</div>
 
-						<div class="intro-image">
-							<img src="images/pc.jpg" alt="Intro Image" />
+						<div class="col-md-6 order-2 order-md-1">
+							<div class="intro-box h-100">
+							<ul class="bullet-list">
+								<li>Stream or upload videos on platforms like Twitch and YouTube</li>
+								<li>Share tutorials, highlights, or entertainment content</li>
+								<li>Build a personal brand and attract a fanbase</li>
+								<li>Partner with esports teams or sponsors for content</li>
+							</ul>
+							</div>
 						</div>
-
+						</div>
 					</div>
 				</section>
 
 				<section class="content-section">
 					<h2 class="intro-header">Event Organizer or Referee</h2>
+
 					<div class="intro-section">
-
-						<div class="intro-image">
-							<img src="images/pc.jpg" alt="Intro Image" />
-						</div>
-
-						<div class="intro-textarea">
-							<div class="intro-text">
+						<!-- Top: Subheader and Intro Text -->
+						<div class="row">
+						<div class="col-12">
+							<div class="intro-textarea">
+							<div class="intro-text mb-3">
 								<p>
-									Event organizers plan and manage esports competitions, from online cups to arena tournaments. They handle logistics like brackets, schedules, and equipment. Referees enforce game rules, resolve disputes, and monitor fair play during matches. These roles are critical for running smooth and professional events.
-									<div class="intro-box">
-										<ul class="bullet-list">
-											<li>
-												Plan and operate local or international esports events
-											</li>
-											<li>
-												Coordinate staff, teams, and match schedules
-											</li>
-											<li>
-												Enforce rules and resolve in-game issues
-											</li>
-											<li>
-												Ensure fair competition and event integrity
-											</li>
-										</ul>
-									</div>
+								Event organizers plan and manage esports competitions, from online cups to arena tournaments. They handle logistics like brackets, schedules, and equipment. Referees enforce game rules, resolve disputes, and monitor fair play during matches. These roles are critical for running smooth and professional events.
 								</p>
 							</div>
+							</div>
+						</div>
+						</div>
+
+						<!-- Bottom: Image and Box (Order Responsive) -->
+						<div class="row gy-4 gx-4 align-items-stretch equal-height-row">
+						<!-- Image first on mobile, second on medium+ -->
+						<div class="col-md-6 order-1 order-md-2">
+							<div class="intro-image h-100">
+							<a href="images/pc.jpg" target="display">
+								<img src="images/pc.jpg" alt="Intro Image" class="img-fluid" />
+							</a>
+							</div>
+						</div>
+
+						<!-- Box second on mobile, first on medium+ -->
+						<div class="col-md-6 order-2 order-md-1">
+							<div class="intro-box h-100">
+							<ul class="bullet-list">
+								<li>Plan and operate local or international esports events</li>
+								<li>Coordinate staff, teams, and match schedules</li>
+								<li>Enforce rules and resolve in-game issues</li>
+								<li>Ensure fair competition and event integrity</li>
+							</ul>
+							</div>
+						</div>
 						</div>
 					</div>
 				</section>
 
+
         </div>
+
+		<div class="scroll-buttons">
+			<a href="../Education/edu.html" title="Back"
+				><i class="fa-solid fa-arrow-left fa-lg"></i
+			></a>
+			<a href="#top" title="Go Up"
+				><i class="fa-solid fa-arrow-up fa-lg"></i
+			></a>
+			<a href="../../index.html" title="Home"
+				><i class="fa-solid fa-house fa-lg"></i
+			></a>
+		</div>
 
         <footer class="footer">
 			<div class="footer-logo">
@@ -460,6 +583,9 @@
 				</div>
 			</div>
 		</footer>
+
+		</div>
+
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
 

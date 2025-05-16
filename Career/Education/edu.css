@@ -491,6 +491,7 @@ footer {
 	.two-column {
 		flex-direction: column;
 	}
+	
 }
 
 @media (max-width: 768px) {
