@@ -27,402 +27,476 @@
 		<link rel="stylesheet" href="edu.css" />
 	</head>
 
-    <body>
-
+	<body>
 		<div id="top"></div>
 
 		<div class="scroll-container position-relative">
+			<nav class="navbar navbar-expand-lg sticky-top">
+				<div class="container-fluid px-5">
+					<a
+						class="navbar-brand d-flex align-items-center gap-2"
+						href="index.html"
+					>
+						<img src="../../logo.png" alt="Logo" class="logo-img" />
+						<h1>EsportsEDU</h1>
+					</a>
 
-        <nav class="navbar navbar-expand-lg sticky-top">
-			<div class="container-fluid px-5">
-				<a
-					class="navbar-brand d-flex align-items-center gap-2"
-					href="index.html"
-				>
-					<img src="../../logo.png" alt="Logo" class="logo-img" />
-					<h1>EsportsEDU</h1>
-				</a>
+					<button
+						class="navbar-toggler text-white"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarContent"
+						aria-controls="navbarContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<i class="fa-solid fa-bars fa-lg" style="color: #00f5d4"></i>
+					</button>
 
-				<button
-					class="navbar-toggler text-white"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarContent"
-					aria-controls="navbarContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<i class="fa-solid fa-bars fa-lg" style="color: #00f5d4"></i>
-				</button>
+					<div
+						class="collapse navbar-collapse justify-content-end"
+						id="navbarContent"
+					>
+						<ul class="navbar-nav gap-3">
+							<li class="nav-item">
+								<a class="nav-link" href="../../index.html">HOME</a>
+							</li>
 
-				<div
-					class="collapse navbar-collapse justify-content-end"
-					id="navbarContent"
-				>
-					<ul class="navbar-nav gap-3">
-						<li class="nav-item">
-							<a class="nav-link" href="../../index.html"
-								>HOME</a
-							>
-						</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									GAMES
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Games/Genres/genre-home.html"
+											>GENRES</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Games/Tournaments/tourna-home.html"
+											>TOURNAMENTS</a
+										>
+									</li>
+								</ul>
+							</li>
 
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								GAMES
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a class="dropdown-item" href="../../Games/Genres/genre-home.html"
-										>GENRES</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Games/Tournaments/tourna-home.html"
-										>TOURNAMENTS</a
-									>
-								</li>
-							</ul>
-						</li>
-
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle nav-link active"
-                                aria-current="page"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								CAREER
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Career/Teams&Players/players-team.html"
-										>TEAMS & PLAYERS</a
-									>
-								</li>
-								<li>
-									<a class="dropdown-item" href="edu.html"
-										>EDUCATION</a
-									>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../Technology/tech.html">TECHNOLOGY</a>
-						</li>
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								COMMUNITY
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Streaming&Content/streaming-home.html"
-										>STREAMING & CONTENT</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Culture/culture-home.html"
-										>CULTURE</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Rules&Ethics/rules.html"
-										>RULES & ETHICS</a
-									>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../Gallery/gallery.html">GALLERY</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../about/about.html">ABOUT US</a>
-						</li>
-					</ul>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle nav-link active"
+									aria-current="page"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									CAREER
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Career/Teams&Players/players-team.html"
+											>TEAMS & PLAYERS</a
+										>
+									</li>
+									<li>
+										<a class="dropdown-item" href="edu.html">EDUCATION</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../Technology/tech.html"
+									>TECHNOLOGY</a
+								>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									COMMUNITY
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Streaming&Content/streaming-home.html"
+											>STREAMING & CONTENT</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Culture/culture-home.html"
+											>CULTURE</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Rules&Ethics/rules.html"
+											>RULES & ETHICS</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../Gallery/gallery.html"
+									>GALLERY</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../about/about.html">ABOUT US</a>
+							</li>
+						</ul>
+					</div>
 				</div>
+			</nav>
+
+			<section class="hero-section">
+				<h1 class="page-title">Academic Programs in Esports</h1>
+				<div class="title-underline"></div>
+			</section>
+
+			<div class="container">
+				<section class="content-section">
+					<h2 class="intro-header">
+						Esports in Higher Education: Academic Pathways for a Global Industry
+					</h2>
+					<div class="intro-section">
+						<div class="intro-textarea">
+							<div class="featured-image mb-4">
+								<a href="images/academic-new.jpg" target="display">
+									<img
+										src="images/academic-new.jpg"
+										alt="Education Image"
+										class="img-fluid"
+									/>
+								</a>
+							</div>
+
+							<div class="intro-text">
+								<p>
+									As esports grows into a mainstream global industry, colleges
+									and universities have begun offering specialized academic
+									programs that address the various roles within the industry.
+									These programs are not limited to just game play or
+									production. They now span business, design, operations, data
+									analysis, and emerging technologies. Many of these academic
+									offerings are available in flexible formats such as online,
+									hybrid, or in-person, allowing students from different parts
+									of the world to access this type of education. The coursework
+									is typically divided into key areas that align with major
+									sectors of the esports industry.
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="content-section">
+					<h2 class="intro-header">Esports Business and Marketing</h2>
+
+					<div class="intro-section">
+						<!-- Top: Subheader and Intro Text -->
+						<div class="row">
+							<div class="col-12">
+								<div class="intro-textarea">
+									<div class="intro-text mb-3">
+										<p>
+											This program focuses on how esports generates income and
+											builds a fan base. Students learn how teams, brands, and
+											tournaments use sponsorships, merchandise, and media to
+											grow. The curriculum explores how to attract and retain
+											audiences on platforms like Twitch or YouTube. It’s aimed
+											at those who want to work in marketing, branding, or
+											sponsorship roles within the esports world.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Bottom: Image and Box (Order Responsive) -->
+						<div class="row gy-4 gx-4 align-items-stretch equal-height-row">
+							<!-- Image first on mobile, second on medium+ -->
+							<div class="col-md-6 order-1 order-md-2">
+								<div class="intro-image">
+									<a href="images/academic-program1.jpg" target="display">
+										<img
+											src="images/academic-program1.jpg"
+											alt="Academic"
+											class="img-fluid"
+										/>
+									</a>
+								</div>
+							</div>
+
+							<!-- Box second on mobile, first on medium+ -->
+							<div class="col-md-6 order-2 order-md-1">
+								<div class="intro-box h-100">
+									<ul class="bullet-list">
+										<li>
+											Learn how sponsorships and brand deals support esports
+											organizations
+										</li>
+										<li>
+											Study how teams grow their fan base through digital
+											engagement
+										</li>
+										<li>
+											Explore strategies for monetizing events and content
+										</li>
+										<li>
+											Understand how merchandise and partnerships affect revenue
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="content-section">
+					<h2 class="intro-header">Game Design and Development</h2>
+
+					<div class="intro-section">
+						<!-- Top: Subheader and Intro Text -->
+						<div class="row">
+							<div class="col-12">
+								<div class="intro-textarea">
+									<div class="intro-text mb-3">
+										<p>
+											This program teaches how to build competitive games that
+											are fun, balanced, and suitable for esports. Students
+											study how game mechanics, visuals, and features affect
+											both player experience and competition fairness. They also
+											learn to create tools like replays or ranking systems that
+											support tournaments. The program suits those interested in
+											designing or refining games for professional play.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Bottom: Image and Box (Order Responsive) -->
+						<div class="row gy-4 gx-4 align-items-stretch equal-height-row">
+							<!-- Image first on mobile, second on medium+ -->
+							<div class="col-md-6 order-1 order-md-2">
+								<div class="intro-image">
+									<a href="images/academic-program2.jpg" target="display">
+										<img
+											src="images/academic-program2.jpg"
+											alt="Intro Image"
+											class="img-fluid"
+										/>
+									</a>
+								</div>
+							</div>
+
+							<!-- Box second on mobile, first on medium+ -->
+							<div class="col-md-6 order-2 order-md-1">
+								<div class="intro-box h-100">
+									<ul class="bullet-list">
+										<li>
+											Create game concepts that are designed for competitive
+											play
+										</li>
+										<li>
+											Learn how to balance characters, maps, and game systems
+										</li>
+										<li>
+											Study how to add features that help with esports
+											broadcasting and judging
+										</li>
+										<li>Practice building prototypes for multiplayer games</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="content-section">
+					<h2 class="intro-header">Event and Tournament Management</h2>
+
+					<div class="intro-section">
+						<!-- Top: Subheader and Intro Text -->
+						<div class="row">
+							<div class="col-12">
+								<div class="intro-textarea">
+									<div class="intro-text mb-3">
+										<p>
+											This program covers how to organize live and online
+											esports events. Students learn how to handle everything
+											from team registration to tech setup and live streaming.
+											It also covers how to manage large crowds, troubleshoot
+											issues, and keep tournaments running smoothly. Ideal for
+											students who want to manage esports events or work behind
+											the scenes.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Bottom: Image and Box (Order Responsive) -->
+						<div class="row gy-4 gx-4 align-items-stretch equal-height-row">
+							<!-- Image first on mobile, second on medium+ -->
+							<div class="col-md-6 order-1 order-md-2">
+								<div class="intro-image">
+									<a href="images/academic-program3.jpg" target="display">
+										<img
+											src="images/academic-program3.jpg"
+											alt="Acad"
+											class="img-fluid"
+										/>
+									</a>
+								</div>
+							</div>
+
+							<!-- Box second on mobile, first on medium+ -->
+							<div class="col-md-6 order-2 order-md-1">
+								<div class="intro-box h-100">
+									<ul class="bullet-list">
+										<li>Plan both small and large esports tournaments</li>
+										<li>
+											Learn how to set up equipment and networks for smooth
+											gameplay
+										</li>
+										<li>Coordinate schedules, teams, and referees</li>
+										<li>
+											Understand how to manage online streaming and live
+											production
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="content-section">
+					<h2 class="intro-header">Esports Analytics and Technology</h2>
+
+					<div class="intro-section">
+						<!-- Top: Subheader and Intro Text -->
+						<div class="row">
+							<div class="col-12">
+								<div class="intro-textarea">
+									<div class="intro-text mb-3">
+										<p>
+											This program explores how data and technology improve
+											performance and viewer experience. Students learn to track
+											player stats, study patterns, and use software that helps
+											teams make decisions. It also looks at how AI helps with
+											matchmaking and analysis. This area is a good fit for
+											students interested in using data to support players or
+											teams.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Bottom: Image and Box (Order Responsive) -->
+						<div class="row gy-4 gx-4 align-items-stretch equal-height-row">
+							<!-- Image first on mobile, second on medium+ -->
+							<div class="col-md-6 order-1 order-md-2">
+								<div class="intro-image">
+									<a href="images/academic-program4.jpg" target="display">
+										<img
+											src="images/academic-program4.jpg"
+											alt="ACADS"
+											class="img-fluid"
+										/>
+									</a>
+								</div>
+							</div>
+
+							<!-- Box second on mobile, first on medium+ -->
+							<div class="col-md-6 order-2 order-md-1">
+								<div class="intro-box h-100">
+									<ul class="bullet-list">
+										<li>Track player performance using in-game data</li>
+										<li>
+											Use software to review matches and identify team
+											strategies
+										</li>
+										<li>Learn how AI is used in ranking and matchmaking</li>
+										<li>
+											Study how to build or use tools for esports analysis
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 			</div>
-		</nav>
 
-		<section class="hero-section">
-			<h1 class="page-title">Academic Programs in Esports</h1>
-			<div class="title-underline"></div>
-		</section>
-
-        <div class="container">
-			<section class="content-section">
-				<h2 class="intro-header">Esports in Higher Education: Academic Pathways for a Global Industry</h2>
-				<div class="intro-section">
-
-					<div class="intro-textarea">
-
-						<div class="featured-image mb-4">
-							<a href="images/academic-new.jpg" target="display">
-								<img
-									src="images/academic-new.jpg"
-									alt="Education Image"
-									class="img-fluid"
-								/>
-							</a>
-						</div>
-
-						<div class="intro-text">
-							<p>
-								As esports grows into a mainstream global industry, colleges and universities have begun offering specialized academic programs that address the various roles within the industry. These programs are not limited to just game play or production. They now span business, design, operations, data analysis, and emerging technologies. Many of these academic offerings are available in flexible formats such as online, hybrid, or in-person, allowing students from different parts of the world to access this type of education. The coursework is typically divided into key areas that align with major sectors of the esports industry.
-							</p>
-						</div>
-
-					</div>
-				</div>
-			</section>
-
-			<section class="content-section">
-				<h2 class="intro-header">Esports Business and Marketing</h2>
-
-				<div class="intro-section">
-					<!-- Top: Subheader and Intro Text -->
-					<div class="row">
-					<div class="col-12">
-						<div class="intro-textarea">
-						<div class="intro-text mb-3">
-							<p>
-							This program focuses on how esports generates income and builds a fan base. Students learn how teams, brands, and tournaments use sponsorships, merchandise, and media to grow. The curriculum explores how to attract and retain audiences on platforms like Twitch or YouTube. It’s aimed at those who want to work in marketing, branding, or sponsorship roles within the esports world.
-							</p>
-						</div>
-						</div>
-					</div>
-					</div>
-
-					<!-- Bottom: Image and Box (Order Responsive) -->
-					<div class="row gy-4 gx-4 align-items-stretch equal-height-row">
-					<!-- Image first on mobile, second on medium+ -->
-					<div class="col-md-6 order-1 order-md-2">
-						<div class="intro-image h-100">
-						<a href="images/academic-program1.jpg" target="display">
-							<img src="images/academic-program1.jpg" alt="Academic" class="img-fluid" />
-						</a>
-						</div>
-					</div>
-
-					<!-- Box second on mobile, first on medium+ -->
-					<div class="col-md-6 order-2 order-md-1">
-						<div class="intro-box h-100">
-						<ul class="bullet-list">
-							<li>Learn how sponsorships and brand deals support esports organizations</li>
-							<li>Study how teams grow their fan base through digital engagement</li>
-							<li>Explore strategies for monetizing events and content</li>
-							<li>Understand how merchandise and partnerships affect revenue</li>
-						</ul>
-						</div>
-					</div>
-					</div>
-				</div>
-			</section>
-
-			<section class="content-section">
-				<h2 class="intro-header">Game Design and Development</h2>
-
-				<div class="intro-section">
-					<!-- Top: Subheader and Intro Text -->
-					<div class="row">
-					<div class="col-12">
-						<div class="intro-textarea">
-						<div class="intro-text mb-3">
-							<p>
-							This program teaches how to build competitive games that are fun, balanced, and suitable for esports. Students study how game mechanics, visuals, and features affect both player experience and competition fairness. They also learn to create tools like replays or ranking systems that support tournaments. The program suits those interested in designing or refining games for professional play.
-							</p>
-						</div>
-						</div>
-					</div>
-					</div>
-
-					<!-- Bottom: Image and Box (Order Responsive) -->
-					<div class="row gy-4 gx-4 align-items-stretch equal-height-row">
-					<!-- Image first on mobile, second on medium+ -->
-					<div class="col-md-6 order-1 order-md-2">
-						<div class="intro-image h-100">
-						<a href="images/academic-program2.jpg" target="display">
-							<img src="images/academic-program2.jpg" alt="Intro Image" class="img-fluid" />
-						</a>
-						</div>
-					</div>
-
-					<!-- Box second on mobile, first on medium+ -->
-					<div class="col-md-6 order-2 order-md-1">
-						<div class="intro-box h-100">
-						<ul class="bullet-list">
-							<li>Create game concepts that are designed for competitive play</li>
-							<li>Learn how to balance characters, maps, and game systems</li>
-							<li>Study how to add features that help with esports broadcasting and judging</li>
-							<li>Practice building prototypes for multiplayer games</li>
-						</ul>
-						</div>
-					</div>
-					</div>
-				</div>
-			</section>
-
-
-			<section class="content-section">
-				<h2 class="intro-header">Event and Tournament Management</h2>
-
-				<div class="intro-section">
-					<!-- Top: Subheader and Intro Text -->
-					<div class="row">
-					<div class="col-12">
-						<div class="intro-textarea">
-						<div class="intro-text mb-3">
-							<p>
-							This program covers how to organize live and online esports events. Students learn how to handle everything from team registration to tech setup and live streaming. It also covers how to manage large crowds, troubleshoot issues, and keep tournaments running smoothly. Ideal for students who want to manage esports events or work behind the scenes.
-							</p>
-						</div>
-						</div>
-					</div>
-					</div>
-
-					<!-- Bottom: Image and Box (Order Responsive) -->
-					<div class="row gy-4 gx-4 align-items-stretch equal-height-row">
-					<!-- Image first on mobile, second on medium+ -->
-					<div class="col-md-6 order-1 order-md-2">
-						<div class="intro-image h-100">
-						<a href="images/academic-program3.jpg" target="display">
-							<img src="images/academic-program3.jpg" alt="Acad" class="img-fluid" />
-						</a>
-						</div>
-					</div>
-
-					<!-- Box second on mobile, first on medium+ -->
-					<div class="col-md-6 order-2 order-md-1">
-						<div class="intro-box h-100">
-						<ul class="bullet-list">
-							<li>Plan both small and large esports tournaments</li>
-							<li>Learn how to set up equipment and networks for smooth gameplay</li>
-							<li>Coordinate schedules, teams, and referees</li>
-							<li>Understand how to manage online streaming and live production</li>
-						</ul>
-						</div>
-					</div>
-					</div>
-				</div>
-			</section>
-
-			<section class="content-section">
-				<h2 class="intro-header">Esports Analytics and Technology</h2>
-
-				<div class="intro-section">
-					<!-- Top: Subheader and Intro Text -->
-					<div class="row">
-					<div class="col-12">
-						<div class="intro-textarea">
-						<div class="intro-text mb-3">
-							<p>
-							This program explores how data and technology improve performance and viewer experience. Students learn to track player stats, study patterns, and use software that helps teams make decisions. It also looks at how AI helps with matchmaking and analysis. This area is a good fit for students interested in using data to support players or teams.
-							</p>
-						</div>
-						</div>
-					</div>
-					</div>
-
-					<!-- Bottom: Image and Box (Order Responsive) -->
-					<div class="row gy-4 gx-4 align-items-stretch equal-height-row">
-					<!-- Image first on mobile, second on medium+ -->
-					<div class="col-md-6 order-1 order-md-2">
-						<div class="intro-image h-100">
-						<a href="images/academic-program4.jpg" target="display">
-							<img src="images/academic-program4.jpg" alt="ACADS" class="img-fluid" />
-						</a>
-						</div>
-					</div>
-
-					<!-- Box second on mobile, first on medium+ -->
-					<div class="col-md-6 order-2 order-md-1">
-						<div class="intro-box h-100">
-						<ul class="bullet-list">
-							<li>Track player performance using in-game data</li>
-							<li>Use software to review matches and identify team strategies</li>
-							<li>Learn how AI is used in ranking and matchmaking</li>
-							<li>Study how to build or use tools for esports analysis</li>
-						</ul>
-						</div>
-					</div>
-					</div>
-				</div>
-			</section>
-
-        </div>
-
-		<div class="scroll-buttons">
-			<a href="../Education/edu.html#education1" title="Back"
-				><i class="fa-solid fa-arrow-left fa-lg"></i
-			></a>
-			<a href="#top" title="Go Up"
-				><i class="fa-solid fa-arrow-up fa-lg"></i
-			></a>
-			<a href="../../index.html" title="Home"
-				><i class="fa-solid fa-house fa-lg"></i
-			></a>
-		</div>
-
-        <footer class="footer">
-			<div class="footer-logo">
-				<img src="../../logo.png" alt="Esports logo" />
-				<span>EsportsEDU</span>
+			<div class="scroll-buttons">
+				<a href="../Education/edu.html#education1" title="Back"
+					><i class="fa-solid fa-arrow-left fa-lg"></i
+				></a>
+				<a href="#top" title="Go Up"
+					><i class="fa-solid fa-arrow-up fa-lg"></i
+				></a>
+				<a href="../../index.html" title="Home"
+					><i class="fa-solid fa-house fa-lg"></i
+				></a>
 			</div>
 
-			<div class="footer-names">
-				<div class="name-column">
-					<p>**Chua, Jenilyn Denise T.</p>
-					<p>Cortez, Vince Nicholai J.</p>
+			<footer class="footer">
+				<div class="footer-logo">
+					<img src="../../logo.png" alt="Esports logo" />
+					<span>EsportsEDU</span>
 				</div>
 
-				<div class="name-column">
-					<p>Doctor, Sean Simoun Lewis N.</p>
-					<p>Estrada, Gabriel Wayne C.</p>
-				</div>
+				<div class="footer-names">
+					<div class="name-column">
+						<p>**Chua, Jenilyn Denise T.</p>
+						<p>Cortez, Vince Nicholai J.</p>
+					</div>
 
-				<div class="name-column">
-					<p>Gallardo, Prince Wesley B.</p>
-					<p>Malicsi, Rain David P.</p>
-				</div>
+					<div class="name-column">
+						<p>Doctor, Sean Simoun Lewis N.</p>
+						<p>Estrada, Gabriel Wayne C.</p>
+					</div>
 
-				<div class="name-column">
-					<p>Maranion, Jewella Marie A.</p>
-					<p>Merida, Luis Daniel T.</p>
-				</div>
+					<div class="name-column">
+						<p>Gallardo, Prince Wesley B.</p>
+						<p>Malicsi, Rain David P.</p>
+					</div>
 
-				<div class="name-column">
-					<p>Prima, Lance Robert C.</p>
-					<p>Valencia, Yancy Jarell D.</p>
-				</div>
-			</div>
-		</footer>
+					<div class="name-column">
+						<p>Maranion, Jewella Marie A.</p>
+						<p>Merida, Luis Daniel T.</p>
+					</div>
 
+					<div class="name-column">
+						<p>Prima, Lance Robert C.</p>
+						<p>Valencia, Yancy Jarell D.</p>
+					</div>
+				</div>
+			</footer>
 		</div>
 
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
-
-    </body>
+	</body>
 </html>

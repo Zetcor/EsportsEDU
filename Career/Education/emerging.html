@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -28,176 +27,184 @@
 		<link rel="stylesheet" href="edu.css" />
 	</head>
 
-    <body>
-
+	<body>
 		<div id="top"></div>
 
 		<div class="scroll-container position-relative">
+			<nav class="navbar navbar-expand-lg sticky-top">
+				<div class="container-fluid px-5">
+					<a
+						class="navbar-brand d-flex align-items-center gap-2"
+						href="index.html"
+					>
+						<img src="../../logo.png" alt="Logo" class="logo-img" />
+						<h1>EsportsEDU</h1>
+					</a>
 
-        <nav class="navbar navbar-expand-lg sticky-top">
-			<div class="container-fluid px-5">
-				<a
-					class="navbar-brand d-flex align-items-center gap-2"
-					href="index.html"
-				>
-					<img src="../../logo.png" alt="Logo" class="logo-img" />
-					<h1>EsportsEDU</h1>
-				</a>
+					<button
+						class="navbar-toggler text-white"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarContent"
+						aria-controls="navbarContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<i class="fa-solid fa-bars fa-lg" style="color: #00f5d4"></i>
+					</button>
 
-				<button
-					class="navbar-toggler text-white"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarContent"
-					aria-controls="navbarContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<i class="fa-solid fa-bars fa-lg" style="color: #00f5d4"></i>
-				</button>
+					<div
+						class="collapse navbar-collapse justify-content-end"
+						id="navbarContent"
+					>
+						<ul class="navbar-nav gap-3">
+							<li class="nav-item">
+								<a class="nav-link" href="../../index.html">HOME</a>
+							</li>
 
-				<div
-					class="collapse navbar-collapse justify-content-end"
-					id="navbarContent"
-				>
-					<ul class="navbar-nav gap-3">
-						<li class="nav-item">
-							<a class="nav-link" href="../../index.html"
-								>HOME</a
-							>
-						</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									GAMES
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Games/Genres/genre-home.html"
+											>GENRES</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Games/Tournaments/tourna-home.html"
+											>TOURNAMENTS</a
+										>
+									</li>
+								</ul>
+							</li>
 
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								GAMES
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a class="dropdown-item" href="../../Games/Genres/genre-home.html"
-										>GENRES</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Games/Tournaments/tourna-home.html"
-										>TOURNAMENTS</a
-									>
-								</li>
-							</ul>
-						</li>
-
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle nav-link active"
-                                aria-current="page"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								CAREER
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Career/Teams&Players/players-team.html"
-										>TEAMS & PLAYERS</a
-									>
-								</li>
-								<li>
-									<a class="dropdown-item" href="edu.html"
-										>EDUCATION</a
-									>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../Technology/tech.html">TECHNOLOGY</a>
-						</li>
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								COMMUNITY
-							</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Streaming&Content/streaming-home.html"
-										>STREAMING & CONTENT</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Culture/culture-home.html"
-										>CULTURE</a
-									>
-								</li>
-								<li>
-									<a
-										class="dropdown-item"
-										href="../../Community/Rules&Ethics/rules.html"
-										>RULES & ETHICS</a
-									>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../Gallery/gallery.html">GALLERY</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="../../about/about.html">ABOUT US</a>
-						</li>
-					</ul>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle nav-link active"
+									aria-current="page"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									CAREER
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Career/Teams&Players/players-team.html"
+											>TEAMS & PLAYERS</a
+										>
+									</li>
+									<li>
+										<a class="dropdown-item" href="edu.html">EDUCATION</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../Technology/tech.html"
+									>TECHNOLOGY</a
+								>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									COMMUNITY
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Streaming&Content/streaming-home.html"
+											>STREAMING & CONTENT</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Culture/culture-home.html"
+											>CULTURE</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="../../Community/Rules&Ethics/rules.html"
+											>RULES & ETHICS</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../Gallery/gallery.html"
+									>GALLERY</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../about/about.html">ABOUT US</a>
+							</li>
+						</ul>
+					</div>
 				</div>
-			</div>
-		</nav>
+			</nav>
 
-		<section class="hero-section">
-			<h1 class="page-title">Future Trends and Emerging Careers</h1>
-			<div class="title-underline"></div>
-		</section>
+			<section class="hero-section">
+				<h1 class="page-title">Future Trends and Emerging Careers</h1>
+				<div class="title-underline"></div>
+			</section>
 
-        <div class="container">
-
-			<section class="content-section">
-				<h2 class="intro-header">Exploring the Future of Esports</h2>
-				<div class="intro-section">
-
-					<div class="intro-textarea">
-
+			<div class="container">
+				<section class="content-section">
+					<h2 class="intro-header">Exploring the Future of Esports</h2>
+					<div class="intro-section">
+						<div class="intro-textarea">
 							<div class="featured-image mb-4">
 								<a href="images/emergenewmain.jpg" target="display">
 									<img
 										src="images/emergenewmain.jpg"
 										alt="Emerging Careers Image"
-										class="img-fluid" style="object-position: top; object-fit: cover;"  
+										class="img-fluid"
+										style="object-position: top; object-fit: cover"
 									/>
 								</a>
 							</div>
 
-						<div class="intro-text">
-							<p>
-								As the esports industry continues to grow, new career opportunities are emerging, making the sector more diverse and sustainable. These evolving roles span various fields such as law, technology, marketing, and education, offering job opportunities for individuals with different expertise. With strong community support, technological advancements, and increasing investments from sponsors and publishers, esports is set to become a major player in global education and employment. The industry is not only expanding in regions like North America and Europe but also gaining significant traction in Southeast Asia and Latin America.
-							</p>
+							<div class="intro-text">
+								<p>
+									As the esports industry continues to grow, new career
+									opportunities are emerging, making the sector more diverse and
+									sustainable. These evolving roles span various fields such as
+									law, technology, marketing, and education, offering job
+									opportunities for individuals with different expertise. With
+									strong community support, technological advancements, and
+									increasing investments from sponsors and publishers, esports
+									is set to become a major player in global education and
+									employment. The industry is not only expanding in regions like
+									North America and Europe but also gaining significant traction
+									in Southeast Asia and Latin America.
+								</p>
+							</div>
 						</div>
 					</div>
-				</div>
-			</section>
+				</section>
 
 				<section class="content-section">
 					<h2 class="intro-header">Esports Legal Professionals</h2>
@@ -209,7 +216,15 @@
 								<div class="intro-textarea">
 									<div class="intro-text mb-3">
 										<p>
-											Lawyers and consultants in esports focus on areas such as contract negotiations, intellectual property, and player representation. They navigate legal challenges related to digital rights, sponsorship agreements, and the protection of content. As the industry grows, so does the need for legal professionals to ensure fair practices and compliance across various aspects of esports business. These roles are vital for securing and safeguarding the interests of players, teams, and organizations.
+											Lawyers and consultants in esports focus on areas such as
+											contract negotiations, intellectual property, and player
+											representation. They navigate legal challenges related to
+											digital rights, sponsorship agreements, and the protection
+											of content. As the industry grows, so does the need for
+											legal professionals to ensure fair practices and
+											compliance across various aspects of esports business.
+											These roles are vital for securing and safeguarding the
+											interests of players, teams, and organizations.
 										</p>
 									</div>
 								</div>
@@ -220,7 +235,7 @@
 						<div class="row gy-4 gx-4 align-items-stretch equal-height-row">
 							<!-- Image First on Mobile, Second on Medium+ -->
 							<div class="col-md-6 order-1 order-md-2">
-								<div class="intro-image h-100">
+								<div class="intro-image">
 									<a href="images/emerge1.jpg" target="display">
 										<img src="images/emerge1.jpg" alt="Intro Image" />
 									</a>
@@ -232,21 +247,23 @@
 								<div class="intro-box h-100">
 									<ul class="bullet-list">
 										<li>
-											Specialize in esports contracts, intellectual property, and digital rights
+											Specialize in esports contracts, IP, and digital rights
 										</li>
 										<li>
-											Provide legal support for player representation and team agreements
+											Provide legal support for player representation and team
+											agreements
 										</li>
 										<li>
-											Ensure compliance with industry regulations and sponsorship deals
+											Ensure compliance with industry regulations and
+											sponsorship deals
 										</li>
 										<li>
-											Help safeguard the intellectual property of game developers and organizations
+											Help safeguard the intellectual property of game
+											developers and organizations
 										</li>
 									</ul>
 								</div>
 							</div>
-
 						</div>
 					</div>
 				</section>
@@ -261,7 +278,16 @@
 								<div class="intro-textarea">
 									<div class="intro-text mb-3">
 										<p>
-											As esports continues to embrace new technologies, metaverse and virtual venue designers are playing an important role in creating immersive environments. These designers build virtual spaces where fans can attend live events, interact with avatars, and even purchase digital collectibles. The metaverse offers exciting possibilities for fans to engage in esports like never before, providing unique experiences outside traditional viewing methods. This role blends creativity with cutting-edge technology to build the future of esports engagement.
+											As esports continues to embrace new technologies,
+											metaverse and virtual venue designers are playing an
+											important role in creating immersive environments. These
+											designers build virtual spaces where fans can attend live
+											events, interact with avatars, and even purchase digital
+											collectibles. The metaverse offers exciting possibilities
+											for fans to engage in esports like never before, providing
+											unique experiences outside traditional viewing methods.
+											This role blends creativity with cutting-edge technology
+											to build the future of esports engagement.
 										</p>
 									</div>
 								</div>
@@ -272,7 +298,7 @@
 						<div class="row gy-4 gx-4 align-items-stretch equal-height-row">
 							<!-- Image First on Mobile, Second on Medium+ -->
 							<div class="col-md-6 order-1 order-md-2">
-								<div class="intro-image h-100">
+								<div class="intro-image">
 									<a href="images/emerge2.jpg" target="display">
 										<img src="images/emerge2.jpg" alt="Intro Image" />
 									</a>
@@ -283,22 +309,20 @@
 							<div class="col-md-6 order-2 order-md-1">
 								<div class="intro-box h-100">
 									<ul class="bullet-list">
+										<li>Virtual venues for fan experiences in the metaverse</li>
 										<li>
-											Design virtual venues for immersive fan experiences in the metaverse
+											Spaces where fans can interact and attend esports events
+											virtually
 										</li>
 										<li>
-											Create spaces where fans can interact and attend esports events virtually
+											Digital marketplaces for collectibles and virtual goods
 										</li>
 										<li>
-											Develop digital marketplaces for in-game collectibles and virtual goods
-										</li>
-										<li>
-											Enhance fan engagement through new, interactive online environments
+											Fan engagement through interactive online environments
 										</li>
 									</ul>
 								</div>
 							</div>
-
 						</div>
 					</div>
 				</section>
@@ -313,7 +337,15 @@
 								<div class="intro-textarea">
 									<div class="intro-text mb-3">
 										<p>
-											Fan engagement and monetization experts are focused on strategies to increase fan loyalty and generate revenue. Their work involves utilizing tools like NFTs, in-game merchandise, and cross-platform media strategies to create additional revenue streams. These experts are at the forefront of the business side of esports, helping to bridge the gap between fans and teams or brands. Their goal is to make esports more profitable while maintaining strong fan connections.
+											Fan engagement and monetization experts are focused on
+											strategies to increase fan loyalty and generate revenue.
+											Their work involves utilizing tools like NFTs, in-game
+											merchandise, and cross-platform media strategies to create
+											additional revenue streams. These experts are at the
+											forefront of the business side of esports, helping to
+											bridge the gap between fans and teams or brands. Their
+											goal is to make esports more profitable while maintaining
+											strong fan connections.
 										</p>
 									</div>
 								</div>
@@ -324,7 +356,7 @@
 						<div class="row gy-4 gx-4 align-items-stretch equal-height-row">
 							<!-- Image First on Mobile, Second on Medium+ -->
 							<div class="col-md-6 order-1 order-md-2">
-								<div class="intro-image h-100">
+								<div class="intro-image">
 									<a href="images/emerge3.jpg" target="display">
 										<img src="images/emerge3.jpg" alt="Intro Image" />
 									</a>
@@ -336,21 +368,21 @@
 								<div class="intro-box h-100">
 									<ul class="bullet-list">
 										<li>
-											Develop strategies to monetize fan engagement through NFTs and merchandise
+											Strategies to monetize fan engagement through NFTs and
+											merchandise
 										</li>
 										<li>
-											Create cross-platform media strategies to increase visibility and loyalty
+											Cross-platform media strategies to increase visibility and
+											loyalty
 										</li>
+										<li>Fan loyalty programs and digital collectibles</li>
 										<li>
-											Implement fan loyalty programs and digital collectibles
-										</li>
-										<li>
-											Help organizations create sustainable revenue sources without compromising fan experience
+											Create sustainable revenue sources without compromising
+											fan experience
 										</li>
 									</ul>
 								</div>
 							</div>
-
 						</div>
 					</div>
 				</section>
@@ -365,7 +397,14 @@
 								<div class="intro-textarea">
 									<div class="intro-text mb-3">
 										<p>
-											Diversity and inclusion officers play a key role in ensuring that esports is welcoming and equitable for people from all backgrounds. They work to create a fair environment by focusing on gender, geography, and accessibility. These professionals ensure that teams and organizations offer equal opportunities for players and fans alike. They are essential for fostering a positive, inclusive culture within the esports industry.
+											Diversity and inclusion officers play a key role in
+											ensuring that esports is welcoming and equitable for
+											people from all backgrounds. They work to create a fair
+											environment by focusing on gender, geography, and
+											accessibility. These professionals ensure that teams and
+											organizations offer equal opportunities for players and
+											fans alike. They are essential for fostering a positive,
+											inclusive culture within the esports industry.
 										</p>
 									</div>
 								</div>
@@ -376,7 +415,7 @@
 						<div class="row gy-4 gx-4 align-items-stretch equal-height-row">
 							<!-- Image First on Mobile, Second on Medium+ -->
 							<div class="col-md-6 order-1 order-md-2">
-								<div class="intro-image h-100">
+								<div class="intro-image">
 									<a href="images/emerge4.jpg" target="display">
 										<img src="images/emerge4.jpg" alt="Intro Image" />
 									</a>
@@ -388,27 +427,29 @@
 								<div class="intro-box h-100">
 									<ul class="bullet-list">
 										<li>
-											Promote gender, geographic, and accessibility equity in esports
+											Promote gender, geographic, and accessibility equity in
+											esports
 										</li>
 										<li>
-											Ensure fair access to esports opportunities for underrepresented groups
+											Fair access to esports opportunities for underrepresented
+											groups
 										</li>
 										<li>
-											Create and implement inclusion policies within organizations and teams
+											Implement inclusion policies within organizations and
+											teams
 										</li>
-										<li>
-											Encourage diversity at all levels of the esports ecosystem
-										</li>
+										<li>Diversity at all levels of the esports ecosystem</li>
 									</ul>
 								</div>
 							</div>
-
 						</div>
 					</div>
 				</section>
 
 				<section class="content-section">
-					<h2 class="intro-header">Curriculum Designers for Esports Education</h2>
+					<h2 class="intro-header">
+						Curriculum Designers for Esports Education
+					</h2>
 
 					<div class="intro-section">
 						<!-- Top: Subheader and Intro Text -->
@@ -417,7 +458,15 @@
 								<div class="intro-textarea">
 									<div class="intro-text mb-3">
 										<p>
-											As esports grows, curriculum designers are helping integrate esports into education at the high school and university levels. They develop standardized learning modules and degree programs focused on the business, management, and technical sides of esports. These educational programs help students gain practical skills and industry knowledge, preparing them for careers in esports. This role is key to fostering the next generation of esports professionals.
+											As esports grows, curriculum designers are helping
+											integrate esports into education at the high school and
+											university levels. They develop standardized learning
+											modules and degree programs focused on the business,
+											management, and technical sides of esports. These
+											educational programs help students gain practical skills
+											and industry knowledge, preparing them for careers in
+											esports. This role is key to fostering the next generation
+											of esports professionals.
 										</p>
 									</div>
 								</div>
@@ -428,7 +477,7 @@
 						<div class="row gy-4 gx-4 align-items-stretch equal-height-row">
 							<!-- Image First on Mobile, Second on Medium+ -->
 							<div class="col-md-6 order-1 order-md-2">
-								<div class="intro-image h-100">
+								<div class="intro-image">
 									<a href="images/emerge5.jpg" target="display">
 										<img src="images/emerge5.jpg" alt="Intro Image" />
 									</a>
@@ -440,77 +489,76 @@
 								<div class="intro-box h-100">
 									<ul class="bullet-list">
 										<li>
-											Develop esports curriculum for high school and university programs
+											Develop esports curriculum for high school and university
+											programs
 										</li>
 										<li>
-											Create educational modules on esports business, technology, and management
+											Create educational modules on esports business,
+											technology, and management
 										</li>
 										<li>
 											Prepare students for careers in the esports industry
 										</li>
 										<li>
-											Ensure that educational programs meet industry standards and trends
+											Ensure that educational programs meet industry standards
+											and trends
 										</li>
 									</ul>
 								</div>
 							</div>
-
 						</div>
 					</div>
 				</section>
-
-        </div>
-
-		<div class="scroll-buttons">
-			<a href="../Education/edu.html#education2" title="Back"
-				><i class="fa-solid fa-arrow-left fa-lg"></i
-			></a>
-			<a href="#top" title="Go Up"
-				><i class="fa-solid fa-arrow-up fa-lg"></i
-			></a>
-			<a href="../../index.html" title="Home"
-				><i class="fa-solid fa-house fa-lg"></i
-			></a>
-		</div>
-
-        <footer class="footer">
-			<div class="footer-logo">
-				<img src="../../logo.png" alt="Esports logo" />
-				<span>EsportsEDU</span>
 			</div>
 
-			<div class="footer-names">
-				<div class="name-column">
-					<p>**Chua, Jenilyn Denise T.</p>
-					<p>Cortez, Vince Nicholai J.</p>
-				</div>
-
-				<div class="name-column">
-					<p>Doctor, Sean Simoun Lewis N.</p>
-					<p>Estrada, Gabriel Wayne C.</p>
-				</div>
-
-				<div class="name-column">
-					<p>Gallardo, Prince Wesley B.</p>
-					<p>Malicsi, Rain David P.</p>
-				</div>
-
-				<div class="name-column">
-					<p>Maranion, Jewella Marie A.</p>
-					<p>Merida, Luis Daniel T.</p>
-				</div>
-
-				<div class="name-column">
-					<p>Prima, Lance Robert C.</p>
-					<p>Valencia, Yancy Jarell D.</p>
-				</div>
+			<div class="scroll-buttons">
+				<a href="../Education/edu.html#education2" title="Back"
+					><i class="fa-solid fa-arrow-left fa-lg"></i
+				></a>
+				<a href="#top" title="Go Up"
+					><i class="fa-solid fa-arrow-up fa-lg"></i
+				></a>
+				<a href="../../index.html" title="Home"
+					><i class="fa-solid fa-house fa-lg"></i
+				></a>
 			</div>
-		</footer>
 
+			<footer class="footer">
+				<div class="footer-logo">
+					<img src="../../logo.png" alt="Esports logo" />
+					<span>EsportsEDU</span>
+				</div>
+
+				<div class="footer-names">
+					<div class="name-column">
+						<p>**Chua, Jenilyn Denise T.</p>
+						<p>Cortez, Vince Nicholai J.</p>
+					</div>
+
+					<div class="name-column">
+						<p>Doctor, Sean Simoun Lewis N.</p>
+						<p>Estrada, Gabriel Wayne C.</p>
+					</div>
+
+					<div class="name-column">
+						<p>Gallardo, Prince Wesley B.</p>
+						<p>Malicsi, Rain David P.</p>
+					</div>
+
+					<div class="name-column">
+						<p>Maranion, Jewella Marie A.</p>
+						<p>Merida, Luis Daniel T.</p>
+					</div>
+
+					<div class="name-column">
+						<p>Prima, Lance Robert C.</p>
+						<p>Valencia, Yancy Jarell D.</p>
+					</div>
+				</div>
+			</footer>
 		</div>
 
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
-
-    </body>
+	</body>
 </html>
