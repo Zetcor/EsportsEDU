@@ -470,3 +470,20 @@ span {
 	box-shadow: none;
 	border: none;
 }
+
+.accordion-body p {
+	font-size: 1rem;
+}
+
+.accordion-body a {
+	color: var(--purple);
+	font-style: italic;
+}
+
+.accordion-body a:hover {
+	text-decoration: underline;
+}
+
+.accordion-body a:visited {
+	color: var(--pink);
+}
