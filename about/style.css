@@ -1,7 +1,7 @@
 /* Base Styles and Variables */
 :root {
 	--light-gray: #f2f2f2;
-	--purple: #9b5de5;
+	--purple: #8f43ec;
 	--pink: #f15bb5;
 	--teal: #00f5d4;
 	--navy: #0a1128;
@@ -18,7 +18,7 @@
 }
 
 html {
-  scroll-padding-top: 110px; /* or whatever height your navbar is */
+	scroll-padding-top: 110px; /* or whatever height your navbar is */
 }
 
 body {
