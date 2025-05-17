@@ -329,39 +329,11 @@ span {
 	gap: 2rem;
 }
 
-.content-wrapper {
-	display: flex;
-	gap: 30px;
-}
-
-.sidebar {
-	background-color: var(--navy);
-	width: auto;
-	flex-shrink: 0;
-	object-fit: cover;
-}
-
-.sidebar img {
-	object-fit: cover;
-}
-
-.sidebar .image img {
-	width: 250px;
-	height: 200px;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-	border-top-right-radius: 5px;
-	border-top-left-radius: 5px;
-	object-fit: cover;
-	object-position: top;
-	background-color: var(--navy);
-}
-
 .team-info {
 	background-color: var(--navy);
 	color: white;
 	padding: 15px;
-	width: 250px;
-	height: 220px;
+	height: auto;
 }
 
 .team-info h2 {
@@ -378,10 +350,6 @@ span {
 	margin-bottom: 10px;
 }
 
-.info-item p {
-	font-size: 14px;
-}
-
 .main-content {
 	flex: 2;
 	padding: 20px;
@@ -396,12 +364,31 @@ span {
 	margin-bottom: 20px;
 	line-height: 1.6;
 	color: var(--navy);
-	font-size: 16px;
+	font-size: 1.1rem;
 }
 
-.container:nth-of-type(even) .content-wrapper {
-	flex-direction: row-reverse;
+.content-wrapper {
+	display: flex;
+	gap: 0.5rem;
 }
+
+.sidebar {
+	background-color: var(--navy);
+	border-radius: var(--border-radius);
+	overflow: hidden;
+	box-shadow: var(--box-shadow);
+}
+
+.sidebar .image img {
+	width: 250px;
+	height: 200px;
+	object-fit: cover;
+	object-position: top;
+	overflow: hidden;
+	border-top-left-radius: var(--border-radius);
+	border-top-right-radius: var(--border-radius);
+}
+
 .gallery-container {
 	background-color: var(--navy);
 	padding: 10px;
