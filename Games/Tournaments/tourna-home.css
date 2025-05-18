@@ -402,3 +402,7 @@ span {
 	border: solid 5px var(--pink);
 	border-style: outset;
 }
+
+.scroll-buttons .fa-solid {
+	margin-right: 0;
+}
