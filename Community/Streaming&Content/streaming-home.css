@@ -434,37 +434,6 @@ ul {
 	color: var(--light-gray);
 }
 
-/* Home and Go Up */
-.scroll-buttons {
-	position: sticky;
-	bottom: 20px;
-	right: 0;
-	display: flex;
-	justify-content: flex-end;
-	gap: 10px;
-	z-index: 1030;
-	margin-right: 20px;
-	margin-bottom: 20px;
-	margin-top: -20px;
-}
-
-.scroll-buttons a {
-	background-color: var(--navy);
-	color: var(--light-gray);
-	padding: 20px;
-	border-radius: 8px;
-	text-decoration: none;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	transition: background-color 0.2s;
-}
-
-.scroll-buttons a:hover {
-	background-color: var(--pink);
-	color: var(--navy);
-}
-
 /* Footer Styles */
 footer {
 	background-color: var(--navy);
@@ -604,4 +573,38 @@ span {
 
 .accordion-body a:visited {
 	color: var(--pink);
+}
+
+/* Home and Go Up */
+.scroll-buttons {
+	position: sticky;
+	bottom: 20px;
+	right: 0;
+	display: flex;
+	justify-content: flex-end;
+	gap: 10px;
+	z-index: 1030;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: -20px;
+}
+
+.scroll-buttons a {
+	background-color: var(--navy);
+	color: var(--light-gray);
+	border: solid 5px var(--navy);
+	border-style: outset;
+	padding: 17px;
+	border-radius: 8px;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.scroll-buttons a:hover {
+	background-color: var(--pink);
+	color: var(--navy);
+	border: solid 5px var(--pink);
+	border-style: outset;
 }

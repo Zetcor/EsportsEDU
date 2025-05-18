@@ -471,16 +471,19 @@ span {
 .scroll-buttons a {
 	background-color: var(--navy);
 	color: var(--light-gray);
-	padding: 20px;
+	border: solid 5px var(--navy);
+	border-style: outset;
+	padding: 17px;
 	border-radius: 8px;
 	text-decoration: none;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	transition: background-color 0.2s;
 }
 
 .scroll-buttons a:hover {
 	background-color: var(--pink);
 	color: var(--navy);
+	border: solid 5px var(--pink);
+	border-style: outset;
 }

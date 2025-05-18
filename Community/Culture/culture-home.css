@@ -291,36 +291,35 @@ ul {
 /* Alphabet Nav Section */
 /* Specific to this alphabet nav */
 #alphabet-nav .alphabet-grid {
-  display: grid;
-  grid-template-columns: repeat(13, 1fr); /* Two rows of 13 on desktop */
-  gap: 10px;
-  max-width: 100%;
-  margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(13, 1fr); /* Two rows of 13 on desktop */
+	gap: 10px;
+	max-width: 100%;
+	margin: 0 auto;
 }
 
 #alphabet-nav .alpha-btn {
-  color: #0c1d3c;
-  border: 2px solid #0c1d3c;
-  border-radius: 12px;
-  font-family: 'Rajdhani', sans-serif;
-  font-weight: 600;
-  font-size: 1.25rem;
-  padding: 0.25rem 0.75rem;
-  transition: all 0.3s ease;
+	color: #0c1d3c;
+	border: 2px solid #0c1d3c;
+	border-radius: 12px;
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: 600;
+	font-size: 1.25rem;
+	padding: 0.25rem 0.75rem;
+	transition: all 0.3s ease;
 }
 
 #alphabet-nav .alpha-btn:hover {
-  color: #ecf0f1;
-  background-color: #0c1d3c;
+	color: #ecf0f1;
+	background-color: #0c1d3c;
 }
 
-/* 🔽 On screens smaller than 992px (Bootstrap's lg), switch to flexible grid */
+/* On screens smaller than 992px (Bootstrap's lg), switch to flexible grid */
 @media (max-width: 991.98px) {
-  #alphabet-nav .alphabet-grid {
-    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
-  }
+	#alphabet-nav .alphabet-grid {
+		grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+	}
 }
-
 
 /* Navbar Styles */
 .navbar {
@@ -481,37 +480,6 @@ ul {
 	color: var(--light-gray);
 }
 
-/* Home and Go Up */
-.scroll-buttons {
-	position: sticky;
-	bottom: 20px;
-	right: 0;
-	display: flex;
-	justify-content: flex-end;
-	gap: 10px;
-	z-index: 1030;
-	margin-right: 20px;
-	margin-bottom: 20px;
-	margin-top: -20px;
-}
-
-.scroll-buttons a {
-	background-color: var(--navy);
-	color: var(--light-gray);
-	padding: 20px;
-	border-radius: 8px;
-	text-decoration: none;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	transition: background-color 0.2s;
-}
-
-.scroll-buttons a:hover {
-	background-color: var(--pink);
-	color: var(--navy);
-}
-
 /* Footer Styles */
 footer {
 	background-color: var(--navy);
@@ -651,4 +619,38 @@ span {
 
 .accordion-body a:visited {
 	color: var(--pink);
+}
+
+/* Home and Go Up */
+.scroll-buttons {
+	position: sticky;
+	bottom: 20px;
+	right: 0;
+	display: flex;
+	justify-content: flex-end;
+	gap: 10px;
+	z-index: 1030;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: -20px;
+}
+
+.scroll-buttons a {
+	background-color: var(--navy);
+	color: var(--light-gray);
+	border: solid 5px var(--navy);
+	border-style: outset;
+	padding: 17px;
+	border-radius: 8px;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.scroll-buttons a:hover {
+	background-color: var(--pink);
+	color: var(--navy);
+	border: solid 5px var(--pink);
+	border-style: outset;
 }
