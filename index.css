@@ -315,7 +315,7 @@ span {
 }
 
 .hero-content h1 {
-	font-size: 4.5rem;
+	font-size: 4rem;
 	white-space: normal;
 	word-break: break-word;
 	overflow: hidden;
@@ -440,7 +440,7 @@ span {
 	padding: 2rem;
 	box-shadow: var(--box-shadow);
 	text-align: left;
-	font-size: 1.2rem;
+	font-size: 1.25rem;
 	width: 100%;
 	min-height: 100%;
 }
